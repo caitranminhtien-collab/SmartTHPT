@@ -12,6 +12,9 @@ class TestApp(unittest.TestCase):
             try:
                 with TestClient(main.app) as client:
                     self.assertEqual(client.get('/').status_code,200)
+                    health = client.get('/api/health')
+                    self.assertEqual(health.status_code, 200)
+                    self.assertEqual(health.json(), {'status': 'ok'})
                     self.assertEqual(client.get('/api/catalog').status_code,401)
                     self.assertEqual(client.post('/api/register',json={'username':'student1','password':'testpass123'}).status_code,200)
                     cat=client.get('/api/catalog').json();self.assertEqual(sum(x['count'] for x in cat),60)

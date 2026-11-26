@@ -52,6 +52,11 @@ async def lifespan(app):
 
 app=FastAPI(title='SmartTHPT',version='0.1.0',lifespan=lifespan)
 
+@app.get('/api/health', tags=['system'])
+def health():
+    return {'status': 'ok'}
+
+
 class Credentials(BaseModel):
     username:str=Field(min_length=3,max_length=32,pattern=r'^[a-zA-Z0-9_.-]+$')
     password:str=Field(min_length=8,max_length=128)

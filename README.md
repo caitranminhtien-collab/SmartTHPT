@@ -2,6 +2,8 @@
 
 MVP chạy local, tiếng Việt, tập trung Toán 12. Đây là bản thử nghiệm kỹ thuật, không phải hệ thống thi chính thức.
 
+Tài liệu phát triển gồm [PRD](docs/PRD.md) và [thiết kế hệ thống](docs/THIET_KE.md).
+
 ## 1. Khởi chạy trên Windows (VS Code / PowerShell)
 
 Giải nén SmartTHPT.zip, mở thư mục SmartTHPT trong VS Code. Cần Python 3.11 hoặc 3.12 (64-bit).
@@ -15,6 +17,7 @@ py -3.12 -m venv .venv
 Nếu chỉ cài Python 3.11, thay `py -3.12` bằng `py -3.11`. Có thể dùng `python -m venv .venv` nếu lệnh `py` không có. Không cần kích hoạt venv hoặc đổi ExecutionPolicy. Nếu cổng 8000 đang bận, đổi sang 8001.
 
 - Học sinh: http://127.0.0.1:8000 — bấm Tạo tài khoản, dùng tên đăng nhập không dấu, mật khẩu ít nhất 8 ký tự.
+- Kiểm tra server: http://127.0.0.1:8000/api/health
 - API Swagger: http://127.0.0.1:8000/docs
 - Admin: mở terminal khác tại cùng thư mục, chạy:
 
