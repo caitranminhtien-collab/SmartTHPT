@@ -1,0 +1,78 @@
+{
+  "grades": [
+    10,
+    11,
+    12
+  ],
+  "required": [
+    "Ngữ văn",
+    "Toán",
+    "Ngoại ngữ 1",
+    "Lịch sử",
+    "Giáo dục thể chất",
+    "Giáo dục quốc phòng và an ninh",
+    "Hoạt động trải nghiệm, hướng nghiệp",
+    "Nội dung giáo dục địa phương"
+  ],
+  "electives": [
+    "Địa lí",
+    "Giáo dục Kinh tế và Pháp luật",
+    "Vật lí",
+    "Hoá học",
+    "Sinh học",
+    "Công nghệ",
+    "Tin học",
+    "Âm nhạc",
+    "Mĩ thuật"
+  ],
+  "optional": [
+    "Tiếng dân tộc thiểu số",
+    "Ngoại ngữ 2"
+  ],
+  "elective_count": 4,
+  "specialization_count": 3,
+  "specialization_subjects": [
+    "Toán",
+    "Ngữ văn",
+    "Lịch sử",
+    "Địa lí",
+    "Giáo dục Kinh tế và Pháp luật",
+    "Vật lí",
+    "Hoá học",
+    "Sinh học",
+    "Công nghệ",
+    "Tin học",
+    "Âm nhạc",
+    "Mĩ thuật"
+  ],
+  "sources": [
+    {
+      "title": "32/2018/TT-BGDĐT và các sửa đổi 20/2021, 13/2022",
+      "url": "https://moet.gov.vn/content/vanban/Lists/VBPQ/Attachments/1483/vbhn-ttu-322018-202021-132022-ttbgddt.pdf",
+      "type": "Văn bản hợp nhất",
+      "checked_on": "2026-11-26",
+      "verification": "đã đối chiếu văn bản"
+    },
+    {
+      "title": "Chương trình giáo dục phổ thông tổng thể",
+      "url": "https://moet.gov.vn/content/vanban/Lists/VBPQ/Attachments/1483/vbhn-chuong-trinh-tong-the.pdf",
+      "type": "Chương trình chính thức",
+      "checked_on": "2026-11-26",
+      "verification": "đã đối chiếu văn bản"
+    },
+    {
+      "title": "17/2025/TT-BGDĐT",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=215347&pageid=27160",
+      "type": "Thông tư sửa đổi",
+      "checked_on": "2026-11-26",
+      "verification": "đã đối chiếu văn bản"
+    },
+    {
+      "title": "5208/BGDĐT-GDPT",
+      "url": "https://xaydungchinhsach.chinhphu.vn/cong-van-so-5208-bgddt-gdpt-huong-dan-thuc-hien-nhiem-vu-giao-duc-pho-thong-nam-hoc-2026-2027-119260808110247193.htm",
+      "type": "Hướng dẫn năm học",
+      "checked_on": "2026-11-26",
+      "verification": "đã đối chiếu văn bản"
+    }
+  ]
+}

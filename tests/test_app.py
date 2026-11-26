@@ -68,6 +68,24 @@ class TestApp(unittest.TestCase):
                     item=dict(make_questions()[0],prompt='Câu hỏi kiểm thử thêm mới')
                     self.assertEqual(client.post('/api/admin/import',json={'questions':[item]}).json()['inserted'],1)
             finally:main.DB=original
+    def test_curriculum_directory(self):
+        with tempfile.TemporaryDirectory() as temp:
+            original = main.DB
+            main.DB = Path(temp) / 'curriculum.sqlite3'
+            try:
+                with TestClient(main.app) as client:
+                    self.assertEqual(client.get('/api/v1/curriculum').status_code, 401)
+                    client.post('/api/register', json={'username': 'reader', 'password': 'testpass123'})
+                    data = client.get('/api/v1/curriculum').json()
+                    self.assertEqual(data['grades'], [10, 11, 12])
+                    self.assertIn('Lịch sử', data['required'])
+                    self.assertEqual(len(data['electives']), 9)
+                    self.assertEqual(data['elective_count'], 4)
+                    self.assertEqual(data['specialization_count'], 3)
+                    self.assertTrue(set(data['required']).isdisjoint(data['electives']))
+            finally:
+                main.DB = original
+
     def test_questions(self):
         rows=make_questions();self.assertEqual(len(rows),60);self.assertEqual(len(set(r['prompt'] for r in rows)),60)
         for r in rows:self.assertEqual(len(set(r['options'])),4);self.assertIn(r['answer'],range(4))

@@ -4,7 +4,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, Response, Depends
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
-from .learning import load_courses
+from .learning import load_courses, load_curriculum
 from .seed import TOPICS
 from .ml import predict_topic
 
@@ -40,6 +40,9 @@ def init_db():
         CREATE TABLE IF NOT EXISTS questions(id INTEGER PRIMARY KEY,grade INTEGER NOT NULL,subject TEXT NOT NULL,topic TEXT NOT NULL,prompt TEXT NOT NULL UNIQUE,options TEXT NOT NULL,answer INTEGER NOT NULL,explanation TEXT NOT NULL,difficulty TEXT NOT NULL,source TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS quizzes(id TEXT PRIMARY KEY,user_id INTEGER NOT NULL REFERENCES users(id),mode TEXT NOT NULL,question_ids TEXT NOT NULL,created INTEGER NOT NULL,deadline INTEGER,submitted INTEGER);
         CREATE TABLE IF NOT EXISTS responses(quiz_id TEXT REFERENCES quizzes(id),question_id INTEGER REFERENCES questions(id),selected INTEGER,correct INTEGER NOT NULL,PRIMARY KEY(quiz_id,question_id));
+        CREATE INDEX IF NOT EXISTS idx_sessions_expires ON sessions(expires);
+        CREATE INDEX IF NOT EXISTS idx_questions_catalog ON questions(grade, subject, topic);
+        CREATE INDEX IF NOT EXISTS idx_quizzes_user_submitted ON quizzes(user_id, submitted);
         ''')
         if not c.execute('SELECT 1 FROM questions LIMIT 1').fetchone():
             for q in json.loads((ROOT/'data'/'questions.json').read_text(encoding='utf-8')): insert_question(c,q)
@@ -205,6 +208,11 @@ def import_questions(body:ImportRequest,user=Depends(admin_user)):
 @app.get('/api/v1/courses', tags=['learning'])
 def courses(user=Depends(session_user)):
     return load_courses(ROOT / 'data')
+
+
+@app.get('/api/v1/curriculum', tags=['learning'])
+def curriculum(user=Depends(session_user)):
+    return load_curriculum(ROOT / 'data')
 
 
 app.mount('/',StaticFiles(directory=ROOT/'static',html=True),name='static')
