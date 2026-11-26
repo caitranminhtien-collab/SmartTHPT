@@ -31,6 +31,7 @@ Nhập mật khẩu 2 lần (terminal không hiện ký tự khi gõ). Đăng xu
 
 - Tài khoản học sinh, đăng nhập, đăng xuất; phân quyền Admin.
 - 60 câu hỏi tự biên soạn từ 12 mẫu toán, 6 chuyên đề, mỗi chuyên đề 10 câu. Tập dữ liệu nhỏ và nhiều biến thể tương tự, không đủ làm ngân hàng ôn thi hoàn chỉnh.
+- Mục **Lý thuyết** có ba bài Toán 12 tự biên soạn, lưu trong `data/courses.json`.
 - Luyện chuyên đề 10 câu, thi thử mini 10/20/30 câu có đồng hồ; chấm điểm phía server, xem lời giải.
 - Lịch sử, tỷ lệ đúng theo chuyên đề, gợi ý hai chuyên đề cần ôn (ít nhất 3 lượt trả lời mỗi chuyên đề). Đây là thống kê và quy tắc, không phải ML dự đoán năng lực.
 - Admin xem số lượng tài khoản, câu hỏi, bài đã nộp; thử phân loại câu hỏi bằng ML; nhập JSON tối đa 200 câu/lần, bỏ qua prompt trùng.

@@ -1,0 +1,61 @@
+{
+  "courses": [
+    {
+      "grade": 12,
+      "subject": "Toán",
+      "chapters": [
+        {
+          "title": "Ứng dụng đạo hàm để khảo sát hàm số",
+          "topics": [
+            {
+              "title": "Ứng dụng đạo hàm",
+              "lessons": [
+                {
+                  "title": "Tính đơn điệu và cực trị",
+                  "summary": "Dùng dấu đạo hàm để xác định khoảng đồng biến, nghịch biến và điểm cực trị.",
+                  "rule": "Trước hết xác định tập xác định. Trên một khoảng, nếu f′(x) > 0 tại mọi điểm thì f đồng biến; nếu f′(x) < 0 tại mọi điểm thì f nghịch biến. Tại một điểm trong miền xác định mà hàm liên tục, dấu đạo hàm đổi từ âm sang dương cho cực tiểu, còn đổi từ dương sang âm cho cực đại.",
+                  "example": "Với f(x) = x² − 4x + 3, đạo hàm f′(x) = 2x − 4 âm khi x < 2 và dương khi x > 2. Hàm nghịch biến trên (−∞, 2), đồng biến trên (2, +∞) và có giá trị cực tiểu f(2) = −1.",
+                  "pitfall": "Đạo hàm bằng 0 chưa đủ để kết luận có cực trị. Với f(x) = x³, đạo hàm bằng 0 tại x = 0 nhưng dấu đạo hàm không đổi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nguyên hàm và tích phân",
+          "topics": [
+            {
+              "title": "Nguyên hàm – tích phân",
+              "lessons": [
+                {
+                  "title": "Tính tích phân từ nguyên hàm",
+                  "summary": "Tìm nguyên hàm rồi thay hai cận theo đúng thứ tự.",
+                  "rule": "Nếu f liên tục trên [a, b] và F là một nguyên hàm của f, tích phân của f từ a đến b bằng F(b) − F(a).",
+                  "example": "Tính ∫₀² (2x + 1) dx. Chọn F(x) = x² + x. Kết quả là F(2) − F(0) = (4 + 2) − 0 = 6.",
+                  "pitfall": "Trừ F(a) khỏi F(b). Khi tính diện tích giữa đồ thị và trục hoành, lấy tích phân của |f(x)|, chia khoảng tại các điểm đổi dấu nếu cần."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Xác suất có điều kiện",
+          "topics": [
+            {
+              "title": "Xác suất có điều kiện",
+              "lessons": [
+                {
+                  "title": "Thu hẹp không gian mẫu theo điều kiện",
+                  "summary": "Tính xác suất của A khi đã biết B xảy ra.",
+                  "rule": "Khi P(B) > 0, ta có P(A | B) = P(A ∩ B) ÷ P(B). Nếu các kết quả trong không gian mẫu ban đầu đồng khả năng, đếm số kết quả thỏa cả A và B rồi chia cho số kết quả thỏa B.",
+                  "example": "Gieo một xúc xắc cân đối. Biết kết quả là số chẵn, tập kết quả có thể là {2, 4, 6}. Trong đó {4, 6} lớn hơn 3, nên xác suất cần tìm là 2/3.",
+                  "pitfall": "P(A | B) và P(B | A) có thể khác nhau. Ví dụ nếu B là ra số chẵn và A là ra số 4, thì P(A | B) = 1/3, còn P(B | A) = 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,20 @@ class TestApp(unittest.TestCase):
                     self.assertEqual(health.status_code, 200)
                     self.assertEqual(health.json(), {'status': 'ok'})
                     self.assertEqual(client.get('/api/catalog').status_code,401)
+                    self.assertEqual(client.get('/api/v1/courses').status_code, 401)
                     self.assertEqual(client.post('/api/register',json={'username':'student1','password':'testpass123'}).status_code,200)
                     cat=client.get('/api/catalog').json();self.assertEqual(sum(x['count'] for x in cat),60)
+                    courses = client.get('/api/v1/courses')
+                    self.assertEqual(courses.status_code, 200)
+                    course, = courses.json()
+                    self.assertEqual((course['grade'], course['subject']), (12, 'Toán'))
+                    self.assertEqual(len(course['chapters']), 3)
+                    topics = [topic for chapter in course['chapters'] for topic in chapter['topics']]
+                    self.assertTrue(set(t['title'] for t in topics) <= {row['topic'] for row in cat})
+                    for topic in topics:
+                        self.assertTrue(topic['lessons'])
+                        for lesson in topic['lessons']:
+                            self.assertTrue(lesson['example'])
                     self.assertEqual(client.get('/api/admin/summary').status_code,403)
                     q=client.post('/api/quizzes',json={'mode':'practice','topic':cat[0]['topic'],'count':10}).json()
                     self.assertEqual(len(q['questions']),10);self.assertNotIn('answer',q['questions'][0])
