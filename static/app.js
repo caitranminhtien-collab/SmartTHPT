@@ -7,9 +7,17 @@ function message(err){const t=$('#message');if(t)t.textContent=err.message||err;
 function stopTimer(){if(interval)clearInterval(interval);interval=null;}
 function nav(){ $('#sidebar').hidden=!user;$('#adminNav').hidden=user?.role!=='admin';$('#account').innerHTML=user?`<span class="account-name">${e(user.username)} · </span><button class="secondary" id="logout">Đăng xuất</button>`:'';if(user)$('#logout').onclick=async()=>{try{await api('/logout','POST');user=null;currentQuiz=null;stopTimer();generation++;nav();auth();}catch(err){message(err);}};}
 function auth(register=false){main.innerHTML=`<section class="auth"><div class="eyebrow">BẮT ĐẦU HỌC TẬP</div><h1>Tiến bộ từng ngày.</h1><p class="muted">Luyện tập theo chuyên đề, theo dõi kết quả và cải thiện kiến thức Toán 12.</p><div class="card"><h2>${register?'Tạo tài khoản':'Đăng nhập'}</h2><form id="authForm"><label>Tên đăng nhập<input name="username" required minlength="3" maxlength="32" pattern="[a-zA-Z0-9_.\\-]+" autocomplete="username" placeholder="hocsinh12"></label><label>Mật khẩu<input type="password" name="password" required minlength="8" autocomplete="${register?'new-password':'current-password'}" placeholder="Ít nhất 8 ký tự"></label><button>${register?'Đăng ký':'Đăng nhập'}</button> <button type="button" class="secondary" id="toggle">${register?'Đã có tài khoản':'Tạo tài khoản'}</button><p id="message" class="error"></p></form></div></section>`;$('#toggle').onclick=()=>auth(!register);$('#authForm').onsubmit=async ev=>{ev.preventDefault();try{user=await api(register?'/register':'/login','POST',Object.fromEntries(new FormData(ev.target)));nav();page('home');}catch(err){message(err);}};}
-async function page(name){if(!user)return;if(currentQuiz&&!confirm('Rời bài làm? Bài chưa nộp sẽ không được lưu kết quả.'))return;currentQuiz=null;stopTimer();const g=++generation;document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===name));main.innerHTML='<p class="muted">Đang tải…</p>';try{let data;if(name==='home'||name==='practice')data=await api('/catalog');if(name==='lessons')data=await api('/v1/courses');if(name==='stats')data=await api('/stats');if(name==='admin')data=await api('/admin/summary');if(g!==generation)return;if(name==='home')home(data);else if(name==='practice')practice(data);else if(name==='lessons')lessons(data);else if(name==='exam')exam();else if(name==='stats')stats(data);else if(name==='admin')admin(data);}catch(err){if(g===generation)main.innerHTML=`<p class="error">${e(err.message)}</p>`;}}
+async function page(name){if(!user)return;if(currentQuiz&&!confirm('Rời bài làm? Bài chưa nộp sẽ không được lưu kết quả.'))return;currentQuiz=null;stopTimer();const g=++generation;document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===name));main.innerHTML='<p class="muted">Đang tải…</p>';try{let data;if(name==='home'||name==='practice')data=await api('/catalog');if(name==='lessons')data=await Promise.all([api('/v1/courses'),api('/catalog')]);if(name==='stats')data=await api('/stats');if(name==='admin')data=await api('/admin/summary');if(g!==generation)return;if(name==='home')home(data);else if(name==='practice')practice(data);else if(name==='lessons')lessons(...data);else if(name==='exam')exam();else if(name==='stats')stats(data);else if(name==='admin')admin(data);}catch(err){if(g===generation)main.innerHTML=`<p class="error">${e(err.message)}</p>`;}}
 function home(data){main.innerHTML=`<section class="hero"><div class="eyebrow">TOÁN 12 · PHIÊN BẢN THỬ NGHIỆM</div><h1>Học đúng phần.<br>Tiến bộ đúng hướng.</h1><p>Ôn tập theo chuyên đề, thi thử mini và xem lại từng câu sai để cải thiện kết quả.</p><div class="actions"><button id="practiceBtn">Bắt đầu luyện tập</button><button class="secondary" id="examBtn">Thi thử mini</button></div></section><div class="grid"><div class="card"><div class="label">Ngân hàng câu hỏi</div><div class="metric">${data.reduce((a,x)=>a+x.count,0)}</div><p class="muted">Câu hỏi tự biên soạn</p></div><div class="card"><div class="label">Chuyên đề</div><div class="metric">${data.length}</div><p class="muted">Toán lớp 12</p></div><div class="card"><div class="label">Phân tích</div><h2>Học từ câu sai</h2><p class="muted">Gợi ý theo kết quả thực tế</p></div></div><h2>Khám phá chuyên đề</h2><div class="grid">${data.map(x=>`<article class="card"><h3>${e(x.topic)}</h3><p class="muted">${x.count} câu hỏi</p></article>`).join('')}</div>`;$('#practiceBtn').onclick=()=>page('practice');$('#examBtn').onclick=()=>page('exam');}
-function lessons(courses) {
+function lessons(courses, catalog) {
+    const available = new Map(catalog.map(item => [item.topic, item.count]));
+    function practiceLink(course, topic) {
+        const count = course.grade === 12 && course.subject === 'Toán'
+            ? Math.min(10, available.get(topic.title) ?? 0)
+            : 0;
+        if (!count) return '<p class="muted">Chưa có bài luyện cho chuyên đề này.</p>';
+        return `<p><button type="button" class="secondary" data-lesson-topic="${e(topic.title)}" data-count="${count}">Luyện ${count} câu</button></p>`;
+    }
     const lessonContent = lesson => `
         <details>
             <summary>${e(lesson.title)}</summary>
@@ -30,11 +38,23 @@ function lessons(courses) {
                             <section>
                                 <h4>${e(topic.title)}</h4>
                                 ${topic.lessons.map(lessonContent).join('')}
+                                ${practiceLink(course, topic)}
                             </section>`).join('')}
                     </article>`).join('')}
             </section>`).join('')}
-        <button id="lessonPractice" class="secondary">Luyện chuyên đề</button>`;
-    $('#lessonPractice').onclick = () => page('practice');
+        <p id="message" class="error" role="status"></p>`;
+    main.querySelectorAll('[data-lesson-topic]').forEach(button => {
+        button.onclick = async () => {
+            const buttons = main.querySelectorAll('[data-lesson-topic]');
+            buttons.forEach(item => { item.disabled = true; });
+            message('');
+            try {
+                await startQuiz('practice', button.dataset.lessonTopic, Number(button.dataset.count));
+            } finally {
+                buttons.forEach(item => { item.disabled = false; });
+            }
+        };
+    });
 }
 function practice(data){main.innerHTML=`<div class="eyebrow">LUYỆN TẬP</div><h1>Chọn chuyên đề</h1><p class="muted">Không giới hạn thời gian. Xem đáp án và giải thích sau khi nộp.</p><div class="grid">${data.map((x,i)=>`<div class="card"><h2>${e(x.topic)}</h2><p class="muted">${x.count} câu hỏi</p><button data-topic-index="${i}">Luyện 10 câu</button></div>`).join('')}</div><p id="message" class="error"></p>`;document.querySelectorAll('[data-topic-index]').forEach(b=>b.onclick=()=>startQuiz('practice',data[Number(b.dataset.topicIndex)].topic,10));}
 function exam(){main.innerHTML=`<div class="eyebrow">KIỂM TRA</div><h1>Thi thử mini</h1><div class="card"><h2>Toán 12 · Trắc nghiệm</h2><p>Bài kiểm tra mẫu, chưa mô phỏng đầy đủ cấu trúc đề tốt nghiệp THPT. Mỗi câu có một đáp án đúng.</p><label>Số câu<select id="count"><option value="10">10 câu · 15 phút</option><option value="20">20 câu · 30 phút</option><option value="30">30 câu · 45 phút</option></select></label><button id="start">Bắt đầu</button><p id="message" class="error"></p></div>`;$('#start').onclick=()=>startQuiz('exam',null,Number($('#count').value));}
