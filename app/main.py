@@ -4,6 +4,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, Response, Depends
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
+from .learning import load_courses
 from .seed import TOPICS
 from .ml import predict_topic
 
@@ -200,5 +201,10 @@ def classify(body:ClassifyRequest,user=Depends(admin_user)):
 def import_questions(body:ImportRequest,user=Depends(admin_user)):
     with db() as c: count=sum(insert_question(c,q.model_dump()) for q in body.questions)
     return {'inserted':count,'duplicates':len(body.questions)-count}
+
+@app.get('/api/v1/courses', tags=['learning'])
+def courses(user=Depends(session_user)):
+    return load_courses(ROOT / 'data')
+
 
 app.mount('/',StaticFiles(directory=ROOT/'static',html=True),name='static')
