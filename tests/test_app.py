@@ -21,15 +21,24 @@ class TestApp(unittest.TestCase):
                     cat=client.get('/api/catalog').json();self.assertEqual(sum(x['count'] for x in cat),60)
                     courses = client.get('/api/v1/courses')
                     self.assertEqual(courses.status_code, 200)
-                    course, = courses.json()
-                    self.assertEqual((course['grade'], course['subject']), (12, 'Toán'))
-                    self.assertEqual(len(course['chapters']), 3)
-                    topics = [topic for chapter in course['chapters'] for topic in chapter['topics']]
-                    self.assertTrue(set(t['title'] for t in topics) <= {row['topic'] for row in cat})
-                    for topic in topics:
-                        self.assertTrue(topic['lessons'])
-                        for lesson in topic['lessons']:
-                            self.assertTrue(lesson['example'])
+                    expected_subjects = {
+                        'Toán', 'Ngữ văn', 'Tiếng Anh', 'Vật lí', 'Hoá học',
+                        'Sinh học', 'Lịch sử', 'Địa lí', 'Giáo dục Kinh tế và Pháp luật',
+                    }
+                    rows = courses.json()
+                    self.assertEqual(len(rows), 27)
+                    self.assertEqual(
+                        {(row['grade'], row['subject']) for row in rows},
+                        {(grade, subject) for grade in (10, 11, 12) for subject in expected_subjects},
+                    )
+                    for course in rows:
+                        self.assertGreaterEqual(len(course['chapters']), 5)
+                        for chapter in course['chapters']:
+                            self.assertTrue(chapter['topics'])
+                            for topic in chapter['topics']:
+                                self.assertTrue(topic['lessons'])
+                                for lesson in topic['lessons']:
+                                    self.assertTrue(lesson['summary'])
                     self.assertEqual(client.get('/api/admin/summary').status_code,403)
                     q=client.post('/api/quizzes',json={'mode':'practice','topic':cat[0]['topic'],'count':10}).json()
                     self.assertEqual(len(q['questions']),10);self.assertNotIn('answer',q['questions'][0])

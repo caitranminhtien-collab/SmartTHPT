@@ -1,15 +1,1443 @@
 {
   "courses": [
     {
+      "grade": 10,
+      "subject": "Toán",
+      "chapters": [
+        {
+          "title": "Mệnh đề và tập hợp",
+          "topics": [
+            {
+              "title": "Mệnh đề và tập hợp",
+              "lessons": [
+                {
+                  "title": "Mệnh đề và tập hợp",
+                  "summary": "Mệnh đề có giá trị đúng hoặc sai. Phủ định của “mọi” là “tồn tại một trường hợp không”; giao gồm phần tử thuộc cả hai tập, hợp gồm phần tử thuộc ít nhất một tập."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hàm số bậc hai",
+          "topics": [
+            {
+              "title": "Hàm số bậc hai",
+              "lessons": [
+                {
+                  "title": "Hàm số bậc hai",
+                  "summary": "Đồ thị y = ax² + bx + c là parabol có trục x = −b/(2a). Tính giá trị tại trục để tìm đỉnh rồi dùng dấu a xác định chiều mở."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hệ bất phương trình hai ẩn",
+          "topics": [
+            {
+              "title": "Hệ bất phương trình hai ẩn",
+              "lessons": [
+                {
+                  "title": "Hệ bất phương trình hai ẩn",
+                  "summary": "Mỗi bất phương trình bậc nhất xác định một nửa mặt phẳng. Vẽ đường biên, thử một điểm ngoài biên và lấy phần giao của các miền nghiệm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vectơ và tọa độ",
+          "topics": [
+            {
+              "title": "Vectơ và tọa độ",
+              "lessons": [
+                {
+                  "title": "Vectơ và tọa độ",
+                  "summary": "Cộng vectơ theo quy tắc tam giác. Tích vô hướng bằng tích độ dài nhân cosin góc, bằng 0 khi hai vectơ khác 0 vuông góc. Dùng tọa độ để tính khoảng cách và viết phương trình đường thẳng, đường tròn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hệ thức lượng trong tam giác",
+          "topics": [
+            {
+              "title": "Hệ thức lượng trong tam giác",
+              "lessons": [
+                {
+                  "title": "Hệ thức lượng trong tam giác",
+                  "summary": "Định lí cosin a² = b² + c² − 2bc cos A giúp tìm cạnh hoặc góc. Định lí sin cho a/sin A = 2R, với R là bán kính đường tròn ngoại tiếp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thống kê và xác suất",
+          "topics": [
+            {
+              "title": "Thống kê và xác suất",
+              "lessons": [
+                {
+                  "title": "Thống kê và xác suất",
+                  "summary": "Trung vị ít bị ảnh hưởng bởi giá trị cực đoan hơn trung bình. Đếm bằng quy tắc cộng, nhân, hoán vị, chỉnh hợp hoặc tổ hợp; chỉ lấy số thuận lợi chia số khả năng khi các kết quả đồng khả năng."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc truyện và sử thi",
+          "topics": [
+            {
+              "title": "Đọc truyện và sử thi",
+              "lessons": [
+                {
+                  "title": "Đọc truyện và sử thi",
+                  "summary": "Xác định người kể, điểm nhìn, bối cảnh và xung đột. Với sử thi, xem nhân vật trung tâm thể hiện lí tưởng cộng đồng qua hành động và lời nói thế nào."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc thơ",
+          "topics": [
+            {
+              "title": "Đọc thơ",
+              "lessons": [
+                {
+                  "title": "Đọc thơ",
+                  "summary": "Nhận ra chủ thể trữ tình, hình ảnh, nhịp và sự vận động cảm xúc. Khi phân tích, nối một chi tiết cụ thể với ý nghĩa của cả đoạn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc văn bản thông tin",
+          "topics": [
+            {
+              "title": "Đọc văn bản thông tin",
+              "lessons": [
+                {
+                  "title": "Đọc văn bản thông tin",
+                  "summary": "Tìm thông tin chính qua nhan đề, đề mục và đoạn mở đầu. Kiểm tra bảng, hình và nguồn trước khi dùng số liệu để lập luận."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết nghị luận",
+          "topics": [
+            {
+              "title": "Viết nghị luận",
+              "lessons": [
+                {
+                  "title": "Viết nghị luận",
+                  "summary": "Nêu luận đề rõ, triển khai từng luận điểm bằng lí lẽ và bằng chứng, rồi giải thích mối liên hệ giữa bằng chứng với nhận định."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nói, nghe và dùng tiếng Việt",
+          "topics": [
+            {
+              "title": "Nói, nghe và dùng tiếng Việt",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và dùng tiếng Việt",
+                  "summary": "Trình bày ý theo bố cục mở–thân–kết, lắng nghe phản hồi. Soát nghĩa từ trong ngữ cảnh, tránh lỗi lặp và lỗi liên kết câu."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Family and routines",
+          "topics": [
+            {
+              "title": "Family and routines",
+              "lessons": [
+                {
+                  "title": "Family and routines",
+                  "summary": "Dùng present simple cho thói quen và present continuous cho việc đang xảy ra. So sánh “I cook on Sundays” với “I am cooking now”."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Environment and inventions",
+          "topics": [
+            {
+              "title": "Environment and inventions",
+              "lessons": [
+                {
+                  "title": "Environment and inventions",
+                  "summary": "Dùng passive để nhấn đối tượng: “The bottles are recycled.” Với phát minh, mô tả công dụng bằng “is used to” kèm động từ nguyên mẫu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Community and equality",
+          "topics": [
+            {
+              "title": "Community and equality",
+              "lessons": [
+                {
+                  "title": "Community and equality",
+                  "summary": "Học từ theo cụm như “do volunteer work” và “equal opportunities”. Dùng should để đề xuất và giải thích bằng because hoặc so that."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education and tourism",
+          "topics": [
+            {
+              "title": "Education and tourism",
+              "lessons": [
+                {
+                  "title": "Education and tourism",
+                  "summary": "Dùng who, which hoặc that để bổ nghĩa danh từ. Chẳng hạn “A guide is someone who shows visitors around”."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc và viết đoạn ngắn",
+          "topics": [
+            {
+              "title": "Đọc và viết đoạn ngắn",
+              "lessons": [
+                {
+                  "title": "Đọc và viết đoạn ngắn",
+                  "summary": "Đọc lướt lấy ý chính rồi dò chi tiết. Khi viết, đưa ý chính lên đầu đoạn, tiếp theo là một ví dụ cụ thể và câu kết nối."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Đo lường và sai số",
+          "topics": [
+            {
+              "title": "Đo lường và sai số",
+              "lessons": [
+                {
+                  "title": "Đo lường và sai số",
+                  "summary": "Ghi giá trị đo kèm đơn vị và độ không chắc chắn. Phân biệt độ chia dụng cụ với độ phân tán giữa các lần đo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Động học",
+          "topics": [
+            {
+              "title": "Động học",
+              "lessons": [
+                {
+                  "title": "Động học",
+                  "summary": "Độ dời có hướng, quãng đường theo độ dài đường đi. Với gia tốc không đổi, v = v₀ + at và độ dời bằng v₀t + ½at² trên trục đã chọn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lực và định luật Newton",
+          "topics": [
+            {
+              "title": "Lực và định luật Newton",
+              "lessons": [
+                {
+                  "title": "Lực và định luật Newton",
+                  "summary": "Vẽ các lực tác dụng lên đúng vật. Hợp lực bằng ma theo vectơ. Hai lực tương tác đặt lên hai vật khác nhau nên không triệt tiêu trên cùng sơ đồ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Công và năng lượng",
+          "topics": [
+            {
+              "title": "Công và năng lượng",
+              "lessons": [
+                {
+                  "title": "Công và năng lượng",
+                  "summary": "Công của lực không đổi bằng Fs cos θ. Độ biến thiên động năng bằng tổng công; cơ năng bảo toàn khi chỉ các lực thế sinh công."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Động lượng và va chạm",
+          "topics": [
+            {
+              "title": "Động lượng và va chạm",
+              "lessons": [
+                {
+                  "title": "Động lượng và va chạm",
+                  "summary": "p = mv. Tổng động lượng hệ được bảo toàn khi xung lượng ngoại lực không đáng kể, kể cả khi động năng giảm trong va chạm mềm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chuyển động tròn và biến dạng",
+          "topics": [
+            {
+              "title": "Chuyển động tròn và biến dạng",
+              "lessons": [
+                {
+                  "title": "Chuyển động tròn và biến dạng",
+                  "summary": "Gia tốc hướng tâm v²/r hướng vào tâm. Trong giới hạn đàn hồi tuyến tính, lực đàn hồi lò xo có độ lớn k lần độ biến dạng."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Cấu tạo nguyên tử và bảng tuần hoàn",
+          "topics": [
+            {
+              "title": "Cấu tạo nguyên tử và bảng tuần hoàn",
+              "lessons": [
+                {
+                  "title": "Cấu tạo nguyên tử và bảng tuần hoàn",
+                  "summary": "Số proton xác định nguyên tố. Đồng vị có cùng số proton và khác neutron. Dùng cấu hình electron hoá trị để giải thích một số xu hướng tuần hoàn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Liên kết hoá học",
+          "topics": [
+            {
+              "title": "Liên kết hoá học",
+              "lessons": [
+                {
+                  "title": "Liên kết hoá học",
+                  "summary": "Liên kết ion hình thành từ lực hút giữa ion trái dấu. Liên kết cộng hoá trị dùng chung electron. Độ phân cực của cả phân tử còn phụ thuộc hình học."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Oxi hoá và khử",
+          "topics": [
+            {
+              "title": "Oxi hoá và khử",
+              "lessons": [
+                {
+                  "title": "Oxi hoá và khử",
+                  "summary": "Oxi hoá làm tăng số oxi hoá, khử làm giảm. Cân bằng phản ứng bằng cách cho tổng electron nhường bằng tổng electron nhận."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Năng lượng và tốc độ phản ứng",
+          "topics": [
+            {
+              "title": "Năng lượng và tốc độ phản ứng",
+              "lessons": [
+                {
+                  "title": "Năng lượng và tốc độ phản ứng",
+                  "summary": "ΔH âm là toả nhiệt. Tốc độ phụ thuộc va chạm hiệu quả; chất xúc tác tạo đường phản ứng có năng lượng hoạt hoá thấp hơn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Halogen",
+          "topics": [
+            {
+              "title": "Halogen",
+              "lessons": [
+                {
+                  "title": "Halogen",
+                  "summary": "Tính oxi hoá của halogen nhìn chung yếu dần từ F₂ đến I₂. Cần phân biệt tính oxi hoá của đơn chất với tính khử của ion halide."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Phân tử và tế bào",
+          "topics": [
+            {
+              "title": "Phân tử và tế bào",
+              "lessons": [
+                {
+                  "title": "Phân tử và tế bào",
+                  "summary": "Carbohydrate cung cấp năng lượng và tham gia cấu trúc; protein đảm nhiệm nhiều chức năng; acid nucleic lưu hoặc truyền thông tin di truyền."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Màng sinh chất và vận chuyển",
+          "topics": [
+            {
+              "title": "Màng sinh chất và vận chuyển",
+              "lessons": [
+                {
+                  "title": "Màng sinh chất và vận chuyển",
+                  "summary": "Khuếch tán thụ động theo gradien; vận chuyển chủ động có thể đi ngược gradien và cần năng lượng. Thẩm thấu là sự di chuyển của nước qua màng chọn lọc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chuyển hoá tế bào",
+          "topics": [
+            {
+              "title": "Chuyển hoá tế bào",
+              "lessons": [
+                {
+                  "title": "Chuyển hoá tế bào",
+                  "summary": "ATP truyền năng lượng giữa các quá trình. Enzyme tăng tốc phản ứng và có thể giảm hoạt tính khi pH hoặc nhiệt độ bất lợi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chu kì tế bào và phân bào",
+          "topics": [
+            {
+              "title": "Chu kì tế bào và phân bào",
+              "lessons": [
+                {
+                  "title": "Chu kì tế bào và phân bào",
+                  "summary": "DNA nhân đôi trước phân bào. Nguyên phân duy trì bộ nhiễm sắc thể; giảm phân tạo tế bào đơn bội và góp phần tạo biến dị."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vi sinh vật và virus",
+          "topics": [
+            {
+              "title": "Vi sinh vật và virus",
+              "lessons": [
+                {
+                  "title": "Vi sinh vật và virus",
+                  "summary": "Vi sinh vật có kiểu dinh dưỡng đa dạng và được ứng dụng trong lên men. Virus thiếu bộ máy sinh sản độc lập nên cần tế bào chủ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Lịch sử và sử liệu",
+          "topics": [
+            {
+              "title": "Lịch sử và sử liệu",
+              "lessons": [
+                {
+                  "title": "Lịch sử và sử liệu",
+                  "summary": "Tách sự kiện đã xảy ra khỏi cách con người diễn giải. Khi đọc tư liệu, xác định tác giả, thời điểm, mục đích và đối chiếu nguồn khác."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Văn minh cổ đại và trung đại",
+          "topics": [
+            {
+              "title": "Văn minh cổ đại và trung đại",
+              "lessons": [
+                {
+                  "title": "Văn minh cổ đại và trung đại",
+                  "summary": "So sánh các nền văn minh theo môi trường, tổ chức xã hội và thành tựu chữ viết, khoa học, kiến trúc thay vì chỉ nhớ tên."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Các cuộc cách mạng công nghiệp",
+          "topics": [
+            {
+              "title": "Các cuộc cách mạng công nghiệp",
+              "lessons": [
+                {
+                  "title": "Các cuộc cách mạng công nghiệp",
+                  "summary": "Theo dõi sự chuyển đổi từ cơ giới hoá sang điện khí hoá, tự động hoá và công nghệ số. Phân tích tác động lên lao động cùng thay đổi sản xuất."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Văn minh Đông Nam Á và Việt Nam",
+          "topics": [
+            {
+              "title": "Văn minh Đông Nam Á và Việt Nam",
+              "lessons": [
+                {
+                  "title": "Văn minh Đông Nam Á và Việt Nam",
+                  "summary": "Biển, sông ngòi và giao thương tạo điều kiện tiếp xúc văn hoá. Nhận diện dấu ấn của Văn Lang–Âu Lạc, Chăm-pa, Phù Nam và Đại Việt trong từng bối cảnh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cộng đồng các dân tộc Việt Nam",
+          "topics": [
+            {
+              "title": "Cộng đồng các dân tộc Việt Nam",
+              "lessons": [
+                {
+                  "title": "Cộng đồng các dân tộc Việt Nam",
+                  "summary": "Phân biệt nét đa dạng về ngôn ngữ, sinh kế, phong tục với quá trình giao lưu và gắn kết cộng đồng qua lịch sử."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Bản đồ và dữ liệu địa lí",
+          "topics": [
+            {
+              "title": "Bản đồ và dữ liệu địa lí",
+              "lessons": [
+                {
+                  "title": "Bản đồ và dữ liệu địa lí",
+                  "summary": "Đọc tỉ lệ, phương hướng và chú giải trước khi so sánh. Tỉ lệ 1:100 000 nghĩa là 1 cm bản đồ tương ứng 1 km thực địa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trái Đất và các quyển",
+          "topics": [
+            {
+              "title": "Trái Đất và các quyển",
+              "lessons": [
+                {
+                  "title": "Trái Đất và các quyển",
+                  "summary": "Nội lực và ngoại lực cùng tạo địa hình. Khí quyển, thuỷ quyển, đất và sinh vật trao đổi vật chất và tác động lẫn nhau."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quy luật địa lí và môi trường",
+          "topics": [
+            {
+              "title": "Quy luật địa lí và môi trường",
+              "lessons": [
+                {
+                  "title": "Quy luật địa lí và môi trường",
+                  "summary": "Địa đới gắn với phân bố bức xạ theo vĩ độ; phi địa đới có thể gắn với địa hình và phân bố lục địa–đại dương."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dân cư và đô thị hoá",
+          "topics": [
+            {
+              "title": "Dân cư và đô thị hoá",
+              "lessons": [
+                {
+                  "title": "Dân cư và đô thị hoá",
+                  "summary": "Phân biệt gia tăng tự nhiên với di cư. Tỉ lệ dân thành thị tăng có thể do di cư, mở rộng địa giới hoặc thay đổi phân loại."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Các ngành kinh tế",
+          "topics": [
+            {
+              "title": "Các ngành kinh tế",
+              "lessons": [
+                {
+                  "title": "Các ngành kinh tế",
+                  "summary": "Phân tích nguồn lực, phân bố và tác động môi trường của nông nghiệp, công nghiệp và dịch vụ. Giải thích vị trí bằng nhiều yếu tố thay vì một nguyên nhân."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Hoạt động kinh tế và thị trường",
+          "topics": [
+            {
+              "title": "Hoạt động kinh tế và thị trường",
+              "lessons": [
+                {
+                  "title": "Hoạt động kinh tế và thị trường",
+                  "summary": "Sản xuất tạo hàng hoá, phân phối đưa thu nhập hoặc sản phẩm tới chủ thể, trao đổi nối người mua và người bán, tiêu dùng thoả mãn nhu cầu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ngân sách, thuế và tín dụng",
+          "topics": [
+            {
+              "title": "Ngân sách, thuế và tín dụng",
+              "lessons": [
+                {
+                  "title": "Ngân sách, thuế và tín dụng",
+                  "summary": "Thuế góp vào nguồn thu công. Tín dụng cho phép sử dụng vốn trước rồi hoàn trả theo thoả thuận; khi so sánh khoản vay cần tính lãi, phí và thời hạn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sản xuất kinh doanh và tài chính cá nhân",
+          "topics": [
+            {
+              "title": "Sản xuất kinh doanh và tài chính cá nhân",
+              "lessons": [
+                {
+                  "title": "Sản xuất kinh doanh và tài chính cá nhân",
+                  "summary": "Lập kế hoạch thu, chi, tiết kiệm và dự phòng. Phân biệt doanh thu với lợi nhuận sau khi trừ chi phí."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pháp luật và Hiến pháp",
+          "topics": [
+            {
+              "title": "Pháp luật và Hiến pháp",
+              "lessons": [
+                {
+                  "title": "Pháp luật và Hiến pháp",
+                  "summary": "Hiến pháp có hiệu lực pháp lí cao nhất. Phân biệt cơ quan ban hành, nội dung được điều chỉnh và hình thức thực hiện pháp luật."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bộ máy nhà nước",
+          "topics": [
+            {
+              "title": "Bộ máy nhà nước",
+              "lessons": [
+                {
+                  "title": "Bộ máy nhà nước",
+                  "summary": "Nhận diện chức năng lập pháp, hành pháp, tư pháp trong các ví dụ và mối liên hệ với cơ cấu tổ chức nhà nước."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Toán",
+      "chapters": [
+        {
+          "title": "Lượng giác",
+          "topics": [
+            {
+              "title": "Lượng giác",
+              "lessons": [
+                {
+                  "title": "Lượng giác",
+                  "summary": "Sử dụng đường tròn lượng giác để xác định dấu, chu kì và nghiệm tổng quát; kết quả phải xét miền giá trị yêu cầu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dãy số và cấp số",
+          "topics": [
+            {
+              "title": "Dãy số và cấp số",
+              "lessons": [
+                {
+                  "title": "Dãy số và cấp số",
+                  "summary": "Cấp số cộng có hiệu hai số hạng liên tiếp không đổi. Cấp số nhân có uₙ₊₁ = q uₙ. Phân biệt số hạng thứ n với tổng n số hạng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Giới hạn và liên tục",
+          "topics": [
+            {
+              "title": "Giới hạn và liên tục",
+              "lessons": [
+                {
+                  "title": "Giới hạn và liên tục",
+                  "summary": "Giới hạn tại điểm tồn tại khi hai giới hạn một phía bằng nhau. Liên tục còn đòi hỏi giá trị hàm tại điểm bằng giới hạn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Mũ, logarit và đạo hàm",
+          "topics": [
+            {
+              "title": "Mũ, logarit và đạo hàm",
+              "lessons": [
+                {
+                  "title": "Mũ, logarit và đạo hàm",
+                  "summary": "Logarit chỉ nhận đối số dương với cơ số dương khác 1. Đạo hàm tại điểm biểu thị tốc độ thay đổi tức thời và là hệ số góc tiếp tuyến."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quan hệ trong không gian",
+          "topics": [
+            {
+              "title": "Quan hệ trong không gian",
+              "lessons": [
+                {
+                  "title": "Quan hệ trong không gian",
+                  "summary": "Dùng các đường thẳng nằm trong mặt phẳng để chứng minh song song hoặc vuông góc. Đường thẳng vuông góc hai đường cắt nhau trong mặt phẳng thì vuông góc mặt phẳng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thống kê và xác suất",
+          "topics": [
+            {
+              "title": "Thống kê và xác suất",
+              "lessons": [
+                {
+                  "title": "Thống kê và xác suất",
+                  "summary": "Đọc tần số theo lớp ghép nhóm. Dùng P(A ∪ B) = P(A) + P(B) − P(A ∩ B); biến cố độc lập thoả quy tắc nhân xác suất."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc truyện và kí",
+          "topics": [
+            {
+              "title": "Đọc truyện và kí",
+              "lessons": [
+                {
+                  "title": "Đọc truyện và kí",
+                  "summary": "Phân biệt người kể với tác giả. Với kí, xem chi tiết hiện thực và cảm xúc được tổ chức thế nào để tạo góc nhìn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc thơ và kịch",
+          "topics": [
+            {
+              "title": "Đọc thơ và kịch",
+              "lessons": [
+                {
+                  "title": "Đọc thơ và kịch",
+                  "summary": "Trong thơ chú ý biểu tượng, cấu tứ và nhịp. Trong kịch, xem xung đột bộc lộ qua đối thoại, hành động và tình huống."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc văn bản nghị luận",
+          "topics": [
+            {
+              "title": "Đọc văn bản nghị luận",
+              "lessons": [
+                {
+                  "title": "Đọc văn bản nghị luận",
+                  "summary": "Nhận diện luận đề, luận điểm, bằng chứng và giả định. Thử kiểm tra xem ví dụ thực sự chứng minh nhận định nào."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết về tác phẩm và vấn đề xã hội",
+          "topics": [
+            {
+              "title": "Viết về tác phẩm và vấn đề xã hội",
+              "lessons": [
+                {
+                  "title": "Viết về tác phẩm và vấn đề xã hội",
+                  "summary": "Dựng dàn ý từ một câu luận đề. Mỗi đoạn phân tích một phương diện và giải thích dẫn chứng thay vì chỉ kể lại."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nói, nghe và phản biện",
+          "topics": [
+            {
+              "title": "Nói, nghe và phản biện",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và phản biện",
+                  "summary": "Tóm tắt công bằng quan điểm của người khác trước khi phản hồi. Phân biệt phản biện lí lẽ với nhận xét cá nhân."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Healthy lifestyles and generations",
+          "topics": [
+            {
+              "title": "Healthy lifestyles and generations",
+              "lessons": [
+                {
+                  "title": "Healthy lifestyles and generations",
+                  "summary": "Dùng present perfect để nối việc đã xảy ra với hiện tại: “I have exercised regularly for two months”. Phân biệt for chỉ khoảng thời gian và since chỉ mốc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cities, ASEAN and climate",
+          "topics": [
+            {
+              "title": "Cities, ASEAN and climate",
+              "lessons": [
+                {
+                  "title": "Cities, ASEAN and climate",
+                  "summary": "Dùng gerund sau enjoy, avoid, consider. Với biểu đồ hoặc vấn đề môi trường, lưu ý phân biệt mô tả xu hướng với giải thích nguyên nhân."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Heritage and education",
+          "topics": [
+            {
+              "title": "Heritage and education",
+              "lessons": [
+                {
+                  "title": "Heritage and education",
+                  "summary": "Dùng to-infinitive nói mục đích, như “Volunteers meet to clean the site”. Khi viết đề xuất, nêu lợi ích và cách thực hiện."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Independence and social issues",
+          "topics": [
+            {
+              "title": "Independence and social issues",
+              "lessons": [
+                {
+                  "title": "Independence and social issues",
+                  "summary": "Dùng từ nối however, therefore và for example đúng chức năng. Đưa một tình huống cụ thể vào đoạn nêu giải pháp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ecosystems and communication",
+          "topics": [
+            {
+              "title": "Ecosystems and communication",
+              "lessons": [
+                {
+                  "title": "Ecosystems and communication",
+                  "summary": "Tóm tắt chuỗi tác động bằng câu ngắn. Khi nghe hoặc đọc, đánh dấu danh từ chủ đề và từ chỉ đối lập để nhận ra ý chính."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Dao động",
+          "topics": [
+            {
+              "title": "Dao động",
+              "lessons": [
+                {
+                  "title": "Dao động",
+                  "summary": "Trong dao động điều hoà, x = A cos(ωt + φ) và a = −ω²x. Phân biệt biên độ, chu kì với pha ban đầu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sóng",
+          "topics": [
+            {
+              "title": "Sóng",
+              "lessons": [
+                {
+                  "title": "Sóng",
+                  "summary": "λ = v/f. Dao động truyền đi cùng năng lượng; các phần tử môi trường dao động quanh vị trí cân bằng. Giao thoa phụ thuộc hiệu đường đi và pha."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Điện trường",
+          "topics": [
+            {
+              "title": "Điện trường",
+              "lessons": [
+                {
+                  "title": "Điện trường",
+                  "summary": "Điện trường là lực trên một đơn vị điện tích thử dương. Phân biệt cường độ điện trường với điện thế và hiệu điện thế."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tụ điện",
+          "topics": [
+            {
+              "title": "Tụ điện",
+              "lessons": [
+                {
+                  "title": "Tụ điện",
+                  "summary": "Điện dung C = Q/U biểu thị khả năng tích điện. Với tụ phẳng lí tưởng, thay đổi khoảng cách bản hoặc chất điện môi làm thay đổi điện dung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dòng điện và mạch điện",
+          "topics": [
+            {
+              "title": "Dòng điện và mạch điện",
+              "lessons": [
+                {
+                  "title": "Dòng điện và mạch điện",
+                  "summary": "I = Δq/Δt, công suất điện P = UI. Với nguồn có điện trở trong r đang cấp dòng, hiệu điện thế hai cực U = E − Ir."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Cân bằng và dung dịch",
+          "topics": [
+            {
+              "title": "Cân bằng và dung dịch",
+              "lessons": [
+                {
+                  "title": "Cân bằng và dung dịch",
+                  "summary": "Cân bằng động có tốc độ thuận bằng tốc độ nghịch. Thay đổi điều kiện có thể dịch chuyển cân bằng; chất xúc tác giúp đạt nhanh hơn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nitrogen và sulfur",
+          "topics": [
+            {
+              "title": "Nitrogen và sulfur",
+              "lessons": [
+                {
+                  "title": "Nitrogen và sulfur",
+                  "summary": "Liên hệ tính chất ammonia với cặp electron tự do. Xem phản ứng của các hợp chất nitrogen và sulfur qua số oxi hoá, độ mạnh acid và điều kiện."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đại cương hoá hữu cơ",
+          "topics": [
+            {
+              "title": "Đại cương hoá hữu cơ",
+              "lessons": [
+                {
+                  "title": "Đại cương hoá hữu cơ",
+                  "summary": "Công thức phân tử cho số nguyên tử; công thức cấu tạo cho cách liên kết. Đồng phân có cùng công thức phân tử và khác cấu tạo hoặc cách sắp xếp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hydrocarbon",
+          "topics": [
+            {
+              "title": "Hydrocarbon",
+              "lessons": [
+                {
+                  "title": "Hydrocarbon",
+                  "summary": "Alkane thường tham gia phản ứng thế; alkene có liên kết đôi thuận lợi cho phản ứng cộng. Hydrocarbon thơm có tính chất gắn với vòng benzene."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dẫn xuất và nhóm chức",
+          "topics": [
+            {
+              "title": "Dẫn xuất và nhóm chức",
+              "lessons": [
+                {
+                  "title": "Dẫn xuất và nhóm chức",
+                  "summary": "So sánh alcohol, phenol, aldehyde, ketone và acid carboxylic bằng nhóm chức, khả năng tạo liên kết hydrogen và phản ứng đặc trưng."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Trao đổi chất ở thực vật",
+          "topics": [
+            {
+              "title": "Trao đổi chất ở thực vật",
+              "lessons": [
+                {
+                  "title": "Trao đổi chất ở thực vật",
+                  "summary": "Rễ hấp thụ nước và ion khoáng, mạch gỗ vận chuyển lên lá. Quang hợp chuyển năng lượng ánh sáng thành năng lượng hoá học."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dinh dưỡng ở động vật",
+          "topics": [
+            {
+              "title": "Dinh dưỡng ở động vật",
+              "lessons": [
+                {
+                  "title": "Dinh dưỡng ở động vật",
+                  "summary": "Tiêu hoá biến đổi thức ăn; hô hấp trao đổi khí; tuần hoàn phân phối chất. Cân bằng nội môi dựa trên các cơ chế điều chỉnh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cảm ứng",
+          "topics": [
+            {
+              "title": "Cảm ứng",
+              "lessons": [
+                {
+                  "title": "Cảm ứng",
+                  "summary": "Thực vật có hướng động và ứng động. Động vật có phản ứng thần kinh theo cung phản xạ và các dạng tập tính."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sinh trưởng và phát triển",
+          "topics": [
+            {
+              "title": "Sinh trưởng và phát triển",
+              "lessons": [
+                {
+                  "title": "Sinh trưởng và phát triển",
+                  "summary": "Sinh trưởng là tăng kích thước; phát triển gồm biến đổi chức năng và hình thái. Hormone cùng điều kiện môi trường điều hoà hai quá trình."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sinh sản ở sinh vật",
+          "topics": [
+            {
+              "title": "Sinh sản ở sinh vật",
+              "lessons": [
+                {
+                  "title": "Sinh sản ở sinh vật",
+                  "summary": "Sinh sản vô tính thường tạo thế hệ giống về di truyền; sinh sản hữu tính kết hợp giao tử. Phân biệt thụ phấn, thụ tinh và hình thành hạt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Cách mạng tư sản và chủ nghĩa tư bản",
+          "topics": [
+            {
+              "title": "Cách mạng tư sản và chủ nghĩa tư bản",
+              "lessons": [
+                {
+                  "title": "Cách mạng tư sản và chủ nghĩa tư bản",
+                  "summary": "Đọc mỗi cuộc cách mạng theo bối cảnh, lực lượng, mục tiêu, kết quả và giới hạn. Phân biệt thay đổi thể chế với mở rộng quyền trên thực tế."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chủ nghĩa xã hội từ 1917",
+          "topics": [
+            {
+              "title": "Chủ nghĩa xã hội từ 1917",
+              "lessons": [
+                {
+                  "title": "Chủ nghĩa xã hội từ 1917",
+                  "summary": "Lập trục thời gian từ Cách mạng tháng Mười đến mở rộng, khủng hoảng và cải cách tại các quốc gia theo từng bối cảnh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đông Nam Á thời thuộc địa",
+          "topics": [
+            {
+              "title": "Đông Nam Á thời thuộc địa",
+              "lessons": [
+                {
+                  "title": "Đông Nam Á thời thuộc địa",
+                  "summary": "So sánh quá trình xâm lược, chính sách cai trị và con đường giành độc lập; chú ý khác biệt giữa các quốc gia."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chiến tranh bảo vệ Tổ quốc",
+          "topics": [
+            {
+              "title": "Chiến tranh bảo vệ Tổ quốc",
+              "lessons": [
+                {
+                  "title": "Chiến tranh bảo vệ Tổ quốc",
+                  "summary": "Khi ôn một cuộc kháng chiến, nối điều kiện địa lí, cách huy động lực lượng và chiến lược với kết quả."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cải cách trong lịch sử Việt Nam",
+          "topics": [
+            {
+              "title": "Cải cách trong lịch sử Việt Nam",
+              "lessons": [
+                {
+                  "title": "Cải cách trong lịch sử Việt Nam",
+                  "summary": "So sánh cải cách thời Hồ Quý Ly, Lê Thánh Tông và Minh Mạng theo mục tiêu, chính sách và tác động."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Biển Đông",
+          "topics": [
+            {
+              "title": "Biển Đông",
+              "lessons": [
+                {
+                  "title": "Biển Đông",
+                  "summary": "Phân tích vị trí chiến lược, nguồn lực và vai trò giao thông. Đọc sử liệu về hoạt động xác lập và thực thi chủ quyền theo niên đại."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Trình độ phát triển và toàn cầu hoá",
+          "topics": [
+            {
+              "title": "Trình độ phát triển và toàn cầu hoá",
+              "lessons": [
+                {
+                  "title": "Trình độ phát triển và toàn cầu hoá",
+                  "summary": "Dùng nhiều chỉ số như thu nhập, HDI và cơ cấu kinh tế. Toàn cầu hoá mở rộng liên kết, đồng thời tăng phụ thuộc lẫn nhau."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Khu vực và tổ chức liên kết",
+          "topics": [
+            {
+              "title": "Khu vực và tổ chức liên kết",
+              "lessons": [
+                {
+                  "title": "Khu vực và tổ chức liên kết",
+                  "summary": "Phân biệt vai trò của EU, ASEAN và các cơ chế hợp tác. Xem thành viên hợp tác trong lĩnh vực nào và vì sao."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Mỹ Latinh, Tây Nam Á và Đông Nam Á",
+          "topics": [
+            {
+              "title": "Mỹ Latinh, Tây Nam Á và Đông Nam Á",
+              "lessons": [
+                {
+                  "title": "Mỹ Latinh, Tây Nam Á và Đông Nam Á",
+                  "summary": "Đối chiếu vị trí, tài nguyên, dân cư và ngành kinh tế đặc trưng. Khi đọc bảng, kiểm tra số tuyệt đối và tỉ trọng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Các nền kinh tế lớn",
+          "topics": [
+            {
+              "title": "Các nền kinh tế lớn",
+              "lessons": [
+                {
+                  "title": "Các nền kinh tế lớn",
+                  "summary": "So sánh Hoa Kỳ, Liên bang Nga, Nhật Bản và Trung Quốc bằng điều kiện phát triển và tổ chức không gian kinh tế."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kĩ năng phân tích dữ liệu",
+          "topics": [
+            {
+              "title": "Kĩ năng phân tích dữ liệu",
+              "lessons": [
+                {
+                  "title": "Kĩ năng phân tích dữ liệu",
+                  "summary": "Chọn biểu đồ theo mục tiêu: đường cho xu hướng, cột cho so sánh, cơ cấu khi phần đóng góp vào tổng là trọng tâm."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Cạnh tranh, cung và cầu",
+          "topics": [
+            {
+              "title": "Cạnh tranh, cung và cầu",
+              "lessons": [
+                {
+                  "title": "Cạnh tranh, cung và cầu",
+                  "summary": "Phân biệt thay đổi lượng cầu do giá với dịch chuyển đường cầu do thu nhập hoặc thị hiếu. Cạnh tranh có thể thúc đẩy cải tiến sản phẩm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lạm phát, thất nghiệp và lao động",
+          "topics": [
+            {
+              "title": "Lạm phát, thất nghiệp và lao động",
+              "lessons": [
+                {
+                  "title": "Lạm phát, thất nghiệp và lao động",
+                  "summary": "Lạm phát là mức giá chung tăng, khác tăng giá một mặt hàng. Đọc số liệu thất nghiệp trong phạm vi lực lượng lao động."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ý tưởng và đạo đức kinh doanh",
+          "topics": [
+            {
+              "title": "Ý tưởng và đạo đức kinh doanh",
+              "lessons": [
+                {
+                  "title": "Ý tưởng và đạo đức kinh doanh",
+                  "summary": "Đánh giá nhu cầu, nguồn lực, chi phí và rủi ro trước khi chọn ý tưởng. Đạo đức kinh doanh thể hiện qua trách nhiệm với khách hàng và xã hội."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Văn hoá tiêu dùng",
+          "topics": [
+            {
+              "title": "Văn hoá tiêu dùng",
+              "lessons": [
+                {
+                  "title": "Văn hoá tiêu dùng",
+                  "summary": "So sánh nhu cầu với mong muốn, kiểm tra chất lượng, thông tin và khả năng chi trả trước khi mua."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quyền, nghĩa vụ của công dân",
+          "topics": [
+            {
+              "title": "Quyền, nghĩa vụ của công dân",
+              "lessons": [
+                {
+                  "title": "Quyền, nghĩa vụ của công dân",
+                  "summary": "Khi phân tích tình huống, xác định chủ thể, quyền hoặc nghĩa vụ liên quan, điều kiện thực hiện và cách ứng xử phù hợp."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "grade": 12,
       "subject": "Toán",
       "chapters": [
         {
-          "title": "Ứng dụng đạo hàm để khảo sát hàm số",
+          "title": "Ứng dụng đạo hàm",
           "topics": [
             {
               "title": "Ứng dụng đạo hàm",
               "lessons": [
+                {
+                  "title": "Ứng dụng đạo hàm",
+                  "summary": "Xét dấu đạo hàm để tìm khoảng đơn điệu, cực trị và giá trị lớn nhất hoặc nhỏ nhất. Với bài toán thực tế phải kiểm tra điều kiện và biên."
+                },
                 {
                   "title": "Tính đơn điệu và cực trị",
                   "summary": "Dùng dấu đạo hàm để xác định khoảng đồng biến, nghịch biến và điểm cực trị.",
@@ -22,11 +1450,57 @@
           ]
         },
         {
-          "title": "Nguyên hàm và tích phân",
+          "title": "Vectơ và tọa độ Oxyz",
+          "topics": [
+            {
+              "title": "Vectơ và tọa độ Oxyz",
+              "lessons": [
+                {
+                  "title": "Vectơ và tọa độ Oxyz",
+                  "summary": "Tọa độ của vectơ AB bằng tọa độ B trừ A. Tích vô hướng giúp tính góc; phương trình mặt phẳng dùng vectơ pháp tuyến và một điểm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đường thẳng và mặt cầu",
+          "topics": [
+            {
+              "title": "Đường thẳng và mặt cầu",
+              "lessons": [
+                {
+                  "title": "Đường thẳng và mặt cầu",
+                  "summary": "Đường thẳng dùng vectơ chỉ phương, mặt cầu dùng tâm và bán kính. Thay tọa độ điểm vào phương trình để kiểm tra thuộc hình."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thống kê mẫu ghép nhóm",
+          "topics": [
+            {
+              "title": "Thống kê mẫu ghép nhóm",
+              "lessons": [
+                {
+                  "title": "Thống kê mẫu ghép nhóm",
+                  "summary": "Dùng giá trị đại diện của lớp khi ước lượng trung bình và độ phân tán. Độ lệch chuẩn có cùng đơn vị với dữ liệu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nguyên hàm – tích phân",
           "topics": [
             {
               "title": "Nguyên hàm – tích phân",
               "lessons": [
+                {
+                  "title": "Nguyên hàm – tích phân",
+                  "summary": "Nếu F là nguyên hàm của f liên tục thì tích phân từ a đến b là F(b) − F(a). Diện tích cần xét dấu hiệu hai hàm hoặc dùng giá trị tuyệt đối."
+                },
                 {
                   "title": "Tính tích phân từ nguyên hàm",
                   "summary": "Tìm nguyên hàm rồi thay hai cận theo đúng thứ tự.",
@@ -45,11 +1519,623 @@
               "title": "Xác suất có điều kiện",
               "lessons": [
                 {
+                  "title": "Xác suất có điều kiện",
+                  "summary": "P(A | B) = P(A ∩ B)/P(B) khi P(B) dương. Dùng xác suất toàn phần và Bayes khi quan sát kết quả từ nhiều nhóm."
+                },
+                {
                   "title": "Thu hẹp không gian mẫu theo điều kiện",
                   "summary": "Tính xác suất của A khi đã biết B xảy ra.",
                   "rule": "Khi P(B) > 0, ta có P(A | B) = P(A ∩ B) ÷ P(B). Nếu các kết quả trong không gian mẫu ban đầu đồng khả năng, đếm số kết quả thỏa cả A và B rồi chia cho số kết quả thỏa B.",
                   "example": "Gieo một xúc xắc cân đối. Biết kết quả là số chẵn, tập kết quả có thể là {2, 4, 6}. Trong đó {4, 6} lớn hơn 3, nên xác suất cần tìm là 2/3.",
                   "pitfall": "P(A | B) và P(B | A) có thể khác nhau. Ví dụ nếu B là ra số chẵn và A là ra số 4, thì P(A | B) = 1/3, còn P(B | A) = 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc truyện hiện đại",
+          "topics": [
+            {
+              "title": "Đọc truyện hiện đại",
+              "lessons": [
+                {
+                  "title": "Đọc truyện hiện đại",
+                  "summary": "Xét tình huống truyện, điểm nhìn và quá trình thay đổi của nhân vật. Chọn chi tiết tiêu biểu để bảo vệ cách đọc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc thơ hiện đại",
+          "topics": [
+            {
+              "title": "Đọc thơ hiện đại",
+              "lessons": [
+                {
+                  "title": "Đọc thơ hiện đại",
+                  "summary": "Theo dõi mạch cảm xúc, hình ảnh và sự thay đổi giọng điệu. Phân tích tác dụng của lựa chọn ngôn ngữ trong đoạn cụ thể."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đọc kí và văn bản thông tin",
+          "topics": [
+            {
+              "title": "Đọc kí và văn bản thông tin",
+              "lessons": [
+                {
+                  "title": "Đọc kí và văn bản thông tin",
+                  "summary": "Phân biệt dữ kiện được kiểm chứng với bình luận. Xem cách nhân vật, thời gian, địa điểm và nguồn tư liệu làm tăng sức thuyết phục."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết so sánh và nghị luận xã hội",
+          "topics": [
+            {
+              "title": "Viết so sánh và nghị luận xã hội",
+              "lessons": [
+                {
+                  "title": "Viết so sánh và nghị luận xã hội",
+                  "summary": "Đặt hai tác phẩm trên cùng tiêu chí rồi giải thích điểm giống, khác. Với vấn đề xã hội, dùng dẫn chứng có thể kiểm tra và cân nhắc ý kiến trái chiều."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nói, nghe và biên tập",
+          "topics": [
+            {
+              "title": "Nói, nghe và biên tập",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và biên tập",
+                  "summary": "Trình bày kết luận trước, dẫn các lí do theo thứ tự rõ. Khi sửa bài, kiểm tra lập luận, trích dẫn, chính tả và độ liên kết."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Life stories and culture",
+          "topics": [
+            {
+              "title": "Life stories and culture",
+              "lessons": [
+                {
+                  "title": "Life stories and culture",
+                  "summary": "Past simple thường kể sự kiện đã kết thúc. Past continuous mô tả bối cảnh đang diễn ra: “I was studying when she called”."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Green living and urbanisation",
+          "topics": [
+            {
+              "title": "Green living and urbanisation",
+              "lessons": [
+                {
+                  "title": "Green living and urbanisation",
+                  "summary": "Dùng câu so sánh và từ chỉ xu hướng như increase, decline và gradually. Nêu nguyên nhân và hệ quả bằng kết nối rõ ràng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Work and lifelong learning",
+          "topics": [
+            {
+              "title": "Work and lifelong learning",
+              "lessons": [
+                {
+                  "title": "Work and lifelong learning",
+                  "summary": "Trong email trang trọng, viết mục đích ở đoạn đầu và dùng yêu cầu lịch sự. Nêu kĩ năng kèm một tình huống minh hoạ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Media and artificial intelligence",
+          "topics": [
+            {
+              "title": "Media and artificial intelligence",
+              "lessons": [
+                {
+                  "title": "Media and artificial intelligence",
+                  "summary": "Tách dữ kiện khỏi ý kiến, kiểm tra người xuất bản và bằng chứng. Dùng modal verbs để diễn đạt mức độ chắc chắn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reading and speaking strategies",
+          "topics": [
+            {
+              "title": "Reading and speaking strategies",
+              "lessons": [
+                {
+                  "title": "Reading and speaking strategies",
+                  "summary": "Gạch ý chính mỗi đoạn, suy nghĩa từ ngữ cảnh và kiểm tra đại từ quy chiếu. Khi nói, dùng mẫu ý chính → lí do → ví dụ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Vật lí nhiệt",
+          "topics": [
+            {
+              "title": "Vật lí nhiệt",
+              "lessons": [
+                {
+                  "title": "Vật lí nhiệt",
+                  "summary": "Nội năng thay đổi do truyền nhiệt hoặc thực hiện công. Khi vật tăng nhiệt độ mà không chuyển pha, Q = mcΔT trong điều kiện phù hợp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chất khí lí tưởng",
+          "topics": [
+            {
+              "title": "Chất khí lí tưởng",
+              "lessons": [
+                {
+                  "title": "Chất khí lí tưởng",
+                  "summary": "Dùng nhiệt độ Kelvin. Với lượng khí cố định, pV/T không đổi trong mô hình khí lí tưởng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Từ trường",
+          "topics": [
+            {
+              "title": "Từ trường",
+              "lessons": [
+                {
+                  "title": "Từ trường",
+                  "summary": "Lực từ lên dây dẫn có dòng điện phụ thuộc B, I, chiều dài hiệu dụng và góc giữa dây với trường. Kiểm tra hướng bằng quy tắc thích hợp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cảm ứng điện từ",
+          "topics": [
+            {
+              "title": "Cảm ứng điện từ",
+              "lessons": [
+                {
+                  "title": "Cảm ứng điện từ",
+                  "summary": "Suất điện động cảm ứng gắn với tốc độ biến thiên từ thông. Chiều dòng cảm ứng tạo tác dụng chống lại sự biến thiên gây ra nó."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vật lí hạt nhân",
+          "topics": [
+            {
+              "title": "Vật lí hạt nhân",
+              "lessons": [
+                {
+                  "title": "Vật lí hạt nhân",
+                  "summary": "Phân biệt số khối và số proton. Năng lượng liên kết liên quan độ hụt khối. Sau n chu kì bán rã, lượng hạt chưa phân rã còn 1/2ⁿ giá trị ban đầu."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Ester, lipid và carbohydrate",
+          "topics": [
+            {
+              "title": "Ester, lipid và carbohydrate",
+              "lessons": [
+                {
+                  "title": "Ester, lipid và carbohydrate",
+                  "summary": "Thuỷ phân ester kiềm tạo muối carboxylate và alcohol. Glucose, saccharose và tinh bột khác nhau về cấu tạo và phản ứng nhận biết."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hợp chất chứa nitrogen",
+          "topics": [
+            {
+              "title": "Hợp chất chứa nitrogen",
+              "lessons": [
+                {
+                  "title": "Hợp chất chứa nitrogen",
+                  "summary": "Amine có tính base tuỳ cấu tạo; amino acid có nhóm amino và carboxyl. Peptide gồm các gốc amino acid nối qua liên kết peptide."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Polymer",
+          "topics": [
+            {
+              "title": "Polymer",
+              "lessons": [
+                {
+                  "title": "Polymer",
+                  "summary": "Trùng hợp nối monomer có khả năng mở liên kết hoặc mở vòng. Trùng ngưng thường tạo polymer đồng thời tách phân tử nhỏ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Điện hoá",
+          "topics": [
+            {
+              "title": "Điện hoá",
+              "lessons": [
+                {
+                  "title": "Điện hoá",
+                  "summary": "Anode luôn là nơi oxi hoá, cathode là nơi khử. Dấu điện cực khác giữa pin điện và bình điện phân."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kim loại và phức chất",
+          "topics": [
+            {
+              "title": "Kim loại và phức chất",
+              "lessons": [
+                {
+                  "title": "Kim loại và phức chất",
+                  "summary": "Tính khử giúp giải thích phản ứng của kim loại. Xem điều kiện ăn mòn và cách bảo vệ; trong phức chất phân biệt nguyên tử trung tâm, phối tử và số phối trí."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Di truyền phân tử",
+          "topics": [
+            {
+              "title": "Di truyền phân tử",
+              "lessons": [
+                {
+                  "title": "Di truyền phân tử",
+                  "summary": "DNA lưu giữ thông tin; phiên mã tạo RNA. Dịch mã đọc codon trên mRNA để tạo chuỗi polypeptide."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nhiễm sắc thể và quy luật di truyền",
+          "topics": [
+            {
+              "title": "Nhiễm sắc thể và quy luật di truyền",
+              "lessons": [
+                {
+                  "title": "Nhiễm sắc thể và quy luật di truyền",
+                  "summary": "Dùng kiểu gen và giao tử để dự đoán kiểu hình. Phân li độc lập áp dụng trong điều kiện phù hợp; liên kết gen có thể làm thay đổi tỉ lệ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Di truyền quần thể và ứng dụng",
+          "topics": [
+            {
+              "title": "Di truyền quần thể và ứng dụng",
+              "lessons": [
+                {
+                  "title": "Di truyền quần thể và ứng dụng",
+                  "summary": "Tần số allele khác tần số kiểu gen. Hardy–Weinberg là mô hình cân bằng với các giả định, dùng làm mốc để so sánh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tiến hoá",
+          "topics": [
+            {
+              "title": "Tiến hoá",
+              "lessons": [
+                {
+                  "title": "Tiến hoá",
+                  "summary": "Đột biến tạo biến dị, chọn lọc tự nhiên làm thay đổi tần số kiểu hình và có thể làm đổi tần số allele qua thế hệ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sinh thái và bảo tồn",
+          "topics": [
+            {
+              "title": "Sinh thái và bảo tồn",
+              "lessons": [
+                {
+                  "title": "Sinh thái và bảo tồn",
+                  "summary": "Năng lượng truyền qua bậc dinh dưỡng và giảm dần. Vật chất tuần hoàn. Bảo tồn cần xem cả loài, sinh cảnh và mối liên kết giữa quần thể."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Thế giới trong và sau Chiến tranh lạnh",
+          "topics": [
+            {
+              "title": "Thế giới trong và sau Chiến tranh lạnh",
+              "lessons": [
+                {
+                  "title": "Thế giới trong và sau Chiến tranh lạnh",
+                  "summary": "Phân biệt Liên hợp quốc với trật tự hai cực. Lập mốc cho quá trình đối đầu, hoà hoãn và biến đổi trật tự quốc tế."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ASEAN",
+          "topics": [
+            {
+              "title": "ASEAN",
+              "lessons": [
+                {
+                  "title": "ASEAN",
+                  "summary": "Theo dõi quá trình hình thành, mở rộng và xây dựng cộng đồng. Xem vai trò của hợp tác khu vực trong mỗi giai đoạn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cách mạng tháng Tám và kháng chiến",
+          "topics": [
+            {
+              "title": "Cách mạng tháng Tám và kháng chiến",
+              "lessons": [
+                {
+                  "title": "Cách mạng tháng Tám và kháng chiến",
+                  "summary": "Đặt Cách mạng tháng Tám, kháng chiến chống Pháp và chống Mỹ vào trục thời gian. So sánh mục tiêu, điều kiện và bước ngoặt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bảo vệ Tổ quốc và công cuộc Đổi mới",
+          "topics": [
+            {
+              "title": "Bảo vệ Tổ quốc và công cuộc Đổi mới",
+              "lessons": [
+                {
+                  "title": "Bảo vệ Tổ quốc và công cuộc Đổi mới",
+                  "summary": "Phân biệt nhiệm vụ bảo vệ đất nước sau 1975 với các thay đổi kinh tế, xã hội và đối ngoại từ Đổi mới."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đối ngoại và Hồ Chí Minh",
+          "topics": [
+            {
+              "title": "Đối ngoại và Hồ Chí Minh",
+              "lessons": [
+                {
+                  "title": "Đối ngoại và Hồ Chí Minh",
+                  "summary": "Đọc hoạt động đối ngoại theo bối cảnh và mục tiêu từng thời kì. Liên hệ hoạt động của Hồ Chí Minh với các giai đoạn cách mạng Việt Nam."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Địa lí tự nhiên Việt Nam",
+          "topics": [
+            {
+              "title": "Địa lí tự nhiên Việt Nam",
+              "lessons": [
+                {
+                  "title": "Địa lí tự nhiên Việt Nam",
+                  "summary": "Vị trí, gió mùa và địa hình tạo phân hoá theo bắc–nam, đông–tây và độ cao. Liên hệ điều kiện tự nhiên với thiên tai và thích ứng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dân cư và đô thị Việt Nam",
+          "topics": [
+            {
+              "title": "Dân cư và đô thị Việt Nam",
+              "lessons": [
+                {
+                  "title": "Dân cư và đô thị Việt Nam",
+                  "summary": "Đọc mật độ, cơ cấu tuổi, lao động và đô thị hoá. Phân biệt số dân lớn với mật độ cao."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Các ngành kinh tế Việt Nam",
+          "topics": [
+            {
+              "title": "Các ngành kinh tế Việt Nam",
+              "lessons": [
+                {
+                  "title": "Các ngành kinh tế Việt Nam",
+                  "summary": "Xem chuyển dịch cơ cấu và phân bố nông nghiệp, công nghiệp, dịch vụ. Đọc số liệu theo năm và đơn vị để tránh suy luận sai."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Địa lí vùng và kinh tế biển",
+          "topics": [
+            {
+              "title": "Địa lí vùng và kinh tế biển",
+              "lessons": [
+                {
+                  "title": "Địa lí vùng và kinh tế biển",
+                  "summary": "Phân tích thế mạnh theo vị trí, hạ tầng, tài nguyên và liên kết vùng. Khi dùng bản đồ hành chính, kiểm tra năm và phiên bản dữ liệu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thực hành biểu đồ và số liệu",
+          "topics": [
+            {
+              "title": "Thực hành biểu đồ và số liệu",
+              "lessons": [
+                {
+                  "title": "Thực hành biểu đồ và số liệu",
+                  "summary": "Tính tỉ trọng bằng phần chia tổng nhân 100%. Phân biệt tăng theo điểm phần trăm với tăng theo phần trăm so với ban đầu."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Tăng trưởng, phát triển và hội nhập",
+          "topics": [
+            {
+              "title": "Tăng trưởng, phát triển và hội nhập",
+              "lessons": [
+                {
+                  "title": "Tăng trưởng, phát triển và hội nhập",
+                  "summary": "Tăng trưởng nói về quy mô sản lượng; phát triển còn xét chất lượng sống và bền vững. Hội nhập mở thị trường và tạo sức ép cạnh tranh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bảo hiểm và an sinh xã hội",
+          "topics": [
+            {
+              "title": "Bảo hiểm và an sinh xã hội",
+              "lessons": [
+                {
+                  "title": "Bảo hiểm và an sinh xã hội",
+                  "summary": "Bảo hiểm chia sẻ rủi ro theo điều kiện cụ thể. An sinh xã hội còn có hỗ trợ và dịch vụ nhằm giảm tác động của rủi ro."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kế hoạch kinh doanh và trách nhiệm xã hội",
+          "topics": [
+            {
+              "title": "Kế hoạch kinh doanh và trách nhiệm xã hội",
+              "lessons": [
+                {
+                  "title": "Kế hoạch kinh doanh và trách nhiệm xã hội",
+                  "summary": "Dự kiến khách hàng, chi phí, dòng tiền và rủi ro. Trách nhiệm với người lao động, người tiêu dùng và môi trường đi cùng mục tiêu tài chính."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quản lí thu chi gia đình",
+          "topics": [
+            {
+              "title": "Quản lí thu chi gia đình",
+              "lessons": [
+                {
+                  "title": "Quản lí thu chi gia đình",
+                  "summary": "Xác định thu nhập, chi thiết yếu, chi linh hoạt và dự phòng. Khi thu nhập giảm, ưu tiên các khoản cần thiết và đánh giá lại ngân sách."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quyền và nghĩa vụ trong đời sống",
+          "topics": [
+            {
+              "title": "Quyền và nghĩa vụ trong đời sống",
+              "lessons": [
+                {
+                  "title": "Quyền và nghĩa vụ trong đời sống",
+                  "summary": "Phân loại tình huống theo quyền tài sản, kinh doanh, học tập, gia đình hoặc môi trường. Kiểm tra quy định hiện hành khi áp dụng vào việc cụ thể."
                 }
               ]
             }
