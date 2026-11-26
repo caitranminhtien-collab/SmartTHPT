@@ -1,59 +1,3208 @@
 {
   "courses": [
     {
+      "grade": 10,
+      "subject": "Toán",
+      "chapters": [
+        {
+          "title": "Đại số và hàm số",
+          "topics": [
+            {
+              "title": "Mệnh đề và tập hợp",
+              "lessons": [
+                {
+                  "title": "Mệnh đề và tập hợp",
+                  "summary": "Mệnh đề có giá trị đúng hoặc sai. Phủ định của “mọi” là “tồn tại một trường hợp không”; giao gồm phần tử thuộc cả hai tập, hợp gồm phần tử thuộc ít nhất một tập.",
+                  "rule": "Phủ định “mọi x đều có P” là “tồn tại x thiếu P”.",
+                  "example": "Để bác bỏ “mọi số nguyên tố đều lẻ”, chọn 2. Đây là số nguyên tố chẵn, nên chỉ một phản ví dụ đã đủ."
+                }
+              ]
+            },
+            {
+              "title": "Hàm số bậc hai",
+              "lessons": [
+                {
+                  "title": "Hàm số bậc hai",
+                  "summary": "Đồ thị y = ax² + bx + c là parabol có trục x = −b/(2a). Tính giá trị tại trục để tìm đỉnh rồi dùng dấu a xác định chiều mở.",
+                  "rule": "Đỉnh có hoành độ −b/(2a), tung độ tính bằng cách thay vào hàm.",
+                  "example": "y=x²−6x+5=(x−3)²−4. Đỉnh (3,−4), trục x=3, giá trị nhỏ nhất −4 vì bình phương luôn không âm."
+                }
+              ]
+            },
+            {
+              "title": "Hệ bất phương trình hai ẩn",
+              "lessons": [
+                {
+                  "title": "Hệ bất phương trình hai ẩn",
+                  "summary": "Mỗi bất phương trình bậc nhất xác định một nửa mặt phẳng. Vẽ đường biên, thử một điểm ngoài biên và lấy phần giao của các miền nghiệm.",
+                  "rule": "Gạch miền vi phạm từng ràng buộc. Dấu ≤ hoặc ≥ giữ đường biên.",
+                  "example": "Với x≥0, y≥0, x+y≤4, miền nghiệm là tam giác kín có đỉnh (0,0), (4,0), (0,4). Điểm (2,3) bị loại vì 5>4."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hình học phẳng",
+          "topics": [
+            {
+              "title": "Vectơ và tọa độ",
+              "lessons": [
+                {
+                  "title": "Vectơ và tọa độ",
+                  "summary": "Cộng vectơ theo quy tắc tam giác. Tích vô hướng bằng tích độ dài nhân cosin góc, bằng 0 khi hai vectơ khác 0 vuông góc. Dùng tọa độ để tính khoảng cách và viết phương trình đường thẳng, đường tròn.",
+                  "rule": "AB=(xB−xA,yB−yA). Độ dài lấy căn tổng bình phương.",
+                  "example": "A(−1,2), B(2,6) cho AB=(3,4), nên khoảng cách là √(9+16)=5. Đảo thứ tự vẫn giữ độ dài nhưng đổi dấu từng tọa độ."
+                }
+              ]
+            },
+            {
+              "title": "Hệ thức lượng trong tam giác",
+              "lessons": [
+                {
+                  "title": "Hệ thức lượng trong tam giác",
+                  "summary": "Định lí cosin a² = b² + c² − 2bc cos A giúp tìm cạnh hoặc góc. Định lí sin cho a/sin A = 2R, với R là bán kính đường tròn ngoại tiếp.",
+                  "rule": "Diện tích S=bc sin A/2 khi A là góc xen giữa hai cạnh b,c.",
+                  "example": "Hai cạnh 4 và 6 tạo góc 30°. Diện tích là 4×6×0,5/2=6. Không dùng góc đối diện một trong hai cạnh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thống kê và xác suất",
+          "topics": [
+            {
+              "title": "Thống kê và xác suất",
+              "lessons": [
+                {
+                  "title": "Thống kê và xác suất",
+                  "summary": "Trung vị ít bị ảnh hưởng bởi giá trị cực đoan hơn trung bình. Đếm bằng quy tắc cộng, nhân, hoán vị, chỉnh hợp hoặc tổ hợp; chỉ lấy số thuận lợi chia số khả năng khi các kết quả đồng khả năng.",
+                  "rule": "Tổ hợp C(n,k)=n!/[k!(n−k)!] dùng khi chọn k phần tử khác nhau và thứ tự không quan trọng.",
+                  "example": "Trong 5 thẻ có 3 thẻ đỏ. Rút ngẫu nhiên 2 thẻ một lượt, xác suất cả hai đỏ là C(3,2)/C(5,2)=3/10."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1BR-qxWkovYCfnNBJPEswt8b_X4UqUlou"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1YcdfBRAj9iGsZLqEJaade_n_Hn77pXRc"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/14DEUe1bvutvEtBnJmkZl23BlOKfYRajE"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1FvPPmNWEOuWOBBaWtgk1h1HIichTf0Ln"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc hiểu văn bản",
+          "topics": [
+            {
+              "title": "Đọc truyện và sử thi",
+              "lessons": [
+                {
+                  "title": "Đọc truyện và sử thi",
+                  "summary": "Xác định người kể, điểm nhìn, bối cảnh và xung đột. Với sử thi, xem nhân vật trung tâm thể hiện lí tưởng cộng đồng qua hành động và lời nói thế nào.",
+                  "rule": "Tách việc nhân vật làm, người thuật lại và giá trị cộng đồng mà câu chuyện đề cao.",
+                  "example": "Nếu người kể liên tục nhắc việc nhân vật bảo vệ nguồn nước cho cả làng, có thể dùng chi tiết đó để phân tích trách nhiệm cộng đồng. Cần dẫn đúng hành động thay vì chỉ gọi nhân vật là anh hùng."
+                }
+              ]
+            },
+            {
+              "title": "Đọc thơ",
+              "lessons": [
+                {
+                  "title": "Đọc thơ",
+                  "summary": "Nhận ra chủ thể trữ tình, hình ảnh, nhịp và sự vận động cảm xúc. Khi phân tích, nối một chi tiết cụ thể với ý nghĩa của cả đoạn.",
+                  "rule": "Đọc thành tiếng để tìm chỗ ngắt nhịp. So sánh hình ảnh trước và sau điểm chuyển cảm xúc.",
+                  "example": "Trong câu tự soạn “Sân vắng. Một chiếc lá vừa rơi”, dấu chấm làm nhịp đứt ngắn; chuyển động nhỏ giúp người đọc cảm nhận rõ sự yên tĩnh."
+                }
+              ]
+            },
+            {
+              "title": "Đọc văn bản thông tin",
+              "lessons": [
+                {
+                  "title": "Đọc văn bản thông tin",
+                  "summary": "Tìm thông tin chính qua nhan đề, đề mục và đoạn mở đầu. Kiểm tra bảng, hình và nguồn trước khi dùng số liệu để lập luận.",
+                  "rule": "Xác định đại lượng, đơn vị và đối tượng khảo sát trước khi diễn giải con số.",
+                  "example": "“60% trong 50 học sinh được hỏi đi xe buýt” tương ứng 30 em. Mẫu 50 học sinh chưa cho phép kết luận 60% học sinh toàn tỉnh đi xe buýt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết và giao tiếp",
+          "topics": [
+            {
+              "title": "Viết nghị luận",
+              "lessons": [
+                {
+                  "title": "Viết nghị luận",
+                  "summary": "Nêu luận đề rõ, triển khai từng luận điểm bằng lí lẽ và bằng chứng, rồi giải thích mối liên hệ giữa bằng chứng với nhận định.",
+                  "rule": "Viết đoạn theo trình tự luận điểm → bằng chứng → giải thích → nối lại luận đề.",
+                  "example": "Để bảo vệ đề xuất kéo dài giờ mở thư viện, dùng số lượt học sinh đến sau giờ học và giải thích vì sao khung giờ hiện tại bỏ sót nhu cầu đó."
+                }
+              ]
+            },
+            {
+              "title": "Nói, nghe và dùng tiếng Việt",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và dùng tiếng Việt",
+                  "summary": "Trình bày ý theo bố cục mở–thân–kết, lắng nghe phản hồi. Soát nghĩa từ trong ngữ cảnh, tránh lỗi lặp và lỗi liên kết câu.",
+                  "rule": "Khi nghe, ghi riêng quan điểm và bằng chứng. Khi nói, dùng câu chuyển để báo hiệu thay đổi ý.",
+                  "example": "Bạn nói “cả lớp đều thích học nhóm”. Có thể hỏi lại “Bạn dựa trên khảo sát cả lớp hay ý kiến nhóm mình?” để làm rõ phạm vi nhận định."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Everyday life and society",
+          "topics": [
+            {
+              "title": "Family and routines",
+              "lessons": [
+                {
+                  "title": "Family and routines",
+                  "summary": "Dùng present simple cho thói quen và present continuous cho việc đang xảy ra. So sánh “I cook on Sundays” với “I am cooking now”.",
+                  "rule": "Present simple dùng S + V(s/es); present continuous dùng am/is/are + V-ing.",
+                  "example": "“Lan usually walks to school, but today she is taking the bus.” Usually báo thói quen; today ở đây đi với hành động tạm thời."
+                }
+              ]
+            },
+            {
+              "title": "Environment and inventions",
+              "lessons": [
+                {
+                  "title": "Environment and inventions",
+                  "summary": "Dùng passive để nhấn đối tượng: “The bottles are recycled.” Với phát minh, mô tả công dụng bằng “is used to” kèm động từ nguyên mẫu.",
+                  "rule": "Câu bị động dùng be ở đúng thì + past participle. Chủ ngữ nhận tác động.",
+                  "example": "“Students reuse these boxes” đổi thành “These boxes are reused by students”. Boxes số nhiều nên dùng are; reuse chuyển thành reused."
+                }
+              ]
+            },
+            {
+              "title": "Community and equality",
+              "lessons": [
+                {
+                  "title": "Community and equality",
+                  "summary": "Học từ theo cụm như “do volunteer work” và “equal opportunities”. Dùng should để đề xuất và giải thích bằng because hoặc so that.",
+                  "rule": "Should + động từ nguyên mẫu đưa lời khuyên; because nối với một mệnh đề chỉ lí do.",
+                  "example": "“We should offer free lessons because some children cannot afford them.” Sau should dùng offer và sau because có chủ ngữ some children."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education and communication",
+          "topics": [
+            {
+              "title": "Education and tourism",
+              "lessons": [
+                {
+                  "title": "Education and tourism",
+                  "summary": "Dùng who, which hoặc that để bổ nghĩa danh từ. Chẳng hạn “A guide is someone who shows visitors around”.",
+                  "rule": "Who thay người, which thay vật trong mệnh đề quan hệ. Tìm danh từ đứng trước để chọn từ nối.",
+                  "example": "“The woman who leads the tour lives here.” Who làm chủ ngữ của leads, nên không thêm she sau who."
+                }
+              ]
+            },
+            {
+              "title": "Đọc và viết đoạn ngắn",
+              "lessons": [
+                {
+                  "title": "Đọc và viết đoạn ngắn",
+                  "summary": "Đọc lướt lấy ý chính rồi dò chi tiết. Khi viết, đưa ý chính lên đầu đoạn, tiếp theo là một ví dụ cụ thể và câu kết nối.",
+                  "rule": "Đọc câu chủ đề, xác định ý từng câu hỗ trợ rồi viết lại ý chính bằng lời của mình.",
+                  "example": "Đoạn nêu việc đi bộ giảm chi phí và tăng vận động có thể mở bằng “Walking to school has two benefits.” Hai câu sau lần lượt giải thích hai lợi ích."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1_i7ix2c7HqY8bRjkyHU_YHwcJLtYXZH3"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Meiro5voLpNOs1Np_AQMzGYiUGjAMDo-"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1eZTgQx_YqZKdipIXgrNmO45Gc4aepqj8"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1lF5jW7dXWIRhuUUsPG50luIBlGh1BtXZ"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Đo lường và động học",
+          "topics": [
+            {
+              "title": "Đo lường và sai số",
+              "lessons": [
+                {
+                  "title": "Đo lường và sai số",
+                  "summary": "Ghi giá trị đo kèm đơn vị và độ không chắc chắn. Phân biệt độ chia dụng cụ với độ phân tán giữa các lần đo.",
+                  "rule": "Khi đề dùng sai số tuyệt đối ΔA, sai số tương đối là ΔA/|A| × 100% với A khác 0.",
+                  "example": "Chiều dài (20,0 ± 0,2) cm cho sai số tương đối 0,2/20,0 × 100%=1%. Báo kết quả đo kèm đơn vị."
+                }
+              ]
+            },
+            {
+              "title": "Động học",
+              "lessons": [
+                {
+                  "title": "Động học",
+                  "summary": "Độ dời có hướng, quãng đường theo độ dài đường đi. Với gia tốc không đổi, v = v₀ + at và độ dời bằng v₀t + ½at² trên trục đã chọn.",
+                  "rule": "Với gia tốc không đổi, v²−v₀²=2aΔx. Chọn chiều dương trước khi thay số.",
+                  "example": "Xe đang chạy 10 m/s, hãm với a=−2 m/s². Khi dừng, 0−100=−4Δx nên Δx=25 m."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Động lực học và năng lượng",
+          "topics": [
+            {
+              "title": "Lực và định luật Newton",
+              "lessons": [
+                {
+                  "title": "Lực và định luật Newton",
+                  "summary": "Vẽ các lực tác dụng lên đúng vật. Hợp lực bằng ma theo vectơ. Hai lực tương tác đặt lên hai vật khác nhau nên không triệt tiêu trên cùng sơ đồ.",
+                  "rule": "Chiếu tổng lực lên từng trục rồi giải ΣF=ma. Đơn vị lực là N.",
+                  "example": "Vật 2 kg bị kéo ngang 8 N, ma sát 2 N ngược chiều. Hợp lực 6 N nên a=3 m/s²; trọng lực và phản lực cân bằng theo phương đứng."
+                }
+              ]
+            },
+            {
+              "title": "Công và năng lượng",
+              "lessons": [
+                {
+                  "title": "Công và năng lượng",
+                  "summary": "Công của lực không đổi bằng Fs cos θ. Độ biến thiên động năng bằng tổng công; cơ năng bảo toàn khi chỉ các lực thế sinh công.",
+                  "rule": "Động năng Wđ=mv²/2. Công suất trung bình P=A/Δt.",
+                  "example": "Vật 2 kg tăng tốc từ 1 lên 3 m/s. Tổng công bằng độ tăng động năng: 2(9−1)/2=8 J."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Động lượng, chuyển động tròn và đàn hồi",
+          "topics": [
+            {
+              "title": "Động lượng và va chạm",
+              "lessons": [
+                {
+                  "title": "Động lượng và va chạm",
+                  "summary": "p = mv. Tổng động lượng hệ được bảo toàn khi xung lượng ngoại lực không đáng kể, kể cả khi động năng giảm trong va chạm mềm.",
+                  "rule": "Chọn hệ và chiều dương; bảo toàn tổng động lượng theo từng phương khi xung lượng ngoài không đáng kể.",
+                  "example": "Xe 2 kg chạy 3 m/s dính vào xe 1 kg đứng yên. Vận tốc chung là (2×3)/(2+1)=2 m/s."
+                }
+              ]
+            },
+            {
+              "title": "Chuyển động tròn và biến dạng",
+              "lessons": [
+                {
+                  "title": "Chuyển động tròn và biến dạng",
+                  "summary": "Gia tốc hướng tâm v²/r hướng vào tâm. Trong giới hạn đàn hồi tuyến tính, lực đàn hồi lò xo có độ lớn k lần độ biến dạng.",
+                  "rule": "Tốc độ góc ω=2π/T, v=ωr và a hướng tâm=ω²r khi chuyển động tròn đều.",
+                  "example": "Bánh xe bán kính 0,2 m quay một vòng mỗi giây. Tốc độ điểm vành bằng 0,4π m/s, hướng vận tốc tiếp tuyến với quỹ đạo."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Ybmxdf5c9JKkzdFsnQvoXMSOeRZRO6Aj"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1H6SZXw17_BbEoVDHubrmeuiGXyfrrTlg"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/12Z8alRJ8biNko2_BvGHm4IjubNN3ZrXW"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1ZMM2gU6rks7U21uUCX65g6-7gezZGEPv"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Nguyên tử và liên kết",
+          "topics": [
+            {
+              "title": "Cấu tạo nguyên tử và bảng tuần hoàn",
+              "lessons": [
+                {
+                  "title": "Cấu tạo nguyên tử và bảng tuần hoàn",
+                  "summary": "Số proton xác định nguyên tố. Đồng vị có cùng số proton và khác neutron. Dùng cấu hình electron hoá trị để giải thích một số xu hướng tuần hoàn.",
+                  "rule": "Số khối A=Z+N. Nguyên tử trung hoà có số electron bằng Z.",
+                  "example": "Nguyên tử có Z=11, A=23 có 11 proton, 12 neutron và 11 electron. Ion Na⁺ mất một electron còn 10 electron."
+                }
+              ]
+            },
+            {
+              "title": "Liên kết hoá học",
+              "lessons": [
+                {
+                  "title": "Liên kết hoá học",
+                  "summary": "Liên kết ion hình thành từ lực hút giữa ion trái dấu. Liên kết cộng hoá trị dùng chung electron. Độ phân cực của cả phân tử còn phụ thuộc hình học.",
+                  "rule": "Phân biệt độ phân cực của liên kết với tổng các moment liên kết trong cả phân tử.",
+                  "example": "CO₂ có hai liên kết C=O phân cực, nhưng phân tử thẳng và đối xứng làm hai moment triệt tiêu. H₂O gấp khúc nên không triệt tiêu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phản ứng hoá học",
+          "topics": [
+            {
+              "title": "Oxi hoá và khử",
+              "lessons": [
+                {
+                  "title": "Oxi hoá và khử",
+                  "summary": "Oxi hoá làm tăng số oxi hoá, khử làm giảm. Cân bằng phản ứng bằng cách cho tổng electron nhường bằng tổng electron nhận.",
+                  "rule": "Đếm thay đổi số oxi hoá rồi cân bằng số electron trước khi kiểm tra nguyên tử.",
+                  "example": "Trong Zn + Cu²⁺ → Zn²⁺ + Cu, Zn nhường 2 electron, Cu²⁺ nhận 2 electron. Zn là chất khử."
+                }
+              ]
+            },
+            {
+              "title": "Năng lượng và tốc độ phản ứng",
+              "lessons": [
+                {
+                  "title": "Năng lượng và tốc độ phản ứng",
+                  "summary": "ΔH âm là toả nhiệt. Tốc độ phụ thuộc va chạm hiệu quả; chất xúc tác tạo đường phản ứng có năng lượng hoạt hoá thấp hơn.",
+                  "rule": "Tốc độ tiêu hao trung bình của một chất là −ΔC/Δt. Khi tính tốc độ phản ứng cần chia thêm hệ số tỉ lượng.",
+                  "example": "Nồng độ A giảm từ 0,8 xuống 0,5 mol/L sau 10 s. Tốc độ tiêu hao A là 0,03 mol/(L·s)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nhóm halogen",
+          "topics": [
+            {
+              "title": "Halogen",
+              "lessons": [
+                {
+                  "title": "Halogen",
+                  "summary": "Tính oxi hoá của halogen nhìn chung yếu dần từ F₂ đến I₂. Cần phân biệt tính oxi hoá của đơn chất với tính khử của ion halide.",
+                  "rule": "Trong dãy Cl₂, Br₂, I₂, đơn chất đứng trước có thể oxi hoá ion halide đứng sau.",
+                  "example": "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Br⁻ nhường electron nên bị oxi hoá dù ban đầu mang điện âm."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1CJBwnT_2zAagNbg-OOLtCRDlY2URzJl5"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1XTJcqcga7FTXdI_A44u2HkZ00GPXcoF4"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1FeiQh-zY_qKxEI5DSGgG9uxX4C8pcEND"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1yyDEO9Q0zLBfD74p3s8qC2-GbgSiF6Po"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Cấu trúc và hoạt động tế bào",
+          "topics": [
+            {
+              "title": "Phân tử và tế bào",
+              "lessons": [
+                {
+                  "title": "Phân tử và tế bào",
+                  "summary": "Carbohydrate cung cấp năng lượng và tham gia cấu trúc; protein đảm nhiệm nhiều chức năng; acid nucleic lưu hoặc truyền thông tin di truyền.",
+                  "rule": "Liên hệ cấu trúc phân tử với chức năng sinh học. Phân biệt đơn phân với đại phân tử.",
+                  "example": "Tinh bột và cellulose đều cấu tạo từ glucose, nhưng cách nối khác nhau làm một chất dự trữ năng lượng và chất kia góp phần tạo vách tế bào."
+                }
+              ]
+            },
+            {
+              "title": "Màng sinh chất và vận chuyển",
+              "lessons": [
+                {
+                  "title": "Màng sinh chất và vận chuyển",
+                  "summary": "Khuếch tán thụ động theo gradien; vận chuyển chủ động có thể đi ngược gradien và cần năng lượng. Thẩm thấu là sự di chuyển của nước qua màng chọn lọc.",
+                  "rule": "Xét màng cho thành phần nào đi qua và chênh lệch nồng độ chất tan hai bên.",
+                  "example": "Đặt tế bào thực vật trong môi trường ưu trương, nước có xu hướng đi ra qua màng. Khối nguyên sinh co lại và có thể tách khỏi vách."
+                }
+              ]
+            },
+            {
+              "title": "Chuyển hoá tế bào",
+              "lessons": [
+                {
+                  "title": "Chuyển hoá tế bào",
+                  "summary": "ATP truyền năng lượng giữa các quá trình. Enzyme tăng tốc phản ứng và có thể giảm hoạt tính khi pH hoặc nhiệt độ bất lợi.",
+                  "rule": "Enzyme làm giảm năng lượng hoạt hoá. So sánh hoạt tính phải giữ ổn định các yếu tố ngoài biến khảo sát.",
+                  "example": "Muốn giải thích ảnh hưởng của nhiệt độ từ một đồ thị, so sánh tốc độ phản ứng ở cùng pH và nồng độ cơ chất. Đoạn giảm ở nhiệt độ cao có thể do enzyme biến tính."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phân bào và thế giới vi sinh",
+          "topics": [
+            {
+              "title": "Chu kì tế bào và phân bào",
+              "lessons": [
+                {
+                  "title": "Chu kì tế bào và phân bào",
+                  "summary": "DNA nhân đôi trước phân bào. Nguyên phân duy trì bộ nhiễm sắc thể; giảm phân tạo tế bào đơn bội và góp phần tạo biến dị.",
+                  "rule": "Đếm nhiễm sắc thể theo tâm động và ghi rõ đang xét cả tế bào hay một nhân con.",
+                  "example": "Tế bào 2n=8 sau nhân đôi DNA vẫn có 8 nhiễm sắc thể kép. Khi nguyên phân hoàn tất, mỗi tế bào con nhận 8 nhiễm sắc thể."
+                }
+              ]
+            },
+            {
+              "title": "Vi sinh vật và virus",
+              "lessons": [
+                {
+                  "title": "Vi sinh vật và virus",
+                  "summary": "Vi sinh vật có kiểu dinh dưỡng đa dạng và được ứng dụng trong lên men. Virus thiếu bộ máy sinh sản độc lập nên cần tế bào chủ.",
+                  "rule": "Phân biệt tế bào có bộ máy chuyển hoá với tác nhân phụ thuộc bộ máy của tế bào chủ.",
+                  "example": "Nấm men là tế bào có ribosome và chuyển hoá riêng. Virus không tự tổng hợp protein, nên sự có mặt của vật chất di truyền chưa đủ để suy ra một cấu trúc là tế bào."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/12YMm6rQP6J5FlSoZ-jv8Wjv5cMP-vjZo"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/10qRYgbdbRoKHMD_VOIBomCHAgl0MlcP4"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/18VR7JtSZOW2cqHP1H4C1hQFq8DZwAR12"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1teZVtOvWmiE1xxD1Q2AJqrKGZtL-yt7k"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Sử học và các nền văn minh",
+          "topics": [
+            {
+              "title": "Lịch sử và sử liệu",
+              "lessons": [
+                {
+                  "title": "Lịch sử và sử liệu",
+                  "summary": "Tách sự kiện đã xảy ra khỏi cách con người diễn giải. Khi đọc tư liệu, xác định tác giả, thời điểm, mục đích và đối chiếu nguồn khác.",
+                  "rule": "Phân tích tư liệu theo tác giả, thời điểm, người đọc dự kiến và điều có thể kiểm chứng.",
+                  "example": "Nhật kí viết cùng thời cho biết một cá nhân đã quan sát gì. Muốn kết luận về cả cộng đồng cần so sánh với nguồn khác thời điểm hoặc góc nhìn."
+                }
+              ]
+            },
+            {
+              "title": "Văn minh cổ đại và trung đại",
+              "lessons": [
+                {
+                  "title": "Văn minh cổ đại và trung đại",
+                  "summary": "So sánh các nền văn minh theo môi trường, tổ chức xã hội và thành tựu chữ viết, khoa học, kiến trúc thay vì chỉ nhớ tên.",
+                  "rule": "Lập bảng đối chiếu điều kiện tự nhiên, tổ chức xã hội, thành tựu và ảnh hưởng.",
+                  "example": "Khi giải thích vai trò sông Nile với Ai Cập cổ đại, nối phù sa với canh tác và nhu cầu phối hợp thuỷ lợi, thay vì quy toàn bộ thành tựu cho một con sông."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Biến đổi lịch sử và văn hoá cộng đồng",
+          "topics": [
+            {
+              "title": "Các cuộc cách mạng công nghiệp",
+              "lessons": [
+                {
+                  "title": "Các cuộc cách mạng công nghiệp",
+                  "summary": "Theo dõi sự chuyển đổi từ cơ giới hoá sang điện khí hoá, tự động hoá và công nghệ số. Phân tích tác động lên lao động cùng thay đổi sản xuất.",
+                  "rule": "Theo dõi chuỗi phát minh → tổ chức sản xuất → thay đổi đời sống.",
+                  "example": "Máy hơi nước giúp nhà máy giảm phụ thuộc vào sức nước tại chỗ. Sản xuất tập trung góp phần thu hút lao động tới đô thị công nghiệp."
+                }
+              ]
+            },
+            {
+              "title": "Văn minh Đông Nam Á và Việt Nam",
+              "lessons": [
+                {
+                  "title": "Văn minh Đông Nam Á và Việt Nam",
+                  "summary": "Biển, sông ngòi và giao thương tạo điều kiện tiếp xúc văn hoá. Nhận diện dấu ấn của Văn Lang–Âu Lạc, Chăm-pa, Phù Nam và Đại Việt trong từng bối cảnh.",
+                  "rule": "Đọc hiện vật theo chất liệu, chức năng và bối cảnh tìm thấy. Phân biệt mô tả với suy luận.",
+                  "example": "Hình thuyền trên trống đồng là chi tiết quan sát được. Nhận định về vai trò đường thuỷ là suy luận cần kết hợp thêm di tích và tư liệu khác."
+                }
+              ]
+            },
+            {
+              "title": "Cộng đồng các dân tộc Việt Nam",
+              "lessons": [
+                {
+                  "title": "Cộng đồng các dân tộc Việt Nam",
+                  "summary": "Phân biệt nét đa dạng về ngôn ngữ, sinh kế, phong tục với quá trình giao lưu và gắn kết cộng đồng qua lịch sử.",
+                  "rule": "So sánh sinh kế trong điều kiện tự nhiên cụ thể; tránh đồng nhất một tập quán với mọi thành viên của một dân tộc.",
+                  "example": "Ruộng bậc thang cho thấy cách tạo mặt canh tác trên sườn dốc. Khi thuyết minh cần nêu địa bàn cụ thể thay vì coi đó là đặc điểm của toàn bộ cư dân miền núi."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Wcp6HNC4XtLoTdFwu_-_ReHo64kDM36H"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1it-rvW5NYapUadwXTCt5BlHyc4hLF9Ee"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/12Z8alRJ8biNko2_BvGHm4IjubNN3ZrXW"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/10Q701ax6v_TNVFU8Dasf5SZ598afQS73"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Địa lí tự nhiên và bản đồ",
+          "topics": [
+            {
+              "title": "Bản đồ và dữ liệu địa lí",
+              "lessons": [
+                {
+                  "title": "Bản đồ và dữ liệu địa lí",
+                  "summary": "Đọc tỉ lệ, phương hướng và chú giải trước khi so sánh. Tỉ lệ 1:100 000 nghĩa là 1 cm bản đồ tương ứng 1 km thực địa.",
+                  "rule": "Khoảng cách thực bằng khoảng cách bản đồ nhân mẫu số tỉ lệ, sau đó đổi đơn vị.",
+                  "example": "Trên bản đồ 1:200 000, hai điểm cách 3 cm tương ứng 600 000 cm, tức 6 km đường thẳng."
+                }
+              ]
+            },
+            {
+              "title": "Trái Đất và các quyển",
+              "lessons": [
+                {
+                  "title": "Trái Đất và các quyển",
+                  "summary": "Nội lực và ngoại lực cùng tạo địa hình. Khí quyển, thuỷ quyển, đất và sinh vật trao đổi vật chất và tác động lẫn nhau.",
+                  "rule": "Theo dõi tác động liên hoàn giữa khí quyển, nước, đất và sinh vật.",
+                  "example": "Mưa lớn trên sườn trống làm tăng dòng chảy mặt, cuốn đất xuống suối. Khi giải thích cần xét thêm độ dốc và độ che phủ thực vật."
+                }
+              ]
+            },
+            {
+              "title": "Quy luật địa lí và môi trường",
+              "lessons": [
+                {
+                  "title": "Quy luật địa lí và môi trường",
+                  "summary": "Địa đới gắn với phân bố bức xạ theo vĩ độ; phi địa đới có thể gắn với địa hình và phân bố lục địa–đại dương.",
+                  "rule": "Xác định hướng phân hoá trước khi chọn quy luật giải thích.",
+                  "example": "Cùng vĩ độ, chân núi nóng hơn đỉnh núi chủ yếu gắn với độ cao. Thay đổi này minh hoạ quy luật đai cao."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Địa lí dân cư và kinh tế",
+          "topics": [
+            {
+              "title": "Dân cư và đô thị hoá",
+              "lessons": [
+                {
+                  "title": "Dân cư và đô thị hoá",
+                  "summary": "Phân biệt gia tăng tự nhiên với di cư. Tỉ lệ dân thành thị tăng có thể do di cư, mở rộng địa giới hoặc thay đổi phân loại.",
+                  "rule": "Tỉ lệ dân thành thị = dân thành thị/tổng dân số × 100%. Mật độ = dân số/diện tích.",
+                  "example": "Một vùng 2 triệu người có 800 nghìn người sống ở đô thị thì tỉ lệ dân thành thị là 40%, không phải tốc độ đô thị hoá theo năm."
+                }
+              ]
+            },
+            {
+              "title": "Các ngành kinh tế",
+              "lessons": [
+                {
+                  "title": "Các ngành kinh tế",
+                  "summary": "Phân tích nguồn lực, phân bố và tác động môi trường của nông nghiệp, công nghiệp và dịch vụ. Giải thích vị trí bằng nhiều yếu tố thay vì một nguyên nhân.",
+                  "rule": "Xem ngành cần đầu vào gì, bán cho ai và vận tải ảnh hưởng thế nào đến chi phí.",
+                  "example": "Nhà máy chế biến sữa tươi thường cần tiếp cận vùng nguyên liệu vì sữa dễ hỏng; kho lạnh và đường giao thông cũng tác động tới vị trí."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1qjj1WoNqXQ2djDwjOnLU-SS8B49d6Bq6"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1EWrD7cftX1-S-FMLyr0Jt-6DnZrjgwEZ"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Mm25m9fW57cRWE_WbdojS5AiYwwQvMaL"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-10-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1KPkc98fZIrGYAHZ7lyieMce6Pz69QVgz"
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Kinh tế và tài chính",
+          "topics": [
+            {
+              "title": "Hoạt động kinh tế và thị trường",
+              "lessons": [
+                {
+                  "title": "Hoạt động kinh tế và thị trường",
+                  "summary": "Sản xuất tạo hàng hoá, phân phối đưa thu nhập hoặc sản phẩm tới chủ thể, trao đổi nối người mua và người bán, tiêu dùng thoả mãn nhu cầu.",
+                  "rule": "Theo dõi một sản phẩm từ tạo ra, phân phối, trao đổi đến sử dụng.",
+                  "example": "Với chiếc áo, may áo là sản xuất, trả lương cho thợ thuộc phân phối thu nhập, mua áo là trao đổi, mặc áo là tiêu dùng."
+                }
+              ]
+            },
+            {
+              "title": "Ngân sách, thuế và tín dụng",
+              "lessons": [
+                {
+                  "title": "Ngân sách, thuế và tín dụng",
+                  "summary": "Thuế góp vào nguồn thu công. Tín dụng cho phép sử dụng vốn trước rồi hoàn trả theo thoả thuận; khi so sánh khoản vay cần tính lãi, phí và thời hạn.",
+                  "rule": "Lãi đơn I=P×r×t chỉ dùng khi đề cho lãi đơn, r và t dùng cùng kì hạn.",
+                  "example": "Vay giả định 5 triệu đồng với lãi đơn 6%/năm trong một năm, không có phí thì lãi là 300 nghìn và tổng trả là 5,3 triệu đồng."
+                }
+              ]
+            },
+            {
+              "title": "Sản xuất kinh doanh và tài chính cá nhân",
+              "lessons": [
+                {
+                  "title": "Sản xuất kinh doanh và tài chính cá nhân",
+                  "summary": "Lập kế hoạch thu, chi, tiết kiệm và dự phòng. Phân biệt doanh thu với lợi nhuận sau khi trừ chi phí.",
+                  "rule": "Lợi nhuận = doanh thu − tổng chi phí trong cùng kì. Phân biệt lợi nhuận với tiền còn trong két.",
+                  "example": "Bán 100 sản phẩm giá 30 nghìn thu 3 triệu, chi phí 2,4 triệu thì lãi 600 nghìn trước các khoản chưa tính."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pháp luật và nhà nước",
+          "topics": [
+            {
+              "title": "Pháp luật và Hiến pháp",
+              "lessons": [
+                {
+                  "title": "Pháp luật và Hiến pháp",
+                  "summary": "Hiến pháp có hiệu lực pháp lí cao nhất. Phân biệt cơ quan ban hành, nội dung được điều chỉnh và hình thức thực hiện pháp luật.",
+                  "rule": "Nhận diện quy tắc xử sự, chủ thể thực hiện và căn cứ của quy tắc.",
+                  "example": "So sánh nội quy lớp với văn bản luật bằng cách xác định ai ban hành và ai chịu sự điều chỉnh. Việc cả hai cùng đặt quy tắc không làm chúng có cùng hiệu lực."
+                }
+              ]
+            },
+            {
+              "title": "Bộ máy nhà nước",
+              "lessons": [
+                {
+                  "title": "Bộ máy nhà nước",
+                  "summary": "Nhận diện chức năng lập pháp, hành pháp, tư pháp trong các ví dụ và mối liên hệ với cơ cấu tổ chức nhà nước.",
+                  "rule": "Đọc tình huống theo chức năng được thực hiện rồi mới xác định nhóm cơ quan.",
+                  "example": "Một tình huống nói về xét xử vụ án liên quan chức năng tư pháp. Một tình huống nói về biểu quyết thông qua luật liên quan chức năng lập pháp."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-1-nh-2025-2026-mon-gdktpl-10",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-cuoi-hoc-ky-1-nh-2024-2025-mon-gdktpl-10",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-2-nh-2024-2025-mon-gdkt-pl-10",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "year": "2024-2025",
+          "publisher": "THPT Bình Chiểu",
+          "url": "https://thptbinhchieu.hcm.edu.vn/de-thi-dap-an/de-kiem-tra-dap-an-de-kiem-tra-hoc-ky-ii-nam-hoc-2024-2025-mon-giao-duc-kinh-te/ctfull/87477/531990"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Toán",
+      "chapters": [
+        {
+          "title": "Hàm số, dãy số và giải tích",
+          "topics": [
+            {
+              "title": "Lượng giác",
+              "lessons": [
+                {
+                  "title": "Lượng giác",
+                  "summary": "Sử dụng đường tròn lượng giác để xác định dấu, chu kì và nghiệm tổng quát; kết quả phải xét miền giá trị yêu cầu.",
+                  "rule": "sin²x+cos²x=1. sin x=sin α khi x=α+2kπ hoặc x=π−α+2kπ, k nguyên.",
+                  "example": "sin x=1/2 trên [0,2π] cho π/6 và 5π/6. Kiểm tra khoảng nghiệm trước khi chốt số nghiệm."
+                }
+              ]
+            },
+            {
+              "title": "Dãy số và cấp số",
+              "lessons": [
+                {
+                  "title": "Dãy số và cấp số",
+                  "summary": "Cấp số cộng có hiệu hai số hạng liên tiếp không đổi. Cấp số nhân có uₙ₊₁ = q uₙ. Phân biệt số hạng thứ n với tổng n số hạng.",
+                  "rule": "uₙ=u₁+(n−1)d với cấp số cộng. Sₙ=n(u₁+uₙ)/2.",
+                  "example": "Dãy 3,7,11,… có d=4. u₁₀=3+9×4=39 và S₁₀=10(3+39)/2=210."
+                }
+              ]
+            },
+            {
+              "title": "Giới hạn và liên tục",
+              "lessons": [
+                {
+                  "title": "Giới hạn và liên tục",
+                  "summary": "Giới hạn tại điểm tồn tại khi hai giới hạn một phía bằng nhau. Liên tục còn đòi hỏi giá trị hàm tại điểm bằng giới hạn.",
+                  "rule": "Khi biểu thức có dạng 0/0, thử phân tích nhân tử và rút gọn ở lân cận điểm xét.",
+                  "example": "lim khi x→2 của (x²−4)/(x−2) bằng lim(x+2)=4. Biểu thức gốc vẫn chưa xác định tại 2."
+                }
+              ]
+            },
+            {
+              "title": "Mũ, logarit và đạo hàm",
+              "lessons": [
+                {
+                  "title": "Mũ, logarit và đạo hàm",
+                  "summary": "Logarit chỉ nhận đối số dương với cơ số dương khác 1. Đạo hàm tại điểm biểu thị tốc độ thay đổi tức thời và là hệ số góc tiếp tuyến.",
+                  "rule": "logₐb=c tương đương aᶜ=b, với a>0, a≠1, b>0. Đạo hàm eˣ là eˣ.",
+                  "example": "Giải log₂(x−1)=3. Điều kiện x>1, suy ra x−1=8, nên x=9 thoả điều kiện."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hình học không gian",
+          "topics": [
+            {
+              "title": "Quan hệ trong không gian",
+              "lessons": [
+                {
+                  "title": "Quan hệ trong không gian",
+                  "summary": "Dùng các đường thẳng nằm trong mặt phẳng để chứng minh song song hoặc vuông góc. Đường thẳng vuông góc hai đường cắt nhau trong mặt phẳng thì vuông góc mặt phẳng.",
+                  "rule": "Để chứng minh đường vuông góc mặt, chọn hai đường cắt nhau trong mặt và chứng minh vuông góc với cả hai.",
+                  "example": "Trong hình lập phương, cạnh đứng AA′ vuông góc AB và AD. Hai đường AB, AD cắt nhau và nằm trong đáy nên AA′ vuông góc mặt đáy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thống kê và xác suất",
+          "topics": [
+            {
+              "title": "Thống kê và xác suất",
+              "lessons": [
+                {
+                  "title": "Thống kê và xác suất",
+                  "summary": "Đọc tần số theo lớp ghép nhóm. Dùng P(A ∪ B) = P(A) + P(B) − P(A ∩ B); biến cố độc lập thoả quy tắc nhân xác suất.",
+                  "rule": "Hai biến cố độc lập có P(A∩B)=P(A)P(B). Xung khắc cho giao rỗng.",
+                  "example": "Tung hai đồng xu cân đối độc lập. Xác suất cả hai ngửa bằng 1/2×1/2=1/4. Xác suất ít nhất một ngửa là 1−1/4=3/4."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1kqi9c7dbgAbquQq-pvAgtuUOBrrX2_dv"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1iAkM-D6K-6gcH9qMdQB14GljNJqGX3k4"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1HvxUg1waodXX_kVqpCQqHk-Pg2f74uou"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc hiểu theo thể loại",
+          "topics": [
+            {
+              "title": "Đọc truyện và kí",
+              "lessons": [
+                {
+                  "title": "Đọc truyện và kí",
+                  "summary": "Phân biệt người kể với tác giả. Với kí, xem chi tiết hiện thực và cảm xúc được tổ chức thế nào để tạo góc nhìn.",
+                  "rule": "Xác định người kể có thể biết những sự việc nào và dấu hiệu nào thể hiện cảm xúc chủ quan.",
+                  "example": "Câu “tôi nghe tiếng chân phía cửa” giới hạn người đọc ở điều nhân vật nghe. Chưa thể kết luận người đứng ngoài là ai nếu thiếu chi tiết xác nhận."
+                }
+              ]
+            },
+            {
+              "title": "Đọc thơ và kịch",
+              "lessons": [
+                {
+                  "title": "Đọc thơ và kịch",
+                  "summary": "Trong thơ chú ý biểu tượng, cấu tứ và nhịp. Trong kịch, xem xung đột bộc lộ qua đối thoại, hành động và tình huống.",
+                  "rule": "Trong kịch, so sánh điều nhân vật nói với hành động và chỉ dẫn sân khấu.",
+                  "example": "Một nhân vật nói “tôi đồng ý” nhưng lùi khỏi bàn kí. Mâu thuẫn giữa lời và động tác có thể là dấu hiệu xung đột nội tâm."
+                }
+              ]
+            },
+            {
+              "title": "Đọc văn bản nghị luận",
+              "lessons": [
+                {
+                  "title": "Đọc văn bản nghị luận",
+                  "summary": "Nhận diện luận đề, luận điểm, bằng chứng và giả định. Thử kiểm tra xem ví dụ thực sự chứng minh nhận định nào.",
+                  "rule": "Kiểm tra từng bước từ dẫn chứng đến kết luận, đặc biệt phạm vi của lượng từ như mọi, luôn luôn.",
+                  "example": "Một học sinh tiến bộ sau khi đổi cách học là ví dụ cá nhân. Muốn kết luận cách đó hiệu quả với mọi học sinh cần thêm bằng chứng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết và phản biện",
+          "topics": [
+            {
+              "title": "Viết về tác phẩm và vấn đề xã hội",
+              "lessons": [
+                {
+                  "title": "Viết về tác phẩm và vấn đề xã hội",
+                  "summary": "Dựng dàn ý từ một câu luận đề. Mỗi đoạn phân tích một phương diện và giải thích dẫn chứng thay vì chỉ kể lại.",
+                  "rule": "Với tác phẩm, chọn chi tiết có khả năng làm sáng tỏ luận điểm. Với vấn đề xã hội, nêu nguồn và phạm vi dẫn chứng.",
+                  "example": "Muốn chứng minh nhân vật thay đổi, đối chiếu hai lựa chọn ở đầu và cuối truyện rồi giải thích nguyên nhân thay đổi."
+                }
+              ]
+            },
+            {
+              "title": "Nói, nghe và phản biện",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và phản biện",
+                  "summary": "Tóm tắt công bằng quan điểm của người khác trước khi phản hồi. Phân biệt phản biện lí lẽ với nhận xét cá nhân.",
+                  "rule": "Nhắc lại ý kiến đối phương bằng lời trung tính, chỉ rõ điểm đồng thuận rồi mới chất vấn chứng cứ.",
+                  "example": "“Mình hiểu bạn ưu tiên tốc độ. Số liệu của nhóm có tính thời gian sửa bài sau khi hoàn thành chưa?” là phản biện về tiêu chí đo."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Health, cities and heritage",
+          "topics": [
+            {
+              "title": "Healthy lifestyles and generations",
+              "lessons": [
+                {
+                  "title": "Healthy lifestyles and generations",
+                  "summary": "Dùng present perfect để nối việc đã xảy ra với hiện tại: “I have exercised regularly for two months”. Phân biệt for chỉ khoảng thời gian và since chỉ mốc.",
+                  "rule": "Present perfect dùng have/has + past participle. Since chỉ điểm bắt đầu, for chỉ độ dài.",
+                  "example": "“She has lived here since 2021.” Nếu dùng thời gian quá khứ đã kết thúc như yesterday, dùng simple past."
+                }
+              ]
+            },
+            {
+              "title": "Cities, ASEAN and climate",
+              "lessons": [
+                {
+                  "title": "Cities, ASEAN and climate",
+                  "summary": "Dùng gerund sau enjoy, avoid, consider. Với biểu đồ hoặc vấn đề môi trường, lưu ý phân biệt mô tả xu hướng với giải thích nguyên nhân.",
+                  "rule": "Gerund có thể đứng sau giới từ và một số động từ. Phân biệt với động từ chính đã chia thì.",
+                  "example": "“They are interested in designing greener cities.” Sau in dùng designing; are mới là động từ chia theo chủ ngữ."
+                }
+              ]
+            },
+            {
+              "title": "Heritage and education",
+              "lessons": [
+                {
+                  "title": "Heritage and education",
+                  "summary": "Dùng to-infinitive nói mục đích, như “Volunteers meet to clean the site”. Khi viết đề xuất, nêu lợi ích và cách thực hiện.",
+                  "rule": "Dùng to + động từ nguyên mẫu để diễn đạt mục đích khi chủ thể thực hiện phù hợp.",
+                  "example": "“We visited the museum to learn about local crafts.” Phần sau giải thích vì sao nhóm đi bảo tàng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Society and communication",
+          "topics": [
+            {
+              "title": "Independence and social issues",
+              "lessons": [
+                {
+                  "title": "Independence and social issues",
+                  "summary": "Dùng từ nối however, therefore và for example đúng chức năng. Đưa một tình huống cụ thể vào đoạn nêu giải pháp.",
+                  "rule": "However biểu thị tương phản, therefore biểu thị kết quả. Chọn từ sau khi xác định quan hệ logic.",
+                  "example": "“The bus was late. Therefore, we missed the opening.” Dùng however ở đây sẽ làm sai quan hệ nguyên nhân và kết quả."
+                }
+              ]
+            },
+            {
+              "title": "Ecosystems and communication",
+              "lessons": [
+                {
+                  "title": "Ecosystems and communication",
+                  "summary": "Tóm tắt chuỗi tác động bằng câu ngắn. Khi nghe hoặc đọc, đánh dấu danh từ chủ đề và từ chỉ đối lập để nhận ra ý chính.",
+                  "rule": "Khi nghe, ghi sự thay đổi, nguyên nhân và hệ quả thành ba cột. Để ý từ nối although và as a result.",
+                  "example": "“Although rainfall increased, the wetland shrank.” Although báo trước kết quả trái dự đoán: vùng đất ngập nước vẫn thu hẹp."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1j2nKRZQnBNeebqCcRiaZF2aA8k4z9PzP"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1uEod8HGSsGmWzr4didrVxJ6rHMcJL6Tw"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1PAZFRTZrz5EfPgmKA4aFpkTmTBJzPf30"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1JirAgqxkrWAbv92RlBX5XtvbpLURyjKe"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Chương I. Dao động",
+          "topics": [
+            {
+              "title": "Dao động điều hoà",
+              "lessons": [
+                {
+                  "title": "Bài 1. Dao động điều hoà",
+                  "summary": "Li độ biến thiên theo x=Acos(ωt+φ). Biên độ A là độ lệch cực đại so với vị trí cân bằng.",
+                  "example": "x=4cos(2πt) cm cho A=4 cm, tại t=0 vật ở biên dương."
+                }
+              ]
+            },
+            {
+              "title": "Mô tả dao động điều hoà",
+              "lessons": [
+                {
+                  "title": "Bài 2. Mô tả dao động điều hoà",
+                  "summary": "T=1/f và ω=2πf. Hai trạng thái cách nhau một chu kì có cùng li độ và chiều chuyển động.",
+                  "example": "Vật thực hiện 20 dao động trong 10 s thì f=2 Hz và T=0,5 s."
+                }
+              ]
+            },
+            {
+              "title": "Vận tốc và gia tốc",
+              "lessons": [
+                {
+                  "title": "Bài 3. Vận tốc và gia tốc",
+                  "summary": "Lấy đạo hàm theo thời gian: v=−Aωsin(ωt+φ), a=−ω²x. Vận tốc lớn nhất về độ lớn khi vật qua vị trí cân bằng.",
+                  "example": "A=0,05 m và ω=4 rad/s cho tốc độ cực đại 0,2 m/s."
+                }
+              ]
+            },
+            {
+              "title": "Vận dụng phương trình dao động",
+              "lessons": [
+                {
+                  "title": "Bài 4. Vận dụng phương trình dao động",
+                  "summary": "Dùng v²=ω²(A²−x²) khi biết li độ. Chọn dấu vận tốc theo chiều chuyển động.",
+                  "example": "A=5 cm, x=3 cm, ω=2 rad/s cho tốc độ 8 cm/s; chuyển động theo chiều âm thì v=−8 cm/s."
+                }
+              ]
+            },
+            {
+              "title": "Động năng và thế năng",
+              "lessons": [
+                {
+                  "title": "Bài 5. Động năng và thế năng",
+                  "summary": "Với con lắc lò xo lí tưởng, W= kA²/2, Wt=kx²/2, Wđ=W−Wt.",
+                  "example": "Tại x=A/2, thế năng bằng một phần tư cơ năng; động năng bằng ba phần tư."
+                }
+              ]
+            },
+            {
+              "title": "Tắt dần, cưỡng bức và cộng hưởng",
+              "lessons": [
+                {
+                  "title": "Bài 6. Tắt dần, cưỡng bức và cộng hưởng",
+                  "summary": "Ma sát làm tiêu hao cơ năng. Ngoại lực tuần hoàn có thể duy trì dao động với tần số của ngoại lực sau giai đoạn quá độ.",
+                  "example": "Đẩy xích đu nhịp nhàng gần tần số riêng giúp tăng biên độ; lực cản giới hạn biên độ đạt được."
+                }
+              ]
+            },
+            {
+              "title": "Bài tập chuyển hoá năng lượng",
+              "lessons": [
+                {
+                  "title": "Bài 7. Bài tập chuyển hoá năng lượng",
+                  "summary": "Đổi đơn vị trước khi thay vào biểu thức năng lượng. Kiểm tra thế năng không vượt cơ năng.",
+                  "example": "k=100 N/m, A=0,04 m cho W=0,08 J. Khi x=0,02 m, Wt=0,02 J nên Wđ=0,06 J."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương II. Sóng",
+          "topics": [
+            {
+              "title": "Mô tả sóng",
+              "lessons": [
+                {
+                  "title": "Bài 8. Mô tả sóng",
+                  "summary": "Bước sóng λ là quãng đường sóng truyền trong một chu kì, λ=v/f.",
+                  "example": "Sóng tốc độ 8 m/s và tần số 4 Hz có bước sóng 2 m."
+                }
+              ]
+            },
+            {
+              "title": "Sóng ngang, sóng dọc và năng lượng",
+              "lessons": [
+                {
+                  "title": "Bài 9. Sóng ngang, sóng dọc và năng lượng",
+                  "summary": "So sánh phương dao động của phần tử với phương truyền sóng. Sóng cơ truyền năng lượng qua môi trường.",
+                  "example": "Trên dây căng, phần tử dây nhấp nhô theo phương vuông góc với hướng lan truyền của xung."
+                }
+              ]
+            },
+            {
+              "title": "Đo tần số âm",
+              "lessons": [
+                {
+                  "title": "Bài 10. Đo tần số âm",
+                  "summary": "Xác định thời gian cho nhiều chu kì từ đồ thị tín hiệu, lấy T=Δt/N rồi tính f=1/T.",
+                  "example": "Năm chu kì kéo dài 0,010 s thì T=0,002 s và f=500 Hz."
+                }
+              ]
+            },
+            {
+              "title": "Sóng điện từ",
+              "lessons": [
+                {
+                  "title": "Bài 11. Sóng điện từ",
+                  "summary": "Trong chân không, sóng điện từ truyền với c xấp xỉ 3×10⁸ m/s và λ=c/f.",
+                  "example": "Tín hiệu 100 MHz trong không khí có bước sóng xấp xỉ 3 m."
+                }
+              ]
+            },
+            {
+              "title": "Giao thoa",
+              "lessons": [
+                {
+                  "title": "Bài 12. Giao thoa",
+                  "summary": "Hai nguồn kết hợp cùng pha cho cực đại khi hiệu đường đi bằng kλ; cực tiểu khi bằng (k+1/2)λ với hai sóng cùng phương dao động.",
+                  "example": "Nếu λ=2 cm, điểm có hiệu đường đi 3 cm ứng với 1,5λ nên là cực tiểu."
+                }
+              ]
+            },
+            {
+              "title": "Sóng dừng",
+              "lessons": [
+                {
+                  "title": "Bài 13. Sóng dừng",
+                  "summary": "Hai nút liên tiếp cách λ/2. Một nút cách bụng gần nhất λ/4.",
+                  "example": "Nếu hai nút kế tiếp cách 12 cm thì bước sóng là 24 cm."
+                }
+              ]
+            },
+            {
+              "title": "Bài tập sóng dừng",
+              "lessons": [
+                {
+                  "title": "Bài 14. Bài tập sóng dừng",
+                  "summary": "Dây cố định hai đầu có L=nλ/2 với n là số bụng. Kiểm tra điều kiện ở cả hai đầu.",
+                  "example": "Dây dài 0,9 m có 3 bụng, suy ra λ=0,6 m. Nếu f=50 Hz thì v=30 m/s."
+                }
+              ]
+            },
+            {
+              "title": "Đo tốc độ truyền âm",
+              "lessons": [
+                {
+                  "title": "Bài 15. Đo tốc độ truyền âm",
+                  "summary": "Trong ống cộng hưởng, hiệu hai chiều dài cộng hưởng kế tiếp xấp xỉ λ/2. Từ đó v=2fΔL.",
+                  "example": "Với f=500 Hz, ΔL=0,34 m, tốc độ âm đo được là 340 m/s."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương III. Điện trường",
+          "topics": [
+            {
+              "title": "Lực giữa các điện tích",
+              "lessons": [
+                {
+                  "title": "Bài 16. Lực giữa các điện tích",
+                  "summary": "Hai điện tích điểm trong chân không tác dụng lực có độ lớn F=kabs(q₁q₂)/r². Cùng dấu đẩy nhau, trái dấu hút nhau.",
+                  "example": "Khi gấp đôi khoảng cách và giữ điện tích không đổi, lực giảm còn một phần tư."
+                }
+              ]
+            },
+            {
+              "title": "Khái niệm điện trường",
+              "lessons": [
+                {
+                  "title": "Bài 17. Khái niệm điện trường",
+                  "summary": "E=F/q với điện tích thử dương. Điện tích âm chịu lực ngược chiều điện trường.",
+                  "example": "Điện tích +2 µC chịu lực 0,006 N thì E=3000 V/m."
+                }
+              ]
+            },
+            {
+              "title": "Điện trường đều",
+              "lessons": [
+                {
+                  "title": "Bài 18. Điện trường đều",
+                  "summary": "Vectơ cường độ điện trường giống nhau ở mọi điểm. Giữa hai bản phẳng lớn, xa mép, E xấp xỉ U/d.",
+                  "example": "Hai bản cách 0,02 m đặt dưới hiệu điện thế 12 V cho E xấp xỉ 600 V/m."
+                }
+              ]
+            },
+            {
+              "title": "Thế năng điện",
+              "lessons": [
+                {
+                  "title": "Bài 19. Thế năng điện",
+                  "summary": "Công lực điện từ M đến N bằng Wt(M)−Wt(N). Dấu công cho biết thế năng tăng hay giảm.",
+                  "example": "Lực điện thực hiện công dương 0,004 J thì thế năng điện của hạt giảm 0,004 J."
+                }
+              ]
+            },
+            {
+              "title": "Điện thế",
+              "lessons": [
+                {
+                  "title": "Bài 20. Điện thế",
+                  "summary": "U_MN=V_M−V_N và A_MN=qU_MN. Giữ đúng dấu điện tích khi tính công.",
+                  "example": "Điện tích −2 µC đi từ điểm 8 V tới điểm 3 V cho công lực điện −10 µJ."
+                }
+              ]
+            },
+            {
+              "title": "Tụ điện",
+              "lessons": [
+                {
+                  "title": "Bài 21. Tụ điện",
+                  "summary": "C=Q/U với Q là độ lớn điện tích trên một bản. Năng lượng W=CU²/2. Đổi µF sang F trước khi tính.",
+                  "example": "Tụ 20 µF nối với 5 V tích Q=100 µC và dự trữ 250 µJ năng lượng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương IV. Dòng điện. Mạch điện",
+          "topics": [
+            {
+              "title": "Cường độ dòng điện",
+              "lessons": [
+                {
+                  "title": "Bài 22. Cường độ dòng điện",
+                  "summary": "I=Δq/Δt cho dòng trung bình. Dòng không đổi có cường độ và chiều ổn định.",
+                  "example": "Điện lượng 6 C đi qua tiết diện trong 3 s cho I=2 A."
+                }
+              ]
+            },
+            {
+              "title": "Điện trở và định luật Ohm",
+              "lessons": [
+                {
+                  "title": "Bài 23. Điện trở và định luật Ohm",
+                  "summary": "Với vật dẫn tuân định luật Ohm ở nhiệt độ ổn định, I=U/R.",
+                  "example": "Điện trở 12 Ω đặt dưới 6 V thì I=0,5 A. Nếu tăng U gấp đôi mà R không đổi, I gấp đôi."
+                }
+              ]
+            },
+            {
+              "title": "Nguồn điện",
+              "lessons": [
+                {
+                  "title": "Bài 24. Nguồn điện",
+                  "summary": "Suất điện động bằng công lực lạ trên một đơn vị điện tích. Khi nguồn phát dòng, U=E−Ir.",
+                  "example": "Nguồn 9 V có r=1 Ω phát dòng 0,5 A thì điện áp hai cực bằng 8,5 V."
+                }
+              ]
+            },
+            {
+              "title": "Năng lượng và công suất điện",
+              "lessons": [
+                {
+                  "title": "Bài 25. Năng lượng và công suất điện",
+                  "summary": "Dòng điện không đổi cho P=UI và điện năng tiêu thụ A=UIt. Với điện trở thuần còn có P=I²R.",
+                  "example": "Đèn làm việc ở 6 V, 0,3 A có công suất 1,8 W và tiêu thụ 108 J trong một phút."
+                }
+              ]
+            },
+            {
+              "title": "Đo suất điện động và điện trở trong",
+              "lessons": [
+                {
+                  "title": "Bài 26. Đo suất điện động và điện trở trong",
+                  "summary": "Dùng các cặp số đo (I,U) để lập đồ thị U=E−rI. Giao trục U cho E, độ dốc bằng −r.",
+                  "example": "Hai số đo (0,2 A; 1,4 V) và (0,4 A; 1,3 V) cho r=0,5 Ω, E=1,5 V."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Kết nối tri thức · đối chiếu mục lục VietJack và Lời Giải Hay",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1MrEdQX-Dj7lgRQkOpB_vJaz35noQwf9k"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1YJnv0hXH0v7T8pbX7318jw5IFiNbYmM0"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/13ucYhhRBfne2UbxYZvwNlUy1BGJ2fAID"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1F6dMgtqHOfn71dEQIbeRovRi4-56rlJQ"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Cân bằng và hoá vô cơ",
+          "topics": [
+            {
+              "title": "Cân bằng và dung dịch",
+              "lessons": [
+                {
+                  "title": "Cân bằng và dung dịch",
+                  "summary": "Cân bằng động có tốc độ thuận bằng tốc độ nghịch. Thay đổi điều kiện có thể dịch chuyển cân bằng; chất xúc tác giúp đạt nhanh hơn.",
+                  "rule": "Với cân bằng aA+bB ⇌ cC+dD trong dung dịch, Kc dùng tích nồng độ sản phẩm chia tích nồng độ chất đầu với số mũ là hệ số.",
+                  "example": "A ⇌ B có Kc=4 tại nhiệt độ xét. Nếu [A]=0,2 M ở cân bằng thì [B]=0,8 M; thay đổi chất xúc tác không đổi Kc."
+                }
+              ]
+            },
+            {
+              "title": "Nitrogen và sulfur",
+              "lessons": [
+                {
+                  "title": "Nitrogen và sulfur",
+                  "summary": "Liên hệ tính chất ammonia với cặp electron tự do. Xem phản ứng của các hợp chất nitrogen và sulfur qua số oxi hoá, độ mạnh acid và điều kiện.",
+                  "rule": "Dùng số oxi hoá để theo dõi chiều trao đổi electron của nguyên tố trong các hợp chất.",
+                  "example": "Trong NH₃, N có số oxi hoá −3; trong NO là +2. Khi chuyển từ NH₃ sang NO, mỗi nguyên tử N tăng số oxi hoá 5 đơn vị."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hoá hữu cơ",
+          "topics": [
+            {
+              "title": "Đại cương hoá hữu cơ",
+              "lessons": [
+                {
+                  "title": "Đại cương hoá hữu cơ",
+                  "summary": "Công thức phân tử cho số nguyên tử; công thức cấu tạo cho cách liên kết. Đồng phân có cùng công thức phân tử và khác cấu tạo hoặc cách sắp xếp.",
+                  "rule": "Xác định công thức đơn giản nhất từ tỉ lệ mol nguyên tử, rồi dùng khối lượng mol để tìm hệ số nhân.",
+                  "example": "Công thức đơn giản nhất CH₂O có khối lượng 30. Nếu M=60 g/mol thì hệ số là 2 và công thức phân tử là C₂H₄O₂."
+                }
+              ]
+            },
+            {
+              "title": "Hydrocarbon",
+              "lessons": [
+                {
+                  "title": "Hydrocarbon",
+                  "summary": "Alkane thường tham gia phản ứng thế; alkene có liên kết đôi thuận lợi cho phản ứng cộng. Hydrocarbon thơm có tính chất gắn với vòng benzene.",
+                  "rule": "Alkane mạch hở có CₙH₂ₙ₊₂; alkene mạch hở có một liên kết đôi có CₙH₂ₙ.",
+                  "example": "Với n=3, propane là C₃H₈ còn propene là C₃H₆. Chỉ nhìn C₃H₆ chưa phân biệt được propene với cyclopropane."
+                }
+              ]
+            },
+            {
+              "title": "Dẫn xuất và nhóm chức",
+              "lessons": [
+                {
+                  "title": "Dẫn xuất và nhóm chức",
+                  "summary": "So sánh alcohol, phenol, aldehyde, ketone và acid carboxylic bằng nhóm chức, khả năng tạo liên kết hydrogen và phản ứng đặc trưng.",
+                  "rule": "Nhận diện nhóm chức trước khi dự đoán tính chất; –CHO khác –COOH dù cả hai chứa liên kết C=O.",
+                  "example": "CH₃CHO là aldehyde, CH₃COOH là acid carboxylic. Sự khác biệt nằm ở nhóm gắn với carbon carbonyl."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1VICk6eIVvZMmkXxWf4sZT9I6s8HljCsu"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1_J5i8MJqMJoRwqFUMXgYR-EOc3uED6MV"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1izDQ9uvedQ0f-bAQDXcMWVZTAyQUCdWU"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1zA4nAKmFxQWS8b40FyfmxQcab2PdFuXX"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Trao đổi chất ở sinh vật",
+          "topics": [
+            {
+              "title": "Trao đổi chất ở thực vật",
+              "lessons": [
+                {
+                  "title": "Trao đổi chất ở thực vật",
+                  "summary": "Rễ hấp thụ nước và ion khoáng, mạch gỗ vận chuyển lên lá. Quang hợp chuyển năng lượng ánh sáng thành năng lượng hoá học.",
+                  "rule": "Theo đường đi của nước từ đất → rễ → mạch gỗ → lá → khí quyển và phân biệt với dòng chất hữu cơ.",
+                  "example": "Khi khí khổng đóng, cây giảm mất nước nhưng CO₂ khuếch tán vào lá cũng bị hạn chế, ảnh hưởng quang hợp."
+                }
+              ]
+            },
+            {
+              "title": "Dinh dưỡng ở động vật",
+              "lessons": [
+                {
+                  "title": "Dinh dưỡng ở động vật",
+                  "summary": "Tiêu hoá biến đổi thức ăn; hô hấp trao đổi khí; tuần hoàn phân phối chất. Cân bằng nội môi dựa trên các cơ chế điều chỉnh.",
+                  "rule": "Theo dõi đường đi của một chất từ cơ quan trao đổi đến tế bào; phân biệt vận chuyển với chuyển hoá.",
+                  "example": "Ở người, oxygen khuếch tán từ phế nang vào máu, được vận chuyển tới mô rồi tham gia hô hấp tế bào."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cảm ứng, phát triển và sinh sản",
+          "topics": [
+            {
+              "title": "Cảm ứng",
+              "lessons": [
+                {
+                  "title": "Cảm ứng",
+                  "summary": "Thực vật có hướng động và ứng động. Động vật có phản ứng thần kinh theo cung phản xạ và các dạng tập tính.",
+                  "rule": "Cung phản xạ gồm thụ thể, đường hướng tâm, bộ phận xử lí, đường li tâm và cơ quan đáp ứng.",
+                  "example": "Khi chạm vật nóng, tín hiệu cảm giác truyền về tuỷ sống rồi tín hiệu vận động đến cơ làm tay rụt lại."
+                }
+              ]
+            },
+            {
+              "title": "Sinh trưởng và phát triển",
+              "lessons": [
+                {
+                  "title": "Sinh trưởng và phát triển",
+                  "summary": "Sinh trưởng là tăng kích thước; phát triển gồm biến đổi chức năng và hình thái. Hormone cùng điều kiện môi trường điều hoà hai quá trình.",
+                  "rule": "Tách sự tăng về lượng khỏi sự phân hoá và hình thành cơ quan mới.",
+                  "example": "Thân cây dài thêm là biểu hiện sinh trưởng. Chuyển sang ra hoa là một mốc phát triển, dù cả hai có thể diễn ra đồng thời."
+                }
+              ]
+            },
+            {
+              "title": "Sinh sản ở sinh vật",
+              "lessons": [
+                {
+                  "title": "Sinh sản ở sinh vật",
+                  "summary": "Sinh sản vô tính thường tạo thế hệ giống về di truyền; sinh sản hữu tính kết hợp giao tử. Phân biệt thụ phấn, thụ tinh và hình thành hạt.",
+                  "rule": "Thụ phấn là chuyển hạt phấn đến đầu nhuỵ. Thụ tinh là sự kết hợp giao tử.",
+                  "example": "Thấy hạt phấn trên đầu nhuỵ chỉ xác nhận thụ phấn. Còn cần quá trình ống phấn phát triển và giao tử kết hợp mới hình thành hợp tử."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1viHuz8hId2JNkHOSEcO1wA9sRp6h7J1n"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1NMe7U2W_XZTSuhoKN13cb-WiSrfyEJ_T"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1KXMG9XBtZNf_vNziDMyUXsMY3FQ3XZ7f"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1LOUYUaraYHB-rae16Wgq_C55MAZlJDwH"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Lịch sử thế giới và khu vực",
+          "topics": [
+            {
+              "title": "Cách mạng tư sản và chủ nghĩa tư bản",
+              "lessons": [
+                {
+                  "title": "Cách mạng tư sản và chủ nghĩa tư bản",
+                  "summary": "Đọc mỗi cuộc cách mạng theo bối cảnh, lực lượng, mục tiêu, kết quả và giới hạn. Phân biệt thay đổi thể chế với mở rộng quyền trên thực tế.",
+                  "rule": "Đặt mục tiêu chính trị và biến đổi kinh tế vào hai cột để so sánh các cuộc cách mạng.",
+                  "example": "So sánh Anh và Pháp bằng việc xác định chế độ chính trị hình thành sau những biến động, rồi xem tầng lớp nào tăng ảnh hưởng."
+                }
+              ]
+            },
+            {
+              "title": "Chủ nghĩa xã hội từ 1917",
+              "lessons": [
+                {
+                  "title": "Chủ nghĩa xã hội từ 1917",
+                  "summary": "Lập trục thời gian từ Cách mạng tháng Mười đến mở rộng, khủng hoảng và cải cách tại các quốc gia theo từng bối cảnh.",
+                  "rule": "Chia thời gian thành mốc hình thành, mở rộng, biến động và cải cách. Gắn mỗi mốc với một tác động.",
+                  "example": "Năm 1917 gắn với Cách mạng tháng Mười; năm 1922 gắn với thành lập Liên Xô. Hai sự kiện có liên hệ nhưng khác thời điểm và chức năng."
+                }
+              ]
+            },
+            {
+              "title": "Đông Nam Á thời thuộc địa",
+              "lessons": [
+                {
+                  "title": "Đông Nam Á thời thuộc địa",
+                  "summary": "So sánh quá trình xâm lược, chính sách cai trị và con đường giành độc lập; chú ý khác biệt giữa các quốc gia.",
+                  "rule": "Lập bảng từng nước theo thế lực thực dân, hình thức cai trị và lực lượng đấu tranh.",
+                  "example": "So sánh Indonesia và Việt Nam cần xác định bối cảnh thuộc địa khác nhau trước khi đối chiếu phong trào giành độc lập."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lịch sử Việt Nam và Biển Đông",
+          "topics": [
+            {
+              "title": "Chiến tranh bảo vệ Tổ quốc",
+              "lessons": [
+                {
+                  "title": "Chiến tranh bảo vệ Tổ quốc",
+                  "summary": "Khi ôn một cuộc kháng chiến, nối điều kiện địa lí, cách huy động lực lượng và chiến lược với kết quả.",
+                  "rule": "Giải thích kết quả bằng tương quan lực lượng, địa hình, tổ chức và thời điểm hành động.",
+                  "example": "Khi phân tích Bạch Đằng năm 1288, liên hệ địa hình sông, nhịp thuỷ triều và việc lựa chọn thời điểm với hiệu quả của chiến thuật."
+                }
+              ]
+            },
+            {
+              "title": "Cải cách trong lịch sử Việt Nam",
+              "lessons": [
+                {
+                  "title": "Cải cách trong lịch sử Việt Nam",
+                  "summary": "So sánh cải cách thời Hồ Quý Ly, Lê Thánh Tông và Minh Mạng theo mục tiêu, chính sách và tác động.",
+                  "rule": "Đặt cải cách vào đúng triều đại, nêu vấn đề ban đầu rồi xem chính sách giải quyết được phần nào.",
+                  "example": "So sánh cải cách hành chính thời Lê Thánh Tông và Minh Mạng qua cách tổ chức địa phương và mức tập trung quyền lực."
+                }
+              ]
+            },
+            {
+              "title": "Biển Đông",
+              "lessons": [
+                {
+                  "title": "Biển Đông",
+                  "summary": "Phân tích vị trí chiến lược, nguồn lực và vai trò giao thông. Đọc sử liệu về hoạt động xác lập và thực thi chủ quyền theo niên đại.",
+                  "rule": "Đọc bản đồ tuyến hàng hải cùng niên đại của tư liệu lịch sử. Phân biệt giá trị kinh tế với bằng chứng lịch sử.",
+                  "example": "Một bản đồ luồng hàng cho thấy vai trò giao thông. Để phân tích hoạt động quản lí qua thời gian cần đối chiếu thêm văn bản hoặc ghi chép cùng thời."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/10a9Bm-xrnmAvcl6McxH8wh0Pej89UmEi"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1DUI7UQ0gewB3ilag1g7KvhLduhDXBGv1"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/13aauL83Aq6dV8q8_ECoMbu78J7R-WW1O"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1sO-rmKKhhsDFPwHljPzB34oZQGl4LGrZ"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Kinh tế thế giới và liên kết",
+          "topics": [
+            {
+              "title": "Trình độ phát triển và toàn cầu hoá",
+              "lessons": [
+                {
+                  "title": "Trình độ phát triển và toàn cầu hoá",
+                  "summary": "Dùng nhiều chỉ số như thu nhập, HDI và cơ cấu kinh tế. Toàn cầu hoá mở rộng liên kết, đồng thời tăng phụ thuộc lẫn nhau.",
+                  "rule": "GDP bình quân đầu người = GDP/dân số. Kết hợp với các chỉ báo giáo dục, sức khoẻ và phân phối thu nhập.",
+                  "example": "Hai nước có cùng GDP bình quân vẫn có thể có tuổi thọ và số năm đi học khác nhau, vì chỉ số thu nhập mới phản ánh một chiều phát triển."
+                }
+              ]
+            },
+            {
+              "title": "Khu vực và tổ chức liên kết",
+              "lessons": [
+                {
+                  "title": "Khu vực và tổ chức liên kết",
+                  "summary": "Phân biệt vai trò của EU, ASEAN và các cơ chế hợp tác. Xem thành viên hợp tác trong lĩnh vực nào và vì sao.",
+                  "rule": "Khi so sánh tổ chức khu vực, xét mục tiêu, thành viên, nguyên tắc hoạt động và mức độ liên kết.",
+                  "example": "Thị trường chung EU cho thấy liên kết sâu về kinh tế. Khi đối chiếu ASEAN cần dùng đúng đặc điểm thể chế của từng tổ chức."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Địa lí khu vực và kĩ năng dữ liệu",
+          "topics": [
+            {
+              "title": "Mỹ Latinh, Tây Nam Á và Đông Nam Á",
+              "lessons": [
+                {
+                  "title": "Mỹ Latinh, Tây Nam Á và Đông Nam Á",
+                  "summary": "Đối chiếu vị trí, tài nguyên, dân cư và ngành kinh tế đặc trưng. Khi đọc bảng, kiểm tra số tuyệt đối và tỉ trọng.",
+                  "rule": "Theo dõi chuỗi từ vị trí và tài nguyên sang cơ cấu kinh tế, sau đó xét lao động và thị trường.",
+                  "example": "Một nước xuất khẩu nhiều dầu có thể thu ngoại tệ lớn nhưng thu nhập xuất khẩu nhạy cảm với biến động giá dầu."
+                }
+              ]
+            },
+            {
+              "title": "Các nền kinh tế lớn",
+              "lessons": [
+                {
+                  "title": "Các nền kinh tế lớn",
+                  "summary": "So sánh Hoa Kỳ, Liên bang Nga, Nhật Bản và Trung Quốc bằng điều kiện phát triển và tổ chức không gian kinh tế.",
+                  "rule": "So sánh quy mô theo giá trị tuyệt đối và mức chuyên môn hoá theo tỉ trọng. Phải dùng cùng năm và đơn vị.",
+                  "example": "Nước A có GDP lớn gấp 3 nước B nhưng tỉ trọng công nghiệp nhỏ hơn vẫn có thể có giá trị công nghiệp lớn hơn."
+                }
+              ]
+            },
+            {
+              "title": "Kĩ năng phân tích dữ liệu",
+              "lessons": [
+                {
+                  "title": "Kĩ năng phân tích dữ liệu",
+                  "summary": "Chọn biểu đồ theo mục tiêu: đường cho xu hướng, cột cho so sánh, cơ cấu khi phần đóng góp vào tổng là trọng tâm.",
+                  "rule": "Tốc độ phát triển định gốc = giá trị năm xét/giá trị năm gốc ×100%.",
+                  "example": "Sản lượng từ 80 lên 100 có chỉ số phát triển 125%, tức tăng 25%. Con số 125% không phải mức tăng thêm."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1QsmNX6-C_imfTvpjRaxfRG83kbVwOQMA"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1vGVnWXnVjykcelDffexb4x-UT8Qzbi8t"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Kp7ipcf1v7dHgCX1FipKFSBALdaY_aRn"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-11-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/15xR1kTOxh0Vjuv2DZWoZkYFswYqac5bk"
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Thị trường và kinh doanh",
+          "topics": [
+            {
+              "title": "Cạnh tranh, cung và cầu",
+              "lessons": [
+                {
+                  "title": "Cạnh tranh, cung và cầu",
+                  "summary": "Phân biệt thay đổi lượng cầu do giá với dịch chuyển đường cầu do thu nhập hoặc thị hiếu. Cạnh tranh có thể thúc đẩy cải tiến sản phẩm.",
+                  "rule": "Giá hàng hoá thay đổi gây di chuyển trên đường cầu khi các điều kiện khác giữ nguyên; thay đổi thu nhập có thể làm dịch chuyển cầu.",
+                  "example": "Giá vé giảm khiến nhiều người mua vé hơn là thay đổi lượng cầu. Dân số tăng có thể khiến lượng mua tại cùng mức giá tăng."
+                }
+              ]
+            },
+            {
+              "title": "Lạm phát, thất nghiệp và lao động",
+              "lessons": [
+                {
+                  "title": "Lạm phát, thất nghiệp và lao động",
+                  "summary": "Lạm phát là mức giá chung tăng, khác tăng giá một mặt hàng. Đọc số liệu thất nghiệp trong phạm vi lực lượng lao động.",
+                  "rule": "Tỉ lệ thất nghiệp = số thất nghiệp/lực lượng lao động ×100%. Kiểm tra người ngoài lực lượng lao động trước khi tính.",
+                  "example": "Lực lượng lao động 1.000 người gồm 950 có việc và 50 thất nghiệp. Tỉ lệ là 5%, mẫu số không phải toàn bộ dân số."
+                }
+              ]
+            },
+            {
+              "title": "Ý tưởng và đạo đức kinh doanh",
+              "lessons": [
+                {
+                  "title": "Ý tưởng và đạo đức kinh doanh",
+                  "summary": "Đánh giá nhu cầu, nguồn lực, chi phí và rủi ro trước khi chọn ý tưởng. Đạo đức kinh doanh thể hiện qua trách nhiệm với khách hàng và xã hội.",
+                  "rule": "Phân tích nhu cầu thật, chi phí cung cấp, tác động với khách hàng và tính trung thực của thông tin bán hàng.",
+                  "example": "Nếu sản phẩm được quảng cáo bền hơn, cần chứng cứ về độ bền. Doanh thu tăng không tự chứng minh cách quảng cáo là có trách nhiệm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tiêu dùng và quyền công dân",
+          "topics": [
+            {
+              "title": "Văn hoá tiêu dùng",
+              "lessons": [
+                {
+                  "title": "Văn hoá tiêu dùng",
+                  "summary": "So sánh nhu cầu với mong muốn, kiểm tra chất lượng, thông tin và khả năng chi trả trước khi mua.",
+                  "rule": "Tính giá theo đơn vị và tổng chi phí sử dụng, rồi kiểm tra nhu cầu và ngân sách.",
+                  "example": "Chai 750 mL giá 30.000 đồng tương đương 40.000 đồng/lít; chai nhỏ hơn có thể phù hợp nếu lượng dùng thấp để tránh lãng phí."
+                }
+              ]
+            },
+            {
+              "title": "Quyền, nghĩa vụ của công dân",
+              "lessons": [
+                {
+                  "title": "Quyền, nghĩa vụ của công dân",
+                  "summary": "Khi phân tích tình huống, xác định chủ thể, quyền hoặc nghĩa vụ liên quan, điều kiện thực hiện và cách ứng xử phù hợp.",
+                  "rule": "Xác định ai có quyền, ai có nghĩa vụ và dữ kiện nào cho thấy quyền được thực hiện hay bị cản trở.",
+                  "example": "Với tình huống góp ý trong cuộc họp, tách quyền nêu ý kiến khỏi yêu cầu tôn trọng quyền của người tham gia khác."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-1-nh-2025-2026-mon-gdktpl-11",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-cuoi-hoc-ky-1-nh-2024-2025-mon-gdktpl-11",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-2-nh-2024-2025-mon-gdkt-pl-11",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "year": "2025-2026",
+          "publisher": "THPT Bình Chiểu",
+          "url": "https://thptbinhchieu.hcm.edu.vn/de-thi-dap-an/de-kiem-tra-dap-an-de-kiem-tra-hoc-ky-ii-nam-hoc-2024-2025-mon-giao-duc-kinh-te/ctfull/87477/531990#:~:text=M%C3%B4n%20Gi%C3%A1o%20d%E1%BB%A5c%20kinh%20t%E1%BA%BF%20v%C3%A0%20ph%C3%A1p%20lu%E1%BA%ADt%2011",
+          "linkLabel": "Chọn đề Giáo dục kinh tế và pháp luật 11 trong mục bài liên quan"
+        }
+      ]
+    },
+    {
       "grade": 12,
       "subject": "Toán",
       "chapters": [
         {
-          "title": "Ứng dụng đạo hàm để khảo sát hàm số",
+          "title": "Chương I · Ứng dụng đạo hàm để khảo sát hàm số",
           "topics": [
             {
-              "title": "Ứng dụng đạo hàm",
+              "title": "Tính đơn điệu và cực trị",
               "lessons": [
                 {
-                  "title": "Tính đơn điệu và cực trị",
-                  "summary": "Dùng dấu đạo hàm để xác định khoảng đồng biến, nghịch biến và điểm cực trị.",
-                  "rule": "Trước hết xác định tập xác định. Trên một khoảng, nếu f′(x) > 0 tại mọi điểm thì f đồng biến; nếu f′(x) < 0 tại mọi điểm thì f nghịch biến. Tại một điểm trong miền xác định mà hàm liên tục, dấu đạo hàm đổi từ âm sang dương cho cực tiểu, còn đổi từ dương sang âm cho cực đại.",
-                  "example": "Với f(x) = x² − 4x + 3, đạo hàm f′(x) = 2x − 4 âm khi x < 2 và dương khi x > 2. Hàm nghịch biến trên (−∞, 2), đồng biến trên (2, +∞) và có giá trị cực tiểu f(2) = −1.",
-                  "pitfall": "Đạo hàm bằng 0 chưa đủ để kết luận có cực trị. Với f(x) = x³, đạo hàm bằng 0 tại x = 0 nhưng dấu đạo hàm không đổi."
+                  "title": "Bài 1. Tính đơn điệu và cực trị",
+                  "summary": "Dùng đạo hàm để xác định khoảng tăng, giảm và điểm đổi chiều.",
+                  "rule": "Xác định tập xác định rồi chia thành các khoảng liên tục tại nghiệm của f′ hoặc nơi f′ không tồn tại. Trên khoảng f′ dương hàm đồng biến, f′ âm hàm nghịch biến. Khi f liên tục tại điểm xét, dấu đổi từ + sang − cho cực đại và từ − sang + cho cực tiểu. f′>0 trên I ⇒ f đồng biến trên I. f′<0 ⇒ f nghịch biến.",
+                  "example": "f(x) = x² − 4x + 3 có f′(x) = 2x − 4. Trước 2 đạo hàm âm, sau 2 đạo hàm dương, nên x = 2 là điểm cực tiểu, giá trị cực tiểu là −1. Ví dụ bổ sung. Với f=x³−3x, giải 3x²−3=0 được x=±1. Dấu f′ lần lượt +, −, +. Do đó f(−1)=2 là cực đại địa phương, f(1)=−2 là cực tiểu địa phương.",
+                  "pitfall": "f′(x₀) = 0 chỉ cho một điểm cần kiểm tra. Ví dụ x³ có f′(0) = 0 nhưng vẫn đồng biến qua 0."
+                }
+              ]
+            },
+            {
+              "title": "Giá trị lớn nhất và nhỏ nhất",
+              "lessons": [
+                {
+                  "title": "Bài 2. Giá trị lớn nhất và nhỏ nhất",
+                  "summary": "So sánh giá trị hàm tại các điểm có thể đạt cực trị toàn miền.",
+                  "rule": "Với hàm liên tục trên [a,b], tính f tại hai đầu mút, các điểm trong đoạn có f′ = 0 và các điểm đạo hàm không tồn tại. So sánh các giá trị thu được. Trên miền mở, xét thêm giới hạn và kiểm tra giá trị có thực sự đạt được. Nếu f liên tục trên đoạn đóng, so sánh các giá trị ứng viên để tìm max và min.",
+                  "example": "Trên [0,3], f(x) = x² − 4x + 3 có f(0)=3, f(2)=−1, f(3)=0. Giá trị lớn nhất là 3 và nhỏ nhất là −1. Ví dụ bổ sung. Với x³−3x trên [0,3], chỉ x=1 là nghiệm f′ trong đoạn. So sánh f(0)=0, f(1)=−2, f(3)=18, được min=−2 và max=18.",
+                  "pitfall": "Cực đại là tính chất địa phương. Giá trị lớn nhất phải so sánh trên cả miền yêu cầu."
+                }
+              ]
+            },
+            {
+              "title": "Tiệm cận của đồ thị",
+              "lessons": [
+                {
+                  "title": "Bài 3. Tiệm cận của đồ thị",
+                  "summary": "Nhận dạng tiệm cận đứng, ngang và xiên bằng giới hạn.",
+                  "rule": "x=a là tiệm cận đứng nếu ít nhất một giới hạn một phía tại a là vô cực. y=b là tiệm cận ngang nếu f tiến tới b ở một phía vô cực. Đường y=mx+n với m khác 0 là tiệm cận xiên nếu f(x)−(mx+n) tiến tới 0 ở một phía vô cực. Tiệm cận xiên y=ax+b: a=lim f(x)/x, b=lim[f(x)−ax], xét cùng một phía vô cực, a hữu hạn khác 0 và b hữu hạn.",
+                  "example": "(x²+1)/(x−1) = x+1+2/(x−1). Khi x tiến tới ±∞, phần dư tiến tới 0 nên y=x+1 là tiệm cận xiên. x=1 là tiệm cận đứng vì phần dư phân kì. Ví dụ bổ sung. Với f=2x+3+1/x, khi x→+∞ ta có f/x→2, f−2x→3. Suy ra y=2x+3.",
+                  "pitfall": "Điểm bị loại khỏi tập xác định có thể chỉ là lỗ hổng. Ví dụ (x²−1)/(x−1) tiến tới 2 khi x tiến tới 1."
+                }
+              ]
+            },
+            {
+              "title": "Khảo sát và vẽ đồ thị",
+              "lessons": [
+                {
+                  "title": "Bài 4. Khảo sát và vẽ đồ thị",
+                  "summary": "Kết hợp tập xác định, đạo hàm, giới hạn và các điểm đặc trưng.",
+                  "rule": "Lập bảng biến thiên từ nghiệm và dấu f′. Xác định chiều đi của hai đầu đồ thị bằng giới hạn, đánh dấu cực trị, tiệm cận nếu có, rồi lấy giao trục hoặc vài điểm thuận lợi để vẽ. Giao Ox giải f(x)=0. Giao Oy là (0,f(0)) nếu 0 thuộc miền xác định.",
+                  "example": "Với y=x³−3x, f′=3(x−1)(x+1), hàm tăng bên ngoài [−1,1] và giảm giữa hai điểm. Cực đại (−1,2), cực tiểu (1,−2) và đồ thị qua (0,0). Ví dụ bổ sung. Với x³−3x, phân tích x(x²−3)=0 để đánh dấu ba giao điểm có hoành độ −√3, 0, √3 trước khi nối các nhánh.",
+                  "pitfall": "Bảng biến thiên phải thể hiện các điểm loại khỏi miền xác định, kể cả khi đạo hàm không có nghiệm."
+                }
+              ]
+            },
+            {
+              "title": "Tối ưu hoá bằng đạo hàm",
+              "lessons": [
+                {
+                  "title": "Bài 5. Tối ưu hoá bằng đạo hàm",
+                  "summary": "Mô hình hoá đại lượng thực tế rồi tìm giá trị tốt nhất trong miền hợp lệ.",
+                  "rule": "Đặt biến có đơn vị, biểu diễn mục tiêu bằng hàm một biến, ghi điều kiện và tìm cực trị toàn miền. Diễn giải lại đáp số theo đề, xem có ràng buộc nguyên hay không. Doanh thu R(q)=q·p(q), lợi nhuận L(q)=R(q)−C(q).",
+                  "example": "Hình chữ nhật chu vi 20 m có chiều rộng x và chiều dài 10−x, với 0<x<10. S=x(10−x), S′=10−2x đổi từ + sang − tại 5, nên diện tích lớn nhất là 25 m². Ví dụ bổ sung. Nếu p=100−q, C=20q+100 với 0≤q≤100, thì L=−q²+80q−100. L′=80−2q đổi từ dương sang âm tại 40, nên lợi nhuận lớn nhất là 1500 đơn vị tiền.",
+                  "pitfall": "Nghiệm đạo hàm bằng 0 có thể nằm ngoài miền thực tế hoặc không đạt giá trị tốt nhất."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Nguyên hàm và tích phân",
+          "title": "Chương II · Vectơ và tọa độ không gian",
           "topics": [
             {
-              "title": "Nguyên hàm – tích phân",
+              "title": "Vectơ trong không gian",
               "lessons": [
                 {
-                  "title": "Tính tích phân từ nguyên hàm",
-                  "summary": "Tìm nguyên hàm rồi thay hai cận theo đúng thứ tự.",
-                  "rule": "Nếu f liên tục trên [a, b] và F là một nguyên hàm của f, tích phân của f từ a đến b bằng F(b) − F(a).",
-                  "example": "Tính ∫₀² (2x + 1) dx. Chọn F(x) = x² + x. Kết quả là F(2) − F(0) = (4 + 2) − 0 = 6.",
-                  "pitfall": "Trừ F(a) khỏi F(b). Khi tính diện tích giữa đồ thị và trục hoành, lấy tích phân của |f(x)|, chia khoảng tại các điểm đổi dấu nếu cần."
+                  "title": "Bài 6. Vectơ trong không gian",
+                  "summary": "Biểu diễn độ dời theo hướng và độ dài trong ba chiều.",
+                  "rule": "Hai vectơ bằng nhau khi cùng độ dài và hướng. Dùng AB + BC = AC để cộng; dùng AB + AC = AD nếu ABDC là hình bình hành có hai cạnh kề AB, AC. u·v=|u||v|cos θ; |u+v|²=|u|²+2u·v+|v|².",
+                  "example": "Trong hình hộp ABCD.A′B′C′D′, đường chéo AC′ có vectơ bằng AB + AD + AA′. Ví dụ bổ sung. Hai vectơ dài 3 và 4 vuông góc có tích vô hướng 0. Tổng của chúng có độ dài √(9+16)=5.",
+                  "pitfall": "AB và BA có cùng độ dài nhưng ngược hướng. Vectơ 0 có độ dài bằng 0."
+                }
+              ]
+            },
+            {
+              "title": "Hệ trục Oxyz",
+              "lessons": [
+                {
+                  "title": "Bài 7. Hệ trục Oxyz",
+                  "summary": "Đọc tọa độ điểm, tọa độ vectơ và điều kiện thuộc các mặt phẳng tọa độ.",
+                  "rule": "Điểm M(x,y,z) có vectơ OM = x i + y j + z k. M thuộc Oxy khi z=0. Tọa độ vectơ AB lấy điểm cuối trừ điểm đầu. AB=√[(xB−xA)²+(yB−yA)²+(zB−zA)²]. Trung điểm lấy trung bình từng cặp tọa độ.",
+                  "example": "A(1,−2,3), B(4,2,1) cho AB=(3,4,−2). Hình chiếu vuông góc của A lên Oxy là (1,−2,0). Ví dụ bổ sung. A(0,2,4), B(2,4,0) cho trung điểm (1,3,2) và khoảng cách √24=2√6.",
+                  "pitfall": "Hình chiếu lên một mặt phẳng tọa độ đặt thành phần vuông góc bằng 0."
+                }
+              ]
+            },
+            {
+              "title": "Phép toán vectơ bằng tọa độ",
+              "lessons": [
+                {
+                  "title": "Bài 8. Phép toán vectơ bằng tọa độ",
+                  "summary": "Tính tổng, độ dài và tích vô hướng qua từng thành phần.",
+                  "rule": "Cộng hoặc trừ từng tọa độ tương ứng. Độ dài bằng căn tổng bình phương các thành phần. Tích vô hướng u·v bằng tổng tích các tọa độ tương ứng. cos θ=(u₁v₁+u₂v₂+u₃v₃)/(|u||v|).",
+                  "example": "u=(1,2,−1), v=(2,−1,0) cho u·v=2−2=0. Vì cả hai khác 0 nên hai vectơ vuông góc. Ví dụ bổ sung. Với u=(1,1,0), v=(1,0,1), tích bằng 1 và mỗi độ dài là √2. Do đó cos θ=1/2, θ=60°.",
+                  "pitfall": "Tích vô hướng là số. Công thức cos góc chỉ dùng khi hai vectơ khác 0."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Xác suất có điều kiện",
+          "title": "Chương III · Mức độ phân tán của mẫu ghép nhóm",
           "topics": [
             {
-              "title": "Xác suất có điều kiện",
+              "title": "Khoảng biến thiên và khoảng tứ phân vị",
               "lessons": [
                 {
-                  "title": "Thu hẹp không gian mẫu theo điều kiện",
-                  "summary": "Tính xác suất của A khi đã biết B xảy ra.",
-                  "rule": "Khi P(B) > 0, ta có P(A | B) = P(A ∩ B) ÷ P(B). Nếu các kết quả trong không gian mẫu ban đầu đồng khả năng, đếm số kết quả thỏa cả A và B rồi chia cho số kết quả thỏa B.",
-                  "example": "Gieo một xúc xắc cân đối. Biết kết quả là số chẵn, tập kết quả có thể là {2, 4, 6}. Trong đó {4, 6} lớn hơn 3, nên xác suất cần tìm là 2/3.",
-                  "pitfall": "P(A | B) và P(B | A) có thể khác nhau. Ví dụ nếu B là ra số chẵn và A là ra số 4, thì P(A | B) = 1/3, còn P(B | A) = 1."
+                  "title": "Bài 9. Khoảng biến thiên và khoảng tứ phân vị",
+                  "summary": "So sánh độ trải của toàn bộ mẫu và của phần giữa.",
+                  "rule": "Khoảng biến thiên ghép nhóm lấy cận trên lớp cuối trừ cận dưới lớp đầu có dữ liệu. Để ước lượng tứ phân vị, tìm lớp chứa vị trí n/4 hoặc 3n/4 bằng tần số tích luỹ rồi nội suy trong lớp. Khoảng tứ phân vị bằng Q₃−Q₁. Qₚ=L+h(pn−F)/m với p=1/4, 1/2 hoặc 3/4. L và h là cận dưới và độ rộng lớp chứa phân vị, F là tần số tích luỹ trước lớp, m là tần số lớp.",
+                  "example": "Với [0,10), [10,20), [20,30) có tần số 2,4,2, khoảng biến thiên là 30. Hai vị trí tứ phân là 2 và 6, cho Q₁=10, Q₃=20 và khoảng tứ phân vị 10. Ví dụ bổ sung. Nếu n=40, lớp chứa Q₁ là [10,15), F=6, m=8 thì Q₁=10+5(10−6)/8=12,5.",
+                  "pitfall": "Dùng tần số tích luỹ để chọn lớp. Khoảng biến thiên ghép nhóm dùng cận lớp, nên có thể khác khoảng biến thiên của dữ liệu gốc."
+                }
+              ]
+            },
+            {
+              "title": "Phương sai và độ lệch chuẩn",
+              "lessons": [
+                {
+                  "title": "Bài 10. Phương sai và độ lệch chuẩn",
+                  "summary": "Đo mức độ phân tán quanh trung bình bằng giá trị đại diện của mỗi lớp.",
+                  "rule": "Lấy trung điểm xᵢ mỗi lớp và trọng số nᵢ. Trung bình bằng tổng nᵢxᵢ chia n; phương sai bằng tổng nᵢ(xᵢ−x̄)² chia n; độ lệch chuẩn là căn phương sai. s²=Σnᵢxᵢ²/n−x̄², s=√s².",
+                  "example": "Hai lớp [0,2) và [2,4) đều có 2 quan sát. Trung điểm 1 và 3 cho trung bình 2, phương sai 1 và độ lệch chuẩn 1. Ví dụ bổ sung. Ba trung điểm 2,4,6 có tần số 1,2,1. Trung bình là 4, bình phương trung bình theo trọng số của các giá trị là (4+32+36)/4=18, nên s²=18−16=2.",
+                  "pitfall": "Mẫu ghép nhóm cho kết quả ước lượng. Phương sai có đơn vị bình phương, độ lệch chuẩn cùng đơn vị với dữ liệu."
                 }
               ]
             }
           ]
+        },
+        {
+          "title": "Chương IV · Nguyên hàm và tích phân",
+          "topics": [
+            {
+              "title": "Nguyên hàm",
+              "lessons": [
+                {
+                  "title": "Bài 11. Nguyên hàm",
+                  "summary": "Tìm họ hàm mà đạo hàm cho trước.",
+                  "rule": "Nếu F′=f trên một khoảng thì họ nguyên hàm là F+C. Tách tổng và đưa hằng số ra ngoài. Với xⁿ, tăng số mũ thêm 1 và chia cho số mũ mới nếu n khác −1. ∫eˣdx=eˣ+C; ∫sin x dx=−cos x+C; ∫cos x dx=sin x+C; ∫aˣdx=aˣ/ln a+C với a>0, a≠1.",
+                  "example": "Với f(x)=6x²+2, chọn F(x)=2x³+2x. Điều kiện F(1)=5 cho C=1 và nguyên hàm cần tìm là 2x³+2x+1. Ví dụ bổ sung. ∫(2cos x−eˣ)dx=2sin x−eˣ+C. Kiểm tra bằng cách lấy đạo hàm kết quả.",
+                  "pitfall": "Trường hợp 1/x có nguyên hàm ln của giá trị tuyệt đối của x+C trên từng khoảng không chứa 0."
+                }
+              ]
+            },
+            {
+              "title": "Tích phân xác định",
+              "lessons": [
+                {
+                  "title": "Bài 12. Tích phân xác định",
+                  "summary": "Tính tích phân bằng nguyên hàm và hai cận.",
+                  "rule": "Với f liên tục trên [a,b], ∫ₐᵇ f(x)dx=F(b)−F(a). Đổi thứ tự cận làm đổi dấu. Có thể chia khoảng tại một cận trung gian rồi cộng kết quả. ∫ từ a đến c bằng tổng tích phân từ a đến b và từ b đến c khi hàm liên tục trên khoảng xét.",
+                  "example": "∫₀² (2x+1)dx = [x²+x]₀² = 6. Tích phân từ 2 về 0 của cùng hàm bằng −6. Ví dụ bổ sung. Với |x| trên [−1,2], tách tại 0. Phần đầu tích phân −x bằng 1/2, phần sau tích phân x bằng 2, tổng là 5/2.",
+                  "pitfall": "Hằng số C triệt tiêu. Kiểm tra cận và dấu trước khi kết luận."
+                }
+              ]
+            },
+            {
+              "title": "Diện tích và thể tích bằng tích phân",
+              "lessons": [
+                {
+                  "title": "Bài 13. Diện tích và thể tích bằng tích phân",
+                  "summary": "Tính đại lượng hình học từ lát cắt hoặc khoảng cách hai đường.",
+                  "rule": "Diện tích giữa hai đồ thị là tích phân của giá trị tuyệt đối của f−g. Chia tại điểm giao khi thứ tự hai đồ thị đổi. Thể tích theo lát cắt vuông góc một trục là tích phân của diện tích lát cắt. Quay miền giữa y=f(x) và Ox quanh Ox: V=π∫f²(x)dx từ a đến b.",
+                  "example": "Giữa y=x và y=x² trên [0,1], đường trên là y=x. S=∫₀¹(x−x²)dx=1/2−1/3=1/6. Ví dụ bổ sung. Quay miền dưới y=x trên [0,2] quanh Ox: bán kính lát cắt là x, V=π[x³/3] từ 0 đến 2 =8π/3 đơn vị thể tích.",
+                  "pitfall": "Tích phân có dấu có thể bằng 0 dù diện tích dương. Với khối tròn xoay, diện tích đĩa là πr²."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương V · Phương pháp tọa độ trong không gian",
+          "topics": [
+            {
+              "title": "Phương trình mặt phẳng",
+              "lessons": [
+                {
+                  "title": "Bài 14. Phương trình mặt phẳng",
+                  "summary": "Viết mặt phẳng từ một điểm và một vectơ pháp tuyến.",
+                  "rule": "Mặt phẳng qua M₀(x₀,y₀,z₀) và có pháp tuyến (a,b,c) thoả a(x−x₀)+b(y−y₀)+c(z−z₀)=0. Khoảng cách từ điểm đến mặt phẳng lấy trị tuyệt đối vế trái chia độ dài pháp tuyến. d(M,P)=|ax₀+by₀+cz₀+d|/√(a²+b²+c²) với P: ax+by+cz+d=0.",
+                  "example": "Qua M₀(1,0,2) với pháp tuyến (2,−1,1), có 2x−y+z−4=0. Khoảng cách từ gốc O là 4/√6. Ví dụ bổ sung. Từ M(2,1,0) đến P: x+2y+2z−1=0, tử số |2+2−1|=3, mẫu số 3, khoảng cách bằng 1.",
+                  "pitfall": "Bộ hệ số a,b,c không thể đồng thời bằng 0. Đừng bỏ dấu giá trị tuyệt đối khi tính khoảng cách."
+                }
+              ]
+            },
+            {
+              "title": "Phương trình đường thẳng không gian",
+              "lessons": [
+                {
+                  "title": "Bài 15. Phương trình đường thẳng không gian",
+                  "summary": "Dùng một điểm và một vectơ chỉ phương để viết phương trình tham số.",
+                  "rule": "Với điểm M₀ và vectơ u=(a,b,c) khác 0, mọi điểm là M₀+tu. Để xét giao nhau, viết hai bộ tọa độ và giải các phương trình theo hai tham số riêng. Đường qua A,B phân biệt có chỉ phương B−A. Dạng tham số M=A+t(B−A), t thực.",
+                  "example": "Qua (1,0,2) với u=(2,−1,0), ta có (x,y,z)=(1+2t,−t,2). Điểm (3,−1,2) ứng với t=1. Ví dụ bổ sung. A(0,1,2), B(2,1,0) cho x=2t, y=1, z=2−2t. Khi t=1/2 ta được trung điểm (1,1,1).",
+                  "pitfall": "Nếu một thành phần của u bằng 0, giữ tọa độ đó cố định trong dạng tham số."
+                }
+              ]
+            },
+            {
+              "title": "Góc trong không gian",
+              "lessons": [
+                {
+                  "title": "Bài 16. Góc trong không gian",
+                  "summary": "Tính góc giữa đường thẳng và mặt phẳng bằng chỉ phương, pháp tuyến.",
+                  "rule": "Đường–đường dùng cos từ hai chỉ phương; mặt–mặt dùng cos từ hai pháp tuyến. Đường–mặt dùng sin bằng giá trị tuyệt đối của u·n chia cho tích độ dài của u và n. Góc giữa hai đối tượng lấy trong [0°,90°]. cos góc hai mặt phẳng = |n₁·n₂|/(|n₁||n₂|).",
+                  "example": "u=(1,0,1), n=(0,0,1) cho sin góc đường–mặt là 1/√2, nên góc bằng 45°. Ví dụ bổ sung. Hai pháp tuyến (1,1,0) và (0,1,1) cho cos góc bằng 1/2, nên góc giữa hai mặt phẳng bằng 60°.",
+                  "pitfall": "Góc đường–mặt là góc phụ với góc nhọn giữa chỉ phương và pháp tuyến."
+                }
+              ]
+            },
+            {
+              "title": "Phương trình mặt cầu",
+              "lessons": [
+                {
+                  "title": "Bài 17. Phương trình mặt cầu",
+                  "summary": "Xác định tâm và bán kính bằng khoảng cách hoặc hoàn thành bình phương.",
+                  "rule": "Mặt cầu tâm I(a,b,c), bán kính R>0 thoả (x−a)²+(y−b)²+(z−c)²=R². Nếu biết hai đầu đường kính, tâm là trung điểm còn R bằng nửa độ dài đường kính. Dạng x²+y²+z²−2ax−2by−2cz+d=0 có tâm (a,b,c) và R²=a²+b²+c²−d>0.",
+                  "example": "x²+y²+z²−2x+4z−4=0 viết thành (x−1)²+y²+(z+2)²=9, nên tâm là (1,0,−2), bán kính 3. Ví dụ bổ sung. Tâm (1,−1,2) và mặt cầu đi qua O cho R²=1+1+4=6. Phương trình là (x−1)²+(y+1)²+(z−2)²=6.",
+                  "pitfall": "Vế phải dạng chuẩn là bình phương bán kính. Giá trị không dương không cho mặt cầu bán kính dương."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương VI · Xác suất có điều kiện",
+          "topics": [
+            {
+              "title": "Xác suất khi đã biết điều kiện",
+              "lessons": [
+                {
+                  "title": "Bài 18. Xác suất khi đã biết điều kiện",
+                  "summary": "Thu hẹp không gian mẫu theo điều kiện được cung cấp.",
+                  "rule": "Khi P(B)>0, P(A khi biết B)=P(A∩B)/P(B). Suy ngược P(A∩B)=P(B)P(A khi biết B). Nếu A và B độc lập, biết B không đổi xác suất của A. P(A∩B)=P(B)P(A|B)=P(A)P(B|A) khi các xác suất điều kiện xác định.",
+                  "example": "Gieo xúc xắc cân đối, biết số chẵn thì chỉ còn {2,4,6}. Hai kết quả lớn hơn 3 là 4 và 6, nên xác suất là 2/3. Ví dụ bổ sung. Hộp có 3 bi đỏ và 2 xanh. Rút hai lần không hoàn lại. Xác suất cả hai đỏ là (3/5)(2/4)=3/10.",
+                  "pitfall": "Đổi điều kiện làm thay đổi mẫu số. Biến cố xung khắc có xác suất dương thường không độc lập."
+                }
+              ]
+            },
+            {
+              "title": "Xác suất toàn phần và Bayes",
+              "lessons": [
+                {
+                  "title": "Bài 19. Xác suất toàn phần và Bayes",
+                  "summary": "Gộp xác suất từ nhiều nhóm và cập nhật xác suất nhóm sau khi quan sát kết quả.",
+                  "rule": "Chia không gian mẫu thành các nhóm Bᵢ rời nhau, phủ hết. Cộng P(Bᵢ)P(A khi biết Bᵢ) để được P(A). Bayes lấy đóng góp của nhóm đang xét chia cho tổng P(A). P(Bⱼ|A)=P(Bⱼ)P(A|Bⱼ)/ΣP(Bᵢ)P(A|Bᵢ) với P(A)>0 và các Bᵢ tạo một phân hoạch có xác suất dương.",
+                  "example": "Hai dây chuyền A và B sản xuất lần lượt 60% và 40%, tỉ lệ lỗi 1% và 3%. Tỉ lệ lỗi chung là 0,018. Trong các sản phẩm lỗi, xác suất từ B là 0,012/0,018=2/3. Ví dụ bổ sung. Kiểm tra kết quả của ví dụ dây chuyền bằng 1000 sản phẩm: A làm 600, dự kiến 6 lỗi; B làm 400, dự kiến 12 lỗi. B chiếm 12 trong 18 sản phẩm lỗi.",
+                  "pitfall": "Không so trực tiếp tỉ lệ lỗi của các nhóm. Mỗi nhóm đóng góp theo cả tỉ trọng và tỉ lệ lỗi."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Kết nối tri thức với cuộc sống · 19 bài lý thuyết",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1T5MUat8Mzu_UrONv30Cd0FjcqVq1Jgq4"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Mk2xdC5j_-AEjTBVRrCdW18bdSnrvFNa"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1WxBolyvQ3lBGrn6lB_w12Zua3E_bAewB"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1n0_eyxbgb4YuK4et8TLjf0hWCNgUwwD0"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Ngữ văn",
+      "chapters": [
+        {
+          "title": "Đọc hiểu văn học và thông tin",
+          "topics": [
+            {
+              "title": "Đọc truyện hiện đại",
+              "lessons": [
+                {
+                  "title": "Đọc truyện hiện đại",
+                  "summary": "Xét tình huống truyện, điểm nhìn và quá trình thay đổi của nhân vật. Chọn chi tiết tiêu biểu để bảo vệ cách đọc.",
+                  "rule": "So sánh góc nhìn của người kể với lượng thông tin người đọc nhận được ở từng đoạn.",
+                  "example": "Cùng một cuộc chia tay, việc chỉ thuật lại suy nghĩ của người ở lại khiến động cơ của người ra đi còn bỏ ngỏ. Dùng giới hạn ấy khi nhận xét nhân vật."
+                }
+              ]
+            },
+            {
+              "title": "Đọc thơ hiện đại",
+              "lessons": [
+                {
+                  "title": "Đọc thơ hiện đại",
+                  "summary": "Theo dõi mạch cảm xúc, hình ảnh và sự thay đổi giọng điệu. Phân tích tác dụng của lựa chọn ngôn ngữ trong đoạn cụ thể.",
+                  "rule": "Theo dõi hình ảnh lặp và sự thay đổi của nó giữa các khổ thơ.",
+                  "example": "Nếu đầu bài ánh đèn xuất hiện khi chờ đợi, cuối bài ánh đèn tắt sau chia xa, sự lặp có biến đổi giúp phân tích mạch cảm xúc."
+                }
+              ]
+            },
+            {
+              "title": "Đọc kí và văn bản thông tin",
+              "lessons": [
+                {
+                  "title": "Đọc kí và văn bản thông tin",
+                  "summary": "Phân biệt dữ kiện được kiểm chứng với bình luận. Xem cách nhân vật, thời gian, địa điểm và nguồn tư liệu làm tăng sức thuyết phục.",
+                  "rule": "Đối chiếu con số, trích dẫn và sự kiện với phần bình luận. Xét mục đích tác giả khi chọn dẫn chứng.",
+                  "example": "Trong câu “lượng khách tăng 20%, một sự hồi sinh đáng mừng”, số liệu và đánh giá là hai lớp thông tin cần kiểm tra khác nhau."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Viết, nói và biên tập",
+          "topics": [
+            {
+              "title": "Viết so sánh và nghị luận xã hội",
+              "lessons": [
+                {
+                  "title": "Viết so sánh và nghị luận xã hội",
+                  "summary": "Đặt hai tác phẩm trên cùng tiêu chí rồi giải thích điểm giống, khác. Với vấn đề xã hội, dùng dẫn chứng có thể kiểm tra và cân nhắc ý kiến trái chiều.",
+                  "rule": "Chọn tiêu chí chung cho cả hai tác phẩm rồi triển khai bằng dẫn chứng cân xứng.",
+                  "example": "So sánh hai nhân vật qua cách phản ứng trước thất bại. Nêu hành động của mỗi người và giải thích vì sao bối cảnh dẫn đến lựa chọn khác nhau."
+                }
+              ]
+            },
+            {
+              "title": "Nói, nghe và biên tập",
+              "lessons": [
+                {
+                  "title": "Nói, nghe và biên tập",
+                  "summary": "Trình bày kết luận trước, dẫn các lí do theo thứ tự rõ. Khi sửa bài, kiểm tra lập luận, trích dẫn, chính tả và độ liên kết.",
+                  "rule": "Khi sửa bài nói, thử rút mỗi đoạn còn một câu. Nếu hai đoạn trùng ý, gộp hoặc đổi chức năng của một đoạn.",
+                  "example": "Sau luận điểm về thói quen đọc, thay lời kêu gọi chung bằng dẫn chứng cụ thể và một câu giải thích dẫn chứng."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Tiếng Anh",
+      "chapters": [
+        {
+          "title": "Life, environment and careers",
+          "topics": [
+            {
+              "title": "Life stories and culture",
+              "lessons": [
+                {
+                  "title": "Life stories and culture",
+                  "summary": "Past simple thường kể sự kiện đã kết thúc. Past continuous mô tả bối cảnh đang diễn ra: “I was studying when she called”.",
+                  "rule": "Past simple kể sự kiện hoàn tất; past continuous dùng was/were + V-ing cho nền đang diễn ra.",
+                  "example": "“While the team was practising, the lights went out.” Việc mất điện chen vào quá trình luyện tập đang diễn ra."
+                }
+              ]
+            },
+            {
+              "title": "Green living and urbanisation",
+              "lessons": [
+                {
+                  "title": "Green living and urbanisation",
+                  "summary": "Dùng câu so sánh và từ chỉ xu hướng như increase, decline và gradually. Nêu nguyên nhân và hệ quả bằng kết nối rõ ràng.",
+                  "rule": "Distinguish between increase by (mức tăng) và increase to (giá trị cuối).",
+                  "example": "“The share rose from 20% to 25%.” Mức chênh là 5 percentage points, tương ứng mức tăng tương đối 25%."
+                }
+              ]
+            },
+            {
+              "title": "Work and lifelong learning",
+              "lessons": [
+                {
+                  "title": "Work and lifelong learning",
+                  "summary": "Trong email trang trọng, viết mục đích ở đoạn đầu và dùng yêu cầu lịch sự. Nêu kĩ năng kèm một tình huống minh hoạ.",
+                  "rule": "Khi viết đơn, nối yêu cầu vị trí với minh chứng cho năng lực và kết bằng đề nghị trao đổi.",
+                  "example": "“I coordinated a reading club for six months” cụ thể hơn “I am responsible” vì có hành động và thời gian để người đọc đánh giá."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Media and communication",
+          "topics": [
+            {
+              "title": "Media and artificial intelligence",
+              "lessons": [
+                {
+                  "title": "Media and artificial intelligence",
+                  "summary": "Tách dữ kiện khỏi ý kiến, kiểm tra người xuất bản và bằng chứng. Dùng modal verbs để diễn đạt mức độ chắc chắn.",
+                  "rule": "Must có thể diễn đạt suy luận mạnh, might diễn đạt khả năng. Chọn theo độ chắc chắn của bằng chứng.",
+                  "example": "“The image might be edited” phù hợp khi mới có dấu hiệu. Cần nguồn gốc hoặc bằng chứng để đưa ra khẳng định mạnh hơn."
+                }
+              ]
+            },
+            {
+              "title": "Reading and speaking strategies",
+              "lessons": [
+                {
+                  "title": "Reading and speaking strategies",
+                  "summary": "Gạch ý chính mỗi đoạn, suy nghĩa từ ngữ cảnh và kiểm tra đại từ quy chiếu. Khi nói, dùng mẫu ý chính → lí do → ví dụ.",
+                  "rule": "Xác định chủ đề chung bằng các từ lặp hoặc đồng nghĩa. Kiểm tra đại từ quay lại đối tượng nào theo nghĩa.",
+                  "example": "“Many workers joined short courses. These helped them adapt.” These chỉ các khoá học, còn them chỉ người lao động."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1zkzVwNCYi5e1x37b0zEQ2vmOXplFZBNF"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1ybzj-_Zi7OjstRkB7Teq6Su10uqxcdN-"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Nr74FUt22crg9dc58qaevSnCAQAR9bzK"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1huh2U_W-BdwHbp_Au9nlRPlEmlDmWA2z"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Vật lí",
+      "chapters": [
+        {
+          "title": "Nhiệt học và chất khí",
+          "topics": [
+            {
+              "title": "Vật lí nhiệt",
+              "lessons": [
+                {
+                  "title": "Vật lí nhiệt",
+                  "summary": "Nội năng thay đổi do truyền nhiệt hoặc thực hiện công. Khi vật tăng nhiệt độ mà không chuyển pha, Q = mcΔT trong điều kiện phù hợp.",
+                  "rule": "Q=mcΔT khi nhiệt dung riêng gần như không đổi và không chuyển pha. Với chuyển pha ở nhiệt độ xác định dùng Q=mL cho nhiệt chuyển pha riêng tương ứng.",
+                  "example": "Làm nóng 0,5 kg nước thêm 10 K, lấy c=4200 J/(kg·K), cần 21.000 J nếu bỏ qua mất nhiệt."
+                }
+              ]
+            },
+            {
+              "title": "Chất khí lí tưởng",
+              "lessons": [
+                {
+                  "title": "Chất khí lí tưởng",
+                  "summary": "Dùng nhiệt độ Kelvin. Với lượng khí cố định, pV/T không đổi trong mô hình khí lí tưởng.",
+                  "rule": "pV=nRT với p tính bằng Pa, V bằng m³, T bằng K khi dùng R≈8,31 J/(mol·K).",
+                  "example": "Khí có thể tích cố định tăng từ 300 lên 330 K. Với cùng lượng khí, p₂/p₁=330/300=1,1 nên áp suất tăng 10%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Điện từ học",
+          "topics": [
+            {
+              "title": "Từ trường",
+              "lessons": [
+                {
+                  "title": "Từ trường",
+                  "summary": "Lực từ lên dây dẫn có dòng điện phụ thuộc B, I, chiều dài hiệu dụng và góc giữa dây với trường. Kiểm tra hướng bằng quy tắc thích hợp.",
+                  "rule": "F=BIl sin θ cho đoạn dây thẳng trong từ trường đều, θ là góc giữa chiều dòng điện và từ trường.",
+                  "example": "B=0,2 T, I=3 A, l=0,5 m và dây vuông góc trường thì F=0,3 N. Nếu dây song song với trường thì F=0."
+                }
+              ]
+            },
+            {
+              "title": "Cảm ứng điện từ",
+              "lessons": [
+                {
+                  "title": "Cảm ứng điện từ",
+                  "summary": "Suất điện động cảm ứng gắn với tốc độ biến thiên từ thông. Chiều dòng cảm ứng tạo tác dụng chống lại sự biến thiên gây ra nó.",
+                  "rule": "Từ thông Φ=BS cos α với α giữa pháp tuyến và trường đều. Suất điện động trung bình có độ lớn N|ΔΦ|/Δt.",
+                  "example": "Cuộn 50 vòng có từ thông mỗi vòng giảm đều 0,004 Wb trong 0,1 s. Độ lớn suất điện động cảm ứng là 2 V."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vật lí hạt nhân",
+          "topics": [
+            {
+              "title": "Vật lí hạt nhân",
+              "lessons": [
+                {
+                  "title": "Vật lí hạt nhân",
+                  "summary": "Phân biệt số khối và số proton. Năng lượng liên kết liên quan độ hụt khối. Sau n chu kì bán rã, lượng hạt chưa phân rã còn 1/2ⁿ giá trị ban đầu.",
+                  "rule": "N=N₀·2^(−t/T). Hoạt độ của cùng một đồng vị cũng giảm theo hệ số này.",
+                  "example": "Sau 3 chu kì bán rã, còn 1/8 lượng ban đầu. Mẫu ban đầu 80 mg đồng vị còn 10 mg đồng vị đó."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1pVvki3kuaOjFRxmSWQj9w-P1HcT00fjK"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/11lbmpWQGTN_LaGUMkHTeIOEmCiveBH0q"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Z9Jj8B3QAk8zH-H0ZXmRy-Ew09COJ4or"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1KMLqK9HzmfXJ3vAumdscPSYlrMKgfQfh"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Hoá học",
+      "chapters": [
+        {
+          "title": "Hoá hữu cơ và vật liệu",
+          "topics": [
+            {
+              "title": "Ester, lipid và carbohydrate",
+              "lessons": [
+                {
+                  "title": "Ester, lipid và carbohydrate",
+                  "summary": "Thuỷ phân ester kiềm tạo muối carboxylate và alcohol. Glucose, saccharose và tinh bột khác nhau về cấu tạo và phản ứng nhận biết.",
+                  "rule": "Nhóm ester có dạng R–COO–R′. Phương trình thuỷ phân phụ thuộc môi trường.",
+                  "example": "CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH. Xác định phần acid để viết muối và phần gốc gắn với O để viết alcohol."
+                }
+              ]
+            },
+            {
+              "title": "Hợp chất chứa nitrogen",
+              "lessons": [
+                {
+                  "title": "Hợp chất chứa nitrogen",
+                  "summary": "Amine có tính base tuỳ cấu tạo; amino acid có nhóm amino và carboxyl. Peptide gồm các gốc amino acid nối qua liên kết peptide.",
+                  "rule": "Phân biệt nhóm amino tự do, nhóm carboxyl và liên kết –CO–NH– giữa hai gốc amino acid.",
+                  "example": "Một tripeptide mạch hở thông thường gồm ba gốc amino acid và hai liên kết peptide. Số liên kết ít hơn số gốc một đơn vị."
+                }
+              ]
+            },
+            {
+              "title": "Polymer",
+              "lessons": [
+                {
+                  "title": "Polymer",
+                  "summary": "Trùng hợp nối monomer có khả năng mở liên kết hoặc mở vòng. Trùng ngưng thường tạo polymer đồng thời tách phân tử nhỏ.",
+                  "rule": "Nhận diện mắt xích lặp và phân biệt công thức mắt xích với monomer ban đầu.",
+                  "example": "Ethylene CH₂=CH₂ trùng hợp thành polyethylene với mắt xích –CH₂–CH₂–. Liên kết đôi của monomer thay đổi khi chuỗi hình thành."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Điện hoá và kim loại",
+          "topics": [
+            {
+              "title": "Điện hoá",
+              "lessons": [
+                {
+                  "title": "Điện hoá",
+                  "summary": "Anode luôn là nơi oxi hoá, cathode là nơi khử. Dấu điện cực khác giữa pin điện và bình điện phân.",
+                  "rule": "Trong pin, electron đi qua mạch ngoài từ anode sang cathode; cân bằng electron trong hai bán phản ứng.",
+                  "example": "Pin Zn–Cu có Zn → Zn²⁺ + 2e ở anode và Cu²⁺ + 2e → Cu ở cathode. Tổng phản ứng bằng cách cộng rồi triệt tiêu electron."
+                }
+              ]
+            },
+            {
+              "title": "Kim loại và phức chất",
+              "lessons": [
+                {
+                  "title": "Kim loại và phức chất",
+                  "summary": "Tính khử giúp giải thích phản ứng của kim loại. Xem điều kiện ăn mòn và cách bảo vệ; trong phức chất phân biệt nguyên tử trung tâm, phối tử và số phối trí.",
+                  "rule": "Trong phức chất, xác định điện tích trung tâm bằng cách lấy điện tích toàn phức trừ tổng điện tích phối tử.",
+                  "example": "Trong [Cu(NH₃)₄]²⁺, NH₃ trung hoà nên Cu có số oxi hoá +2. Bốn phân tử NH₃ đơn càng cho số phối trí 4."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1EHaQdG9VlrsoPRrMLRVDCzOX3WrbW0FW"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/16fllmePNN_uHEJ1cKcfNHAKUTSARh2-I"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1-BvCsqfaRRqPlrGdAkfnO2bXkkBJuPzS"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Sinh học",
+      "chapters": [
+        {
+          "title": "Di truyền học",
+          "topics": [
+            {
+              "title": "Di truyền phân tử",
+              "lessons": [
+                {
+                  "title": "Di truyền phân tử",
+                  "summary": "DNA lưu giữ thông tin; phiên mã tạo RNA. Dịch mã đọc codon trên mRNA để tạo chuỗi polypeptide.",
+                  "rule": "Đọc codon trên mRNA theo chiều 5′→3′, bắt đầu từ khung đọc phù hợp. Codon kết thúc không mã hoá amino acid.",
+                  "example": "Đoạn mRNA 5′-AUG-GCU-UAA-3′ cho methionine, alanine rồi dừng trong mã di truyền chuẩn. Ba codon ở đây chỉ cho hai amino acid."
+                }
+              ]
+            },
+            {
+              "title": "Nhiễm sắc thể và quy luật di truyền",
+              "lessons": [
+                {
+                  "title": "Nhiễm sắc thể và quy luật di truyền",
+                  "summary": "Dùng kiểu gen và giao tử để dự đoán kiểu hình. Phân li độc lập áp dụng trong điều kiện phù hợp; liên kết gen có thể làm thay đổi tỉ lệ.",
+                  "rule": "Để lập phép lai, ghi kiểu gen bố mẹ, tỉ lệ giao tử và xác suất kết hợp rồi mới suy kiểu hình.",
+                  "example": "Aa × Aa có tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa. Nếu A trội hoàn toàn thì kiểu hình mới có tỉ lệ 3 : 1."
+                }
+              ]
+            },
+            {
+              "title": "Di truyền quần thể và ứng dụng",
+              "lessons": [
+                {
+                  "title": "Di truyền quần thể và ứng dụng",
+                  "summary": "Tần số allele khác tần số kiểu gen. Hardy–Weinberg là mô hình cân bằng với các giả định, dùng làm mốc để so sánh.",
+                  "rule": "Với hai allele, p=(2NAA+NAa)/(2N). Cân bằng Hardy–Weinberg cho p², 2pq, q².",
+                  "example": "Trong 100 cá thể có 36 AA, 48 Aa, 16 aa, p=(72+48)/200=0,6. Tần số A là 60%, khác tỉ lệ cá thể AA là 36%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tiến hoá và sinh thái",
+          "topics": [
+            {
+              "title": "Tiến hoá",
+              "lessons": [
+                {
+                  "title": "Tiến hoá",
+                  "summary": "Đột biến tạo biến dị, chọn lọc tự nhiên làm thay đổi tần số kiểu hình và có thể làm đổi tần số allele qua thế hệ.",
+                  "rule": "Phân biệt nguồn biến dị với quá trình làm biến đổi tần số của biến dị đã có trong quần thể.",
+                  "example": "Nếu màu lông giúp tránh bị phát hiện và tính trạng có thể di truyền, nhóm mang màu ấy có thể để lại nhiều con hơn. Cá thể không tự đổi kiểu gen vì cần thích nghi."
+                }
+              ]
+            },
+            {
+              "title": "Sinh thái và bảo tồn",
+              "lessons": [
+                {
+                  "title": "Sinh thái và bảo tồn",
+                  "summary": "Năng lượng truyền qua bậc dinh dưỡng và giảm dần. Vật chất tuần hoàn. Bảo tồn cần xem cả loài, sinh cảnh và mối liên kết giữa quần thể.",
+                  "rule": "Hiệu suất chuyển bậc = năng lượng bậc sau/năng lượng bậc trước ×100% trong cùng hệ và thời gian.",
+                  "example": "Bậc sản xuất tích luỹ 10.000 kJ, bậc tiêu thụ thứ nhất tích luỹ 900 kJ thì hiệu suất là 9%. Không mặc định mọi hệ đều bằng 10%."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1JyVGM6OLp_B9ex00Cn6YbI_E2K2o1PdA"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/11WbWG4TIckEdIDF9Cf7Dbn6gZB3S0h2A"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1xCAtj85fsDKXK5j-FzsmmtgwcLUwFAgy"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1_h6lOW877QeSuNhyw0d9LNTvrCK-xtBu"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Lịch sử",
+      "chapters": [
+        {
+          "title": "Thế giới và khu vực",
+          "topics": [
+            {
+              "title": "Thế giới trong và sau Chiến tranh lạnh",
+              "lessons": [
+                {
+                  "title": "Thế giới trong và sau Chiến tranh lạnh",
+                  "summary": "Phân biệt Liên hợp quốc với trật tự hai cực. Lập mốc cho quá trình đối đầu, hoà hoãn và biến đổi trật tự quốc tế.",
+                  "rule": "Phân biệt tổ chức quốc tế, trật tự thế giới và quan hệ giữa các cường quốc.",
+                  "example": "Liên hợp quốc ra đời năm 1945. Khi phân tích Chiến tranh lạnh, dùng mốc này để đặt bối cảnh rồi xét riêng quan hệ đối đầu giữa các khối."
+                }
+              ]
+            },
+            {
+              "title": "ASEAN",
+              "lessons": [
+                {
+                  "title": "ASEAN",
+                  "summary": "Theo dõi quá trình hình thành, mở rộng và xây dựng cộng đồng. Xem vai trò của hợp tác khu vực trong mỗi giai đoạn.",
+                  "rule": "Lập trục theo ba quá trình: thành lập, mở rộng thành viên và phát triển cơ chế hợp tác.",
+                  "example": "Năm 1967 gắn với thành lập ASEAN, năm 1995 gắn với Việt Nam gia nhập. Mốc sau phản ánh mở rộng thành viên."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Việt Nam từ năm 1945 và đối ngoại",
+          "topics": [
+            {
+              "title": "Cách mạng tháng Tám và kháng chiến",
+              "lessons": [
+                {
+                  "title": "Cách mạng tháng Tám và kháng chiến",
+                  "summary": "Đặt Cách mạng tháng Tám, kháng chiến chống Pháp và chống Mỹ vào trục thời gian. So sánh mục tiêu, điều kiện và bước ngoặt.",
+                  "rule": "Mỗi giai đoạn lập bảng mục tiêu, tương quan lực lượng, bước ngoặt và kết quả.",
+                  "example": "Khi so sánh 1945 với 1954, tách nhiệm vụ giành chính quyền với kết quả của kháng chiến chống thực dân Pháp. Tránh gộp hai mốc thành một tiến trình duy nhất không phân kì."
+                }
+              ]
+            },
+            {
+              "title": "Bảo vệ Tổ quốc và công cuộc Đổi mới",
+              "lessons": [
+                {
+                  "title": "Bảo vệ Tổ quốc và công cuộc Đổi mới",
+                  "summary": "Phân biệt nhiệm vụ bảo vệ đất nước sau 1975 với các thay đổi kinh tế, xã hội và đối ngoại từ Đổi mới.",
+                  "rule": "Giải thích đổi mới bằng quan hệ giữa khó khăn, lựa chọn chính sách và tác động qua thời gian.",
+                  "example": "Đại hội VI năm 1986 là mốc khởi xướng đường lối Đổi mới. Để đánh giá kết quả cần thêm bằng chứng của các năm sau mốc này."
+                }
+              ]
+            },
+            {
+              "title": "Đối ngoại và Hồ Chí Minh",
+              "lessons": [
+                {
+                  "title": "Đối ngoại và Hồ Chí Minh",
+                  "summary": "Đọc hoạt động đối ngoại theo bối cảnh và mục tiêu từng thời kì. Liên hệ hoạt động của Hồ Chí Minh với các giai đoạn cách mạng Việt Nam.",
+                  "rule": "Nối mục tiêu đối ngoại với hoàn cảnh và công cụ sử dụng. Kiểm tra trình tự và chủ thể khi so sánh.",
+                  "example": "Khi đọc một văn kiện đối ngoại, ghi rõ người gửi, người nhận và yêu cầu chính. Dùng bối cảnh để giải thích lựa chọn ngôn từ hoặc thời điểm."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1XSf78FcBP8lkx9R1CmQx9bw9fRCd4F2b"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1V_G1cqugQ3egI-Lyr0djlXc2Lr-_6XLN"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1GNOXQKAZbxUT8Czz0O7hjUDekpq4uDHD"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/102hgdrWfJua6yOolFHujCJQVbhctRh3k"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Địa lí",
+      "chapters": [
+        {
+          "title": "Tự nhiên và dân cư Việt Nam",
+          "topics": [
+            {
+              "title": "Địa lí tự nhiên Việt Nam",
+              "lessons": [
+                {
+                  "title": "Địa lí tự nhiên Việt Nam",
+                  "summary": "Vị trí, gió mùa và địa hình tạo phân hoá theo bắc–nam, đông–tây và độ cao. Liên hệ điều kiện tự nhiên với thiên tai và thích ứng.",
+                  "rule": "Kết hợp hướng gió, địa hình và thời điểm trong năm để giải thích mưa và nhiệt độ.",
+                  "example": "Hai sườn núi ở gần nhau có thể khác lượng mưa do sườn đón gió nâng không khí lên còn sườn khuất gió có điều kiện khô hơn."
+                }
+              ]
+            },
+            {
+              "title": "Dân cư và đô thị Việt Nam",
+              "lessons": [
+                {
+                  "title": "Dân cư và đô thị Việt Nam",
+                  "summary": "Đọc mật độ, cơ cấu tuổi, lao động và đô thị hoá. Phân biệt số dân lớn với mật độ cao.",
+                  "rule": "Mật độ dân số = số dân/diện tích. Khi so sánh phải cùng thời điểm và ranh giới lãnh thổ.",
+                  "example": "Địa bàn giả định có 1,2 triệu người trên 3.000 km² đạt 400 người/km². Mật độ cao không tự chứng minh tổng số dân lớn nhất."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kinh tế và kĩ năng địa lí",
+          "topics": [
+            {
+              "title": "Các ngành kinh tế Việt Nam",
+              "lessons": [
+                {
+                  "title": "Các ngành kinh tế Việt Nam",
+                  "summary": "Xem chuyển dịch cơ cấu và phân bố nông nghiệp, công nghiệp, dịch vụ. Đọc số liệu theo năm và đơn vị để tránh suy luận sai.",
+                  "rule": "Tỉ trọng ngành = giá trị ngành/tổng giá trị ×100%. Giá trị tuyệt đối có thể tăng trong khi tỉ trọng giảm.",
+                  "example": "Nông nghiệp tăng từ 20 lên 22 đơn vị nhưng toàn nền kinh tế tăng từ 100 lên 125. Tỉ trọng giảm từ 20% xuống 17,6%."
+                }
+              ]
+            },
+            {
+              "title": "Địa lí vùng và kinh tế biển",
+              "lessons": [
+                {
+                  "title": "Địa lí vùng và kinh tế biển",
+                  "summary": "Phân tích thế mạnh theo vị trí, hạ tầng, tài nguyên và liên kết vùng. Khi dùng bản đồ hành chính, kiểm tra năm và phiên bản dữ liệu.",
+                  "rule": "Khi so sánh vùng, kiểm tra năm bản đồ và phạm vi vùng. Dùng chuỗi điều kiện → hoạt động → tác động.",
+                  "example": "Một cảng nước sâu phát huy lợi thế khi kết nối với vùng sản xuất bằng đường bộ hoặc đường sắt. Độ sâu của cảng không tự quyết định lượng hàng qua cảng."
+                }
+              ]
+            },
+            {
+              "title": "Thực hành biểu đồ và số liệu",
+              "lessons": [
+                {
+                  "title": "Thực hành biểu đồ và số liệu",
+                  "summary": "Tính tỉ trọng bằng phần chia tổng nhân 100%. Phân biệt tăng theo điểm phần trăm với tăng theo phần trăm so với ban đầu.",
+                  "rule": "Tốc độ tăng phần trăm = (mới−cũ)/cũ ×100% với giá trị cũ khác 0.",
+                  "example": "Tỉ trọng tăng từ 25% lên 30% là tăng 5 điểm phần trăm. Mức tăng tương đối so với ban đầu là 5/25=20%."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-i-nam-hoc-2026-2027.htm",
+          "year": "2026-2027",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1hFnDqbywPUmaY57PxAkwwAZJbL7UuLtz"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-i-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1zIBlBUWE3_RR55liy2ikYnPtsq9prfYT"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-giua-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1Jxp8cw6uT4tzXPrqioRqgLcyNOTopwRP"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "url": "https://thpt-ngogiatu-daklak.edu.vn/khoi-12-de-va-dap-an-kiem-tra-cuoi-hoc-ky-ii-nam-hoc-2025-2026.htm",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Ngô Gia Tự",
+          "file": "https://drive.google.com/drive/folders/1pDaq8H6wA0UPyV7o_axXo7t18UvgK3D4"
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "subject": "Giáo dục Kinh tế và Pháp luật",
+      "chapters": [
+        {
+          "title": "Phát triển kinh tế và an sinh",
+          "topics": [
+            {
+              "title": "Tăng trưởng, phát triển và hội nhập",
+              "lessons": [
+                {
+                  "title": "Tăng trưởng, phát triển và hội nhập",
+                  "summary": "Tăng trưởng nói về quy mô sản lượng; phát triển còn xét chất lượng sống và bền vững. Hội nhập mở thị trường và tạo sức ép cạnh tranh.",
+                  "rule": "Tốc độ tăng GDP thực = (GDP thực năm sau/GDP thực năm trước−1)×100%. Dùng giá so sánh khi phân tích tăng trưởng thực.",
+                  "example": "GDP thực từ 500 lên 525 đơn vị cho mức tăng 5%. Để bàn về phát triển còn cần thông tin về phân phối thu nhập và chất lượng sống."
+                }
+              ]
+            },
+            {
+              "title": "Bảo hiểm và an sinh xã hội",
+              "lessons": [
+                {
+                  "title": "Bảo hiểm và an sinh xã hội",
+                  "summary": "Bảo hiểm chia sẻ rủi ro theo điều kiện cụ thể. An sinh xã hội còn có hỗ trợ và dịch vụ nhằm giảm tác động của rủi ro.",
+                  "rule": "Xét biến cố được bảo hiểm, điều kiện tham gia và phạm vi quyền lợi trước khi nhận xét một trường hợp.",
+                  "example": "Hai người cùng gặp một rủi ro có thể nhận mức hỗ trợ khác nhau do chế độ và điều kiện tham gia khác nhau. Đọc dữ kiện từng trường hợp trước khi kết luận."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quản trị tài chính và quyền công dân",
+          "topics": [
+            {
+              "title": "Kế hoạch kinh doanh và trách nhiệm xã hội",
+              "lessons": [
+                {
+                  "title": "Kế hoạch kinh doanh và trách nhiệm xã hội",
+                  "summary": "Dự kiến khách hàng, chi phí, dòng tiền và rủi ro. Trách nhiệm với người lao động, người tiêu dùng và môi trường đi cùng mục tiêu tài chính.",
+                  "rule": "Điểm hoà vốn theo sản lượng = chi phí cố định/(giá bán đơn vị−biến phí đơn vị), khi mẫu dương và các mức đơn vị không đổi.",
+                  "example": "Chi phí cố định 3 triệu, bán 50 nghìn và biến phí 30 nghìn mỗi sản phẩm thì cần 150 sản phẩm để hoà vốn. Kiểm tra khả năng tiêu thụ trước khi mở rộng."
+                }
+              ]
+            },
+            {
+              "title": "Quản lí thu chi gia đình",
+              "lessons": [
+                {
+                  "title": "Quản lí thu chi gia đình",
+                  "summary": "Xác định thu nhập, chi thiết yếu, chi linh hoạt và dự phòng. Khi thu nhập giảm, ưu tiên các khoản cần thiết và đánh giá lại ngân sách.",
+                  "rule": "Số tiền còn lại = thu nhập khả dụng − chi thiết yếu − chi linh hoạt − khoản đã dành cho mục tiêu khác.",
+                  "example": "Gia đình có 15 triệu/tháng, chi thiết yếu 9 triệu và linh hoạt 3 triệu thì còn 3 triệu để phân bổ cho dự phòng và tiết kiệm."
+                }
+              ]
+            },
+            {
+              "title": "Quyền và nghĩa vụ trong đời sống",
+              "lessons": [
+                {
+                  "title": "Quyền và nghĩa vụ trong đời sống",
+                  "summary": "Phân loại tình huống theo quyền tài sản, kinh doanh, học tập, gia đình hoặc môi trường. Kiểm tra quy định hiện hành khi áp dụng vào việc cụ thể.",
+                  "rule": "Khi xử lí tình huống, ghi riêng tài sản hay lợi ích liên quan, chủ thể, cách thực hiện quyền và nghĩa vụ đi kèm.",
+                  "example": "Một học sinh mượn sách có thể sử dụng theo thoả thuận và có trách nhiệm giữ gìn, hoàn trả. Quyền sử dụng trong tình huống này khác quyền sở hữu."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "alignment": "Chủ đề ôn tập tự biên soạn · chưa đối chiếu mục lục SGK",
+      "assessments": [
+        {
+          "title": "Giữa học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-1-nh-2025-2026-mon-gdktpl-12",
+          "year": "2025-2026",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ I",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-cuoi-hoc-ky-1-nh-2024-2025-mon-gdktpl-12",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Giữa học kỳ II",
+          "url": "https://lhpdl.edu.vn/tai-nguyen/de-dap-an-kiem-tra-giua-hoc-ky-2-nh-2024-2025-mon-gdkt-pl-12",
+          "year": "2024-2025",
+          "publisher": "THPT số 1 Lê Hồng Phong"
+        },
+        {
+          "title": "Cuối học kỳ II",
+          "year": "2024-2025",
+          "publisher": "THPT Bình Chiểu",
+          "url": "https://thptbinhchieu.hcm.edu.vn/de-thi-dap-an/de-kiem-tra-dap-an-de-kiem-tra-hoc-ky-ii-nam-hoc-2024-2025-mon-giao-duc-kinh-te/ctfull/87477/531988"
         }
       ]
     }
