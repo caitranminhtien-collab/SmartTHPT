@@ -1,0 +1,18 @@
+[
+  {
+    "grade": 12,
+    "subject": "Toán",
+    "topic": "Ứng dụng đạo hàm",
+    "prompt": "Hàm số f(x) = x² + 8x + 7 đạt cực tiểu tại x bằng bao nhiêu?",
+    "options": [
+      "−4",
+      "4",
+      "8",
+      "−8"
+    ],
+    "answer": 0,
+    "explanation": "f′(x) = 2x + 8 = 0 khi x = −4; hệ số x² dương.",
+    "difficulty": "Cơ bản",
+    "source": "Tự biên soạn (ví dụ nhập dữ liệu)"
+  }
+]
